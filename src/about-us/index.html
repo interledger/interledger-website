@@ -164,6 +164,7 @@ funders:
         <button type="button" class="button button-outline button-outline-white" data-bs-toggle="modal" data-bs-target="#{{ member.name | slugify }}Modal">
           Read Bio
         </button>
+        <a href="{{ member.url }}">click</a>
       </div>
       <div class="modal fade" id="{{ member.name | slugify }}Modal" tabindex="-1" aria-labelledby="{{ member.name | slugify }}ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered ">

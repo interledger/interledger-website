@@ -24,7 +24,7 @@ collections:
     permalink: /case-studies/:path/
   people:
     output: true
-    layout: case-studies
+    layout: people
     permalink: /about-us/:path/
 
 defaults:

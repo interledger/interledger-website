@@ -1,16 +1,17 @@
 ---
 name: Briana Marbury
-photo_image: /uploads/chris-lawrence.jpeg
-role: Senior Program Manager
+layout: people
+photo_image: /uploads/briana-marbury.jpeg
+role: Executive Director
 bio_text: >-
-  Chris is an experienced nonprofit professional who has spent the last 15
-  years as a dedicated educator, network builder, and advocate for
-  non-profit organizations. Chris is currently a Senior Program Manager for
-  Grant for Web at the Interledger Foundation. Along with Erika Drushka, he
-  oversees all aspects of the program. As Vice President, Mozilla Leadership
-  Network, Chris oversaw the development and expansion of a global network
-  of leaders to build the values of the open internet into all aspects of
-  human society.
-linkedin_link: 'https://www.linkedin.com/in/chrislarry/'
+  Briana Marbury serves as Executive Director of The Interledger Foundation.
+  She brings 15 years of non-profit experience and leadership to the role,
+  as well as a passion for promoting financial inclusion for all. As
+  Executive Director, Briana is responsible for driving awareness and
+  education around the innovative Interledger Protocol technology, with the
+  goal of encouraging mass adoption via disparate channels and stakeholders.
+  She is dedicated to expanding the public’s understanding of the
+  Interledger Protocol and its immense potential to improve lives.
+linkedin_link: 'https://www.linkedin.com/in/briana-marbury-a1492a37/'
 twitter_link:
 ---
