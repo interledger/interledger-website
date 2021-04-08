@@ -27,6 +27,12 @@ collections:
     layout: people
     permalink: /about-us/:path/
 
+_select_data:
+  board_type:
+    - Board of Directors
+    - Officers
+
+
 defaults:
   - scope:
       path: ""

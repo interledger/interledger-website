@@ -1,39 +1,9 @@
 ---
 layout: page
 title: About Us
-team-members:
-  - name: Briana Marbury
-    photo_image: /uploads/briana-marbury.jpeg
-    role: Executive Director
-    bio_text: >-
-      Briana Marbury serves as Executive Director of The Interledger Foundation.
-      She brings 15 years of non-profit experience and leadership to the role,
-      as well as a passion for promoting financial inclusion for all. As
-      Executive Director, Briana is responsible for driving awareness and
-      education around the innovative Interledger Protocol technology, with the
-      goal of encouraging mass adoption via disparate channels and stakeholders.
-      She is dedicated to expanding the public’s understanding of the
-      Interledger Protocol and its immense potential to improve lives.
-    linkedin_link: 'https://www.linkedin.com/in/briana-marbury-a1492a37/'
-    twitter_link:
-  - name: Erika Drushka
-    photo_image: /uploads/erikadrushka.jpeg
-    role: Senior Program Manager
-    bio_text: >-
-      Erika has spent the last 12 years in social impact and technology
-      organizations, leading teams in pursuit of mission-based goals. An expert
-      cat-herder with a background in advocacy and communications, she uses
-      strategic thinking, process, and collaboration to channel creativity
-      around a project into intentional, focused activity. Prior to joining
-      Interledger Foundation, Erika was a Program Director at Loup Design and
-      Innovation, and a Program Designer and Manager at the Mozilla Foundation.
-      She holds and MA in Intercultural Communication and is a Rockwood
-      Leadership Institute alumnus.
-    linkedin_link:
-    twitter_link:
 board:
   - name:
-    type:
+    board_type:
     role:
 funders:
   - name: Coil
@@ -164,7 +134,6 @@ funders:
         <button type="button" class="button button-outline button-outline-white" data-bs-toggle="modal" data-bs-target="#{{ member.name | slugify }}Modal">
           Read Bio
         </button>
-        <a href="{{ member.url }}">click</a>
       </div>
       <div class="modal fade" id="{{ member.name | slugify }}Modal" tabindex="-1" aria-labelledby="{{ member.name | slugify }}ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered ">
@@ -204,6 +173,41 @@ funders:
       </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+
+<section class="bg-primary pt-0">
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col-12 text-white text-center ">
+        <h2 class="h2 text-uppercase editable">
+          Board of Directors
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for bod in page.board %}
+      <div class="col-12 col-md-4">
+        <h4>{{ bod.name }}</h4>
+        <p>{{ bod.role }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-12 text-white text-center ">
+        <h1 class="h2 text-uppercase editable">
+          Officers
+        </h1>
+      </div>
+    </div>
+
+
   </div>
 </section>
 
