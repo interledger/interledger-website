@@ -16,20 +16,6 @@ team-members:
       Interledger Protocol and its immense potential to improve lives.
     linkedin_link: 'https://www.linkedin.com/in/briana-marbury-a1492a37/'
     twitter_link:
-  - name: Chris Lawrence
-    photo_image: /uploads/chris-lawrence.jpeg
-    role: Senior Program Manager
-    bio_text: >-
-      Chris is an experienced nonprofit professional who has spent the last 15
-      years as a dedicated educator, network builder, and advocate for
-      non-profit organizations. Chris is currently a Senior Program Manager for
-      Grant for Web at the Interledger Foundation. Along with Erika Drushka, he
-      oversees all aspects of the program. As Vice President, Mozilla Leadership
-      Network, Chris oversaw the development and expansion of a global network
-      of leaders to build the values of the open internet into all aspects of
-      human society.
-    linkedin_link: 'https://www.linkedin.com/in/chrislarry/'
-    twitter_link:
   - name: Erika Drushka
     photo_image: /uploads/erikadrushka.jpeg
     role: Senior Program Manager
@@ -45,6 +31,10 @@ team-members:
       Leadership Institute alumnus.
     linkedin_link:
     twitter_link:
+board:
+  - name:
+    type:
+    role:
 funders:
   - name: Coil
     logo_image: /img/about-us/coil-technologies-vector-logo.svg
@@ -71,9 +61,6 @@ funders:
 
       </div>
       <div class="col-12 col-md-7 p-5" id="aboutUsHeroIllustration">
-        <!-- <div class="positioning-wrapper">
-          <div id="aboutUsHeroIllustration"></div>
-        </div> -->
         <img src="/img/about-us/header-photo.webp" class="img-fluid photo-border-green  m-md-5 mb-5 mb-md-0" alt="Two people using mobile phones to exchange information" />
       </div>
     </div>
@@ -169,7 +156,7 @@ funders:
       </div>
     </div>
     <div class="row my-lg-5">
-      {% for member in page.team-members %}
+      {% for member in site.people %}
       <div class="col-12 col-md-4 text-center mb-5">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-5 p-md-5" alt="{{ member.name }} headshot" />
         <p class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</p>
