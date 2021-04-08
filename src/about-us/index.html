@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About Us
-team_members:
-  - brianna-murphy
-  - chris-lawrence
-  - erika-drushka
+our_people:
+  team_members:
+    - brianna-murphy
+    - chris-lawrence
+    - erika-drushka
 board:
   team_members:
     - stefan-thomas
@@ -135,21 +136,18 @@ funders:
 
 <section class="bg-primary">
   <div class="container">
-    <div class="row">
+
+    <div class="row my-lg-5">
       <div class="col-12 text-white text-center ">
         <h1 class="h2 text-uppercase editable">
           Our People
         </h1>
       </div>
-    </div>
-    <div class="row my-lg-5">
-
-
-      {% for slug in page.team_members %}
+      {% for slug in page.our_people.team_members %}
       {% assign member = site.team_members | where: 'slug', slug | first %}
       <div class="col-12 col-md-4 text-center mb-5">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-5 p-md-5" alt="{{ member.name }} headshot" />
-        <p class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</p>
+        <h4 class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</h4>
         <p class=" text-white   mb-2">{{ member.role }}</p>
         <button type="button" class="button button-outline button-outline-white" data-bs-toggle="modal" data-bs-target="#{{ member.name | slugify }}Modal">
           Read Bio
@@ -192,27 +190,21 @@ funders:
         </div>
       </div>
       {% endfor %}
-
-
-
     </div>
   </div>
 </section>
 
 <section class="bg-primary pt-0">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-white text-center ">
-        <h2 class="h2 text-uppercase editable">
-          Board of Directors
-        </h2>
-      </div>
-    </div>
-    <div class="row">
-
+    <div class="row py-5 justify-content-center">
+            <div class="col-12 text-white text-center ">
+              <h2 class="h2 text-uppercase editable">
+                Board of Directors
+              </h2>
+            </div>
       {% for slug in page.board.team_members %}
       {% assign board = site.team_members | where: 'slug', slug | first %}
-      <div class="col-12 col-md-3 text-center text-white">
+      <div class="col-12 col-md-3 text-center text-white mt-3">
         <h4>{{ board.name }}</h4>
         <p>{{ board.role }}</p>
       </div>
@@ -223,16 +215,40 @@ funders:
 
 
 
-    <div class="row">
+    <div class="row py-5 justify-content-center">
       <div class="col-12 text-white text-center ">
         <h1 class="h2 text-uppercase editable">
           Officers
         </h1>
       </div>
 
-      <div class="col-12 col-md-3 text-center text-white">
+      <div class="col-12 col-md-3 text-center text-white mt-3">
         <h3>Chairperson</h3>
         {% for slug in page.officers.chairperson.team_member %}
+        {% assign board = site.team_members | where: 'slug', slug | first %}
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-12 col-md-3 text-center text-white mt-3">
+        <h3>President</h3>
+        {% for slug in page.officers.president.team_member %}
+        {% assign board = site.team_members | where: 'slug', slug | first %}
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-12 col-md-3 text-center text-white mt-3">
+        <h3>Executive Director</h3>
+        {% for slug in page.officers.executive_director.team_member %}
+        {% assign board = site.team_members | where: 'slug', slug | first %}
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-12 col-md-3 text-center text-white mt-3">
+        <h3>Treasurer</h3>
+        {% for slug in page.officers.treasurer.team_member %}
         {% assign board = site.team_members | where: 'slug', slug | first %}
         <h4>{{ board.name }}</h4>
         <p>{{ board.role }}</p>
