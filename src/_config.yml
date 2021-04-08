@@ -22,15 +22,10 @@ collections:
     output: true
     layout: case-studies
     permalink: /case-studies/:path/
-  people:
+  team_members:
     output: true
-    layout: people
+    layout: team
     permalink: /about-us/:path/
-
-_select_data:
-  board_type:
-    - Board of Directors
-    - Officers
 
 
 defaults:
