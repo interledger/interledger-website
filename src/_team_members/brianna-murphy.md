@@ -1,6 +1,6 @@
 ---
 name: Briana Marbury
-layout: people
+layout: team
 photo_image: /uploads/briana-marbury.jpeg
 role: Executive Director
 bio_text: >-

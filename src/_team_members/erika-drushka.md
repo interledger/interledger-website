@@ -1,6 +1,6 @@
 ---
 name: Erika Drushka
-layout: people
+layout: team
 photo_image: /uploads/erikadrushka.jpeg
 role: Senior Program Manager
 bio_text: >-

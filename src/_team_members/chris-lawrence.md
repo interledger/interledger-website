@@ -1,6 +1,6 @@
 ---
 name: Chris Lawrence
-layout: people
+layout: team
 photo_image: /uploads/chris-lawrence.jpeg
 role: Senior Program Manager
 bio_text: >-

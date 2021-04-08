@@ -1,6 +1,6 @@
 ---
 name:
-layout: people
+layout: team
 photo_image:
 role:
 bio_text:

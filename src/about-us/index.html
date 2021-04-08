@@ -1,11 +1,10 @@
 ---
 layout: page
 title: About Us
-our_people:
-  team_members:
-    - brianna-murphy
-    - chris-lawrence
-    - erika-drushka
+team_members:
+  - brianna-murphy
+  - chris-lawrence
+  - erika-drushka
 board:
   team_members:
     - brianna-murphy
@@ -139,7 +138,10 @@ funders:
       </div>
     </div>
     <div class="row my-lg-5">
-      {% for member in site.people %}
+
+
+      {% for slug in page.team_members %}
+      {% assign member = site.team_members | where: 'slug', slug | first %}
       <div class="col-12 col-md-4 text-center mb-5">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-5 p-md-5" alt="{{ member.name }} headshot" />
         <p class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</p>
@@ -185,14 +187,15 @@ funders:
         </div>
       </div>
       {% endfor %}
+
+
+
     </div>
   </div>
 </section>
 
 <section class="bg-primary pt-0">
   <div class="container">
-
-
     <div class="row">
       <div class="col-12 text-white text-center ">
         <h2 class="h2 text-uppercase editable">
@@ -201,12 +204,15 @@ funders:
       </div>
     </div>
     <div class="row">
-      {% for bod in page.board %}
-      <div class="col-12 col-md-4">
-        <h4>{{ bod.name }}</h4>
-        <p>{{ bod.role }}</p>
+
+      {% for slug in page.board.team_members %}
+      {% assign board = site.team_members | where: 'slug', slug | first %}
+      <div class="col-12 col-md-3 text-center text-white">
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
       </div>
       {% endfor %}
+
     </div>
 
 
@@ -218,9 +224,17 @@ funders:
           Officers
         </h1>
       </div>
+
+      <div class="col-12 col-md-3 text-center text-white">
+        <h3>Chairperson</h3>
+        {% for slug in page.officers.chairperson.team_member %}
+        {% assign board = site.team_members | where: 'slug', slug | first %}
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
+        {% endfor %}
+      </div>
+
     </div>
-
-
   </div>
 </section>
 
