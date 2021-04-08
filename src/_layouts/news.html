@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="{{ page.layout }}">
+  {% include header.html %}
+  <main id="pageContent">
+    <section class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="/news"><span class="h1 text-purple text-uppercase text-bold">Back</span></a>
+          </div>
+        </div>
+        <div class="row casestudy-header my-4" style="background-image: url('{{ page.featured_image }}');">
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-5 col-lg-4 mb-4 mb-md-0">
+            <h2 class="text-hero text-primary">{{ page.title }}</h2>
+            <h3 class="h3 text-thin">Date: {{ page.date | date: " %b %d, %Y" }}</h3>
+            <div class="mt-5 ">
+            </div>
+          </div>
+          <div class="col-12 col-md-7 col-lg-8 ps-md-5">
+            <p><strong>
+                {{ page.featured_text }}
+              </strong></p>
+            {{ page.write_up_html }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

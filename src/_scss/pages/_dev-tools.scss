@@ -1,0 +1,134 @@
+.dev-tools-wrapper {
+  // padding same height as nav bar
+  padding-top: 64px;
+  .container {
+    aside {
+      min-height: 600px;
+      padding-top: 50px;
+      min-width: 300px;
+      max-width: 300px;
+      background-color: $primary;
+      color: $white;
+      display: flex;
+      align-items: center;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        margin-top: -50px;
+        left: -5000px;
+        width: 5000px;
+        height: 100%;
+        display: block;
+        background-color: $primary;
+        z-index: -1;
+      }
+      .aside-nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 200px;
+        width: 300px;
+        overflow-y: scroll;
+        height: calc(100vh - 200px) !important;
+        .devtool-nav {
+          list-style: none;
+          padding-left: 0px;
+          padding-right: 15px;
+          .nav-item {
+            .nav-link {
+              color: $white;
+              font-size: 1rem;
+              font-weight: 300;
+              padding: 10px 15px;
+              margin: 5px 0;
+              line-height: 1.5rem;
+              transition: 0.2s;
+              border-left: 4px solid $primary;
+              &.active {
+                font-weight: 700;
+                border-left: 4px solid $white;
+              }
+              &:hover {
+                // font-weight: 700;
+                border-left: 4px solid $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.dev-tools-content-wrapper {
+  padding: 50px 25px !important;
+}
+
+@media (max-width: 991px) {
+  .dev-tools-content-wrapper {
+    padding: 100px 25px !important;
+  }
+  .dev-tools-wrapper {
+    padding-top: 0px;
+    .aside-nav {
+      background-color: $primary;
+      position: fixed;
+      padding: 0.5rem 1rem;
+      width: 100%;
+      height: 83px;
+      .accordion {
+        width: 100%;
+        height: 52px;
+        .accordion-item {
+          width: 100%;
+          .accordion-header {
+            margin-top: 8px;
+            .accordion-button {
+              background-color: $white;
+              color: $gray-900;
+              padding: 15px;
+              margin: 5px 0;
+              font-size: 1rem;
+              &:not(.collapsed) {
+                background-color: $white;
+                &::after {
+                  transform: rotate(-135deg);
+                }
+              }
+              &.collapsed {
+                &::after {
+                  transform: rotate(45deg);
+                }
+              }
+              &::after {
+                background-image: none;
+                width: 15px;
+                height: 15px;
+                border-bottom: 3px solid $primary;
+                border-right: 3px solid $primary;
+                transform: rotate(-135deg);
+              }
+            }
+          }
+          .accordion-collapse {
+            background-color: $primary;
+            transform: translateY(-9px);
+            .accordion-body {
+              max-height: 60vh;
+              overflow-y: scroll;
+              .nav {
+                .nav-item {
+                  .nav-link {
+                    color: $white;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

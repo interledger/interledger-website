@@ -1,0 +1,82 @@
+// Bootstrap specific overrides
+.dropdown {
+  .dropdown-toggle {
+    &::after {
+      border: 0px;
+      height: 8px;
+      width: 8px;
+      border-right: 2px solid $gray-900;
+      border-bottom: 2px solid $gray-900;
+      transform: rotate(45deg);
+      transition: 0.2s;
+      margin-left: 5px;
+    }
+    &.show {
+      &::after {
+        transform: rotate(-135deg);
+        vertical-align: 1px;
+      }
+    }
+  }
+  .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transition: 0.2s;
+    z-index: -5000;
+    pointer-events: none;
+    &.show {
+      opacity: 1;
+      z-index: 1000;
+      pointer-events: all !important;
+    }
+  }
+}
+
+.card {
+  border: 0px;
+  padding: 35px;
+  border-radius: 12px;
+  &:nth-child(1) {
+    animation-name: none;
+  }
+}
+
+.carousel-item {
+  background-color: $white;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 10% !important;
+  padding: 25px;
+}
+
+@media (max-width: 991px) {
+  #mainNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center !important;
+    padding-top: 0;
+  }
+  .collapse:not(.show) {
+    // display: block;
+    position: absolute;
+    top: 0;
+    margin-right: -100vw;
+  }
+  .collapse {
+    &.show {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 25px 15px;
+  }
+}

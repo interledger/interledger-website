@@ -1,0 +1,54 @@
+<nav id="devToolNav" class="navbar bg-gray-900 text-white px-3 position-fixed w-100 secondary-nav  d-none d-lg-flex">
+  <div class="container justify-content-start  ">
+      <span class="text-large text-bold text-uppercase">Developer Tools</span>
+      <div class="spacer"></div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/get-started/' %} active {% endif %}" href="/developer-tools/get-started/overview/">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/specs/' %} active {% endif %}" href="{{ site.data.specs.first.permalink }}">Specs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/tools/' %} active {% endif %}" href="/developer-tools/tools/">Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/community/' %} active {% endif %}" href="/developer-tools/community/">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains '/resources/' %} active {% endif %}" href="/developer-tools/resources/">Resources</a>
+        </li>
+      </ul>
+  </div>
+  <!-- <div class="accordion d-lg-none d-flex" id="accordionDev">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="devNavAccordion">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#devNavMobile" aria-expanded="true" aria-controls="devNavMobile">
+          Developer Tools
+        </button>
+      </h2>
+      <div id="devNavMobile" class="accordion-collapse collapse " aria-labelledby="devNavAccordion" data-bs-parent="#accordionDev">
+        <div class="accordion-body">
+          <ul class="nav  flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="/developer-tools/get-started/overview/">Get Started</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.data.specs.first.permalink }}">Specs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/developer-tools/tools/">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/developer-tools/community/">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/developer-tools/resources/">Resources</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</nav>

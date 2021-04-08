@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="{{ page.layout }}-layout {{ page.title | slugify }}" data-bs-spy="scroll" data-bs-offset="163" data-bs-target="#secondaryNav">
+  <div class="body-wrapper">
+    {% include header.html %}
+    <main id="pageContent">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </div>
+</body>
+
+</html>

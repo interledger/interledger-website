@@ -1,0 +1,26 @@
+<head>
+  <meta name="google" content="notranslate" />
+  <meta http-equiv="Content-Language" content="en_US" />
+  <meta charset="utf-8" />
+  <title>
+    {{ site.title }}{% if page.title %}: {{ page.title | escape }}{% endif %}
+  </title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/css/styles.css' | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ '/css/pygments-monokai.css' | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Analytics -->
+  {% include analytics.html %}
+</head>

@@ -1,0 +1,40 @@
+{
+  "name": "interledger.org",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A marketing site and documentation for the Interledger Foundation",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ocupop <dev@ocupop.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp dev",
+    "dev": "concurrently 'npm:watch-scripts' 'npm:start' ",
+    "watch-scripts": "gulp scripts",
+    "postinstall": "gulp dev:install"
+  },
+
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "concurrently": "^5.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "remixicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "@cloudcannon/suite": "2.0.2",
+    "babel-loader": "^8.2.2",
+    "gulp": "^4.0.2",
+    "patch-package": "^6.2.2",
+    "webpack": "^5.10.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-stream": "^6.1.1"
+  }
+}

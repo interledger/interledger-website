@@ -1,0 +1,97 @@
+---
+layout: developer-tools
+title: Community
+groups:
+  - name: Github
+    description_html: >-
+      <p>Technical discussion about the Interledger specs and reference
+      implementation are done mainly through Github issues and pull requests.
+      Watch the&nbsp;<a target="_blank"
+      href="https://github.com/interledger/rfcs">Interledger RFCs
+      repo&nbsp;</a>&nbsp;for updates to the specs and the projects under
+      the&nbsp;<a target="_blank"
+      href="https://github.com/interledgerjs">Interledger.js
+      organization&nbsp;</a>&nbsp;for developments on the reference
+      implementation.</p>
+    logo_image: /uploads/github.svg
+  - name: Forum
+    description_html: >-
+      <p>The official Interledger community forum can be found&nbsp;<a
+      target="_blank"
+      href="https://forum.interledger.org/">forum.interledger.org&nbsp;</a>.
+      It's the place for technical discussions related to the Interledger
+      protocol stack, implementations, and applications built on top.</p>
+    logo_image: /uploads/forum.svg
+  - name: Bi-Weekly Calls
+    description_html: >-
+      <p>We have open community calls&nbsp;<strong>every other Wednesday at 4pm
+      UTC</strong>&nbsp;to discuss the latest in Interledger spec development,
+      the implementations, and to answer any questions people have. Agendas are
+      sent out via the mailing list and anyone can suggest an agenda item by
+      adding to the&nbsp;<a target="_blank"
+      href="https://forum.interledger.org/tags/community-call-agenda">topic&nbsp;</a>&nbsp;created
+      for that purpose in the forum.</p><p>Recordings of previous calls are
+      available&nbsp;<a href="https://interledger.org/calls.html">here</a>.</p>
+    logo_image: /uploads/calls.svg
+  - name: Slack
+    description_html: >-
+      <p>Want to chat about Interledger or have a question to ask?&nbsp;<a
+      target="_blank"
+      href="https://communityinviter.com/apps/interledger/interledger-working-groups-slack">Join
+      on Slack&nbsp;</a>.</p>
+    logo_image: /uploads/slack.svg
+  - name: Mailing List
+    description_html: >-
+      <h3>W3C</h3><p>All announcements, including about upcoming in-person
+      meetings, and many technical discussions are done through the W3C
+      Interledger Community Group Mailing List. Have ideas to share or just want
+      to keep up with the latest developments?&nbsp;<a target="_blank"
+      href="https://www.w3.org/community/interledger/">Join the Community
+      Group&nbsp;</a>.</p><p>The mailing list archive is available&nbsp;<a
+      target="_blank"
+      href="https://lists.w3.org/Archives/Public/public-interledger/">here&nbsp;</a>.</p><h3>IETF</h3><p>Since
+      presenting the Interledger project at IETF Berlin, the IETF have
+      established another mailing list for the IETF community interested in the
+      project;&nbsp;<a target="_blank"
+      href="https://www.ietf.org/mailman/listinfo/ledger">[email
+      protected]&nbsp;</a></p>
+    logo_image: /uploads/w3c.svg
+  - name: Twitter
+    description_html: >-
+      <p>Follow&nbsp;<a target="_blank"
+      href="https://twitter.com/interledger">@interledger&nbsp;</a>&nbsp;on
+      Twitter for the latest news and annoucements.</p>
+    logo_image: /uploads/twitter.svg
+---
+
+<section class="dev-tools-content-wrapper">
+  <div class="container px-0 px-lg-4 ">
+    <div class="row">
+      <div class="col-12 col-xl-10 px-0 px-lg-4">
+        <div class="editable">
+          <h1>Get Involved</h1>
+          <p class="mb-0"><strong>Who Are We?</strong></p>
+          <p>Interledger is developed by an open group of companies and individual contributors, loosely organized as part of a Community Group of the World Wide Web Consortium (W3C). See the full list of members here.</p>
+          <p class="mb-0"><strong>Want to build on Interledger or be part of its development?</strong></p>
+          <p>Here’s where you can find us and get involved:</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% for group in page.groups %}
+      <div class="col-12 col-xl-10 || px-0 px-lg-4 mt-5 mb-4 {% if forloop.last %} {% else %}border-bottom-gray-thin{% endif %}" id="connectors">
+        <div class="row" id="{{ group.name | slugify }}">
+          <div class="col-12 col-md-2">
+            <img src="{{ group.logo_image }}" class="img-fluid" alt="{{ group.name }} Logo" />
+          </div>
+          <div class="col-12 col-md-10">
+            <p class="mb-1"><strong>{{ group.name }}</strong></p>
+            {{ group.description_html }}
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

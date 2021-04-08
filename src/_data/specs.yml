@@ -1,0 +1,309 @@
+# SPECS ---------------------------------------------------------------------
+
+-   name: Interledger Protocol V4 (ILPv4)
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0027-interledger-protocol-4/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0027-interledger-protocol-4/0027-interledger-protocol-4.md
+
+-   name: Interledger Addresses
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0015-ilp-addresses/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0015-ilp-addresses/0015-ilp-addresses.md
+
+-   name: STREAM Protocol
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0029-stream/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0029-stream/0029-stream.md
+
+-   name: Simple Payment Setup Protocol (SPSP)
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0009-simple-payment-setup-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0009-simple-payment-setup-protocol/0009-simple-payment-setup-protocol.md
+
+-   name: Notes on OER Encoding
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0030-notes-on-oer-encoding/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0030-notes-on-oer-encoding/0030-notes-on-oer-encoding.md
+
+-   name: Dynamic Configuration Protocol (ILDCP)
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0031-dynamic-configuration-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0031-dynamic-configuration-protocol/0031-dynamic-configuration-protocol.md
+
+-   name: Peering, Clearing and Settling
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0032-peering-clearing-settlement/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0032-peering-clearing-settlement/0032-peering-clearing-settlement.md
+
+-   name: Settlement Engines
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0038-settlement-engines/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0038-settlement-engines/0038-settlement-engines.md
+
+-   name: ILP Over HTTP
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0035-ilp-over-http/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0035-ilp-over-http/0035-ilp-over-http.md
+
+-   name: SPSP Pull Payments
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0036-spsp-pull-payments/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0036-spsp-pull-payments/0036-spsp-pull-payments.md
+
+# End Nav
+
+-   name: Payment Pointers
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0026-payment-pointers/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0026-payment-pointers/0026-payment-pointers.md
+
+-   name: Web Monetization
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0028-web-monetization/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0028-web-monetization/0028-web-monetization.md
+
+-   name: Interledger Architecture
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0001-interledger-architecture/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0001-interledger-architecture/0001-interledger-architecture.md
+
+-   name: Paid HTTP APIs
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0014-paid-http-apis/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0014-paid-http-apis/0014-paid-http-apis.md
+
+-   name: Connector Risk Mitigations
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0018-connector-risk-mitigations/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0018-connector-risk-mitigations/0018-connector-risk-mitigations.md
+
+-   name: Glossary
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0019-glossary/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0019-glossary/0019-glossary.md
+
+-   name: Bilateral Transfer Protocol 2.0 (BTP/2.0)
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0023-bilateral-transfer-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0023-bilateral-transfer-protocol/0023-bilateral-transfer-protocol.md
+
+-   name: Hashed-Timelock Agreements (HTLAs)
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0022-hashed-timelock-agreements/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0022-hashed-timelock-agreements/0022-hashed-timelock-agreements.md
+
+-   name: Relationship between Protocols
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0033-relationship-between-protocols/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0033-relationship-between-protocols/0033-relationship-between-protocols.md
+
+-   name: Interledger Node - Requirements Specification
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0034-connector-requirements/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0034-connector-requirements/0034-connector-requirements.md
+
+-   name: SPSP Invoices
+    nav: false
+    doc_type: Specs
+    permalink: /rfcs/0037-spsp-invoices/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0037-spsp-invoices/0037-spsp-invoices.md
+
+
+# ASN ---------------------------------------------------------------------
+
+-   name: Interledger ASN.1
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/README.md
+
+-   name: BilateralTransferProtocol.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/BilateralTransferProtocol.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/BilateralTransferProtocol.asn
+
+-   name: DynamicConfigurationProtocol.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/DynamicConfigurationProtocol.asn
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/DynamicConfigurationProtocol.asn
+
+-   name: GenericTypes.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/GenericTypes.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/GenericTypes.asn
+
+-   name: InterledgerErrorData.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerErrorData.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerErrorData.asn
+
+-   name: InterledgerPacket.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerPacket.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerPacket.asn
+
+-   name: InterledgerPaymentRequest.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerPaymentRequest.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerPaymentRequest.asn
+
+-   name: InterledgerProtocol.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerProtocol.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerProtocol.asn
+
+-   name: InterledgerQuotingProtocol.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerQuotingProtocol.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerQuotingProtocol.asn
+
+-   name: InterledgerTypes.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/InterledgerTypes.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/InterledgerTypes.asn
+
+-   name: LegacyInterledgerProtocol.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/LegacyInterledgerProtocol.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/LegacyInterledgerProtocol.asn
+
+-   name: PreSharedKeyV2.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/PreSharedKeyV2.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/PreSharedKeyV2.asn
+
+-   name: Stream.asn
+    nav: false
+    doc_type: ASN
+    permalink: /rfcs/asn1/Stream.asn.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/asn1/Stream.asn
+
+
+# Deprecated ---------------------------------------------------------------------
+
+-   name: Crypto Conditions
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0002-crypto-conditions/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0002-crypto-conditions/0002-crypto-conditions.md
+
+-   name: Interledger Protocol (ILP)
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0003-interledger-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0003-interledger-protocol/0003-interledger-protocol.md
+
+-   name: Javascript Ledger Plugin Interface
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0004-ledger-plugin-interface/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0004-ledger-plugin-interface/0004-ledger-plugin-interface.md
+
+-   name: Javascript Ledger Plugin Interface Version 2
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0024-ledger-plugin-interface-2/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0024-ledger-plugin-interface-2/0024-ledger-plugin-interface-2.md
+
+-   name: Optimistic Transport Protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0005-optimistic-transport-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0005-optimistic-transport-protocol/0005-optimistic-transport-protocol.md
+
+-   name: Universal Transport Protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0006-universal-transport-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0006-universal-transport-protocol/0006-universal-transport-protocol.md
+
+-   name: Atomic Transport Protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0007-atomic-transport-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0007-atomic-transport-protocol/0007-atomic-transport-protocol.md
+
+-   name: Interledger Quoting Protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0008-interledger-quoting-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0008-interledger-quoting-protocol/0008-interledger-quoting-protocol.md
+
+-   name: Connector to Connector protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0010-connector-to-connector-protocol/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0010-connector-to-connector-protocol/0010-connector-to-connector-protocol.md
+
+-   name: Interledger Payment Request (IPR)
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0011-interledger-payment-request/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0011-interledger-payment-request/0011-interledger-payment-request.md
+
+-   name: Five Bells Ledger API
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0012-five-bells-ledger-api/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0012-five-bells-ledger-api/0012-five-bells-ledger-api.md
+
+-   name: Pre-Shared Key Transport Protocol (PSK)
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0016-pre-shared-key/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0016-pre-shared-key/0016-pre-shared-key.md
+
+-   name: Ledger Layer Requirements
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0017-ledger-requirements/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0017-ledger-requirements/0017-ledger-requirements.md
+
+-   name: Explain Like I'm Five (ELI5)
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0020-explain-like-im-five/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0020-explain-like-im-five/0020-explain-like-im-five.md
+
+-   name: Plugin RPC API
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0021-plugin-rpc-api/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0021-plugin-rpc-api/0021-plugin-rpc-api.md
+
+-   name: Pre-Shared Key V2 (PSKv2) Transport Protocol
+    nav: false
+    doc_type: Deprecated
+    permalink: /rfcs/0025-pre-shared-key-2/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/deprecated/0025-pre-shared-key-2/0025-pre-shared-key-2.md

@@ -1,0 +1,85 @@
+.secondary-nav {
+  z-index: 10;
+  height: 83px;
+  .nav-item {
+    .nav-link {
+      color: $white;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      &.active {
+        font-weight: 700;
+        border-bottom: 3px solid $blue-300;
+      }
+      &:hover {
+        border-bottom: 3px solid $white;
+      }
+    }
+  }
+  .accordion {
+    width: 100%;
+    height: 52px;
+    .accordion-item {
+      width: 100%;
+      .accordion-header {
+        margin-top: -5px;
+        .accordion-button {
+          background-color: $white;
+          color: $gray-900;
+          padding: 15px;
+          margin: 5px 0;
+          font-size: 1rem;
+          &:not(.collapsed) {
+            background-color: $white;
+            &::after {
+              transform: rotate(-135deg);
+            }
+          }
+          &.collapsed {
+            &::after {
+              transform: rotate(45deg);
+            }
+          }
+          &::after {
+            background-image: none;
+            width: 15px;
+            height: 15px;
+            border-bottom: 3px solid $primary;
+            border-right: 3px solid $primary;
+            transform: rotate(-135deg);
+          }
+        }
+      }
+      .accordion-collapse {
+        background-color: $primary;
+        transform: translateY(-9px);
+        .accordion-body {
+          .nav {
+            .nav-item {
+              .nav-link {
+                color: $white;
+                font-weight: 700;
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.take-action {
+  .secondary-nav {
+    background-color: $blue-400;
+  }
+}
+.our-work {
+  .secondary-nav {
+    background-color: $purple-200;
+  }
+}
+@media (max-width: 768px) {
+  .secondaryScrollSpy {
+    padding-top: 50px;
+  }
+}

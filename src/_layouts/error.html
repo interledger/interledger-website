@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{page.layout}}-layout">
+    {% include header.html %}
+    <a id="top-button" href="#pageHeader"><img src="images/totop.png"><br/>Top</a>
+    <main id="pageContent">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

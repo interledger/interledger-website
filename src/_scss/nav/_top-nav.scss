@@ -1,0 +1,154 @@
+.top-nav {
+  position: fixed;
+  width: 100vw;
+  background-color: $white;
+  box-shadow: 0px 3px 13px #00000012;
+  #mainNav {
+    justify-content: space-between;
+  }
+  #joinBtn {
+    border: 2px solid $primary;
+    padding: 8px 35px;
+    border-radius: 500px;
+    transition: 0.2s;
+    color: $primary !important;
+    &:hover {
+      background-color: $primary;
+      color: $white !important;
+    }
+  }
+}
+.menu-wrapper {
+  position: absolute;
+  top: 0;
+  right: 15px !important;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.hamburger-menu,
+.hamburger-menu:after,
+.hamburger-menu:before {
+  width: 35px;
+  height: 4px;
+}
+
+.hamburger-menu {
+  position: relative;
+  transform: translateY(10px);
+  background: $primary;
+  transition: all 0ms 300ms;
+
+  &.animate {
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+.hamburger-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background: $primary;
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background: $primary;
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu.animate:after {
+  top: 0;
+  background: $white;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu.animate:before {
+  bottom: 0;
+  background: $white;
+  transform: rotate(-45deg);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (max-width: 991px) {
+  #joinBtn {
+    border: 2px solid $white !important;
+    margin-left: 35px !important;
+    margin-top: 10px !important;
+    padding: 0 35px !important;
+    padding-right: 25px !important;
+  }
+  #mainNav {
+    background-color: $primary;
+    height: 100vh;
+    padding-left: 7%;
+    justify-content: start !important;
+    padding-top: 50px !important;
+    .navbar-nav {
+      text-align: start;
+      .nav-item {
+        .nav-link {
+          color: $white !important;
+          padding-left: 25px !important;
+          font-size: 1.5rem !important;
+          font-weight: 300 !important;
+          &.active {
+            color: $white !important;
+            font-weight: 700 !important;
+          }
+        }
+      }
+      .accordion {
+        .accordion-item {
+          .accordion-header {
+            .accordion-button {
+              border-bottom: 0px;
+              &::after {
+                background-image: none;
+                border: 0px;
+                height: 10px;
+                width: 10px;
+                border-right: 2px solid $white;
+                border-bottom: 2px solid $white;
+                transform: rotate(-135deg);
+                transition: 0.2s;
+                margin-left: 12px;
+              }
+              &.collapsed {
+                &::after {
+                  transform: rotate(45deg);
+                  vertical-align: 1px;
+                }
+              }
+            }
+          }
+        }
+        .accordion-collapse {
+          border: 0px !important;
+          .accordion-body {
+            padding-top: 0px;
+            .nav {
+              flex-direction: column;
+              .nav-item {
+                .nav-link {
+                  color: $white;
+                  font-size: 1.25rem !important;
+                  padding-top: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

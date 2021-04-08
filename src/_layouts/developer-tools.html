@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include navigation/dev-nav.html %}
+<div class="dev-tools-wrapper">
+  <nav class="aside-nav d-lg-none">
+    {% include_relative _partials/side-nav.html %}
+  </nav>
+  <div class="container d-lg-flex">
+    <aside class="d-none d-lg-block">
+      <nav class="aside-nav h-100">
+        {% include_relative _partials/side-nav.html %}
+      </nav>
+    </aside>
+    {{ content }}
+  </div>
+</div>

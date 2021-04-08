@@ -1,0 +1,200 @@
+---
+layout: page
+title: Take Action
+content_creator_tools:
+  - tool_name: Coil
+    tool_logo_image: /uploads/coil.png
+    tool_description_text: >-
+      A micropayment app that utilizes the Interledger protocol to pay out to
+      any website using Web Monetization, a new standard for how browsers can
+      pay websites using Interledger.
+    learn_more_link: 'https://coil.com/'
+  - tool_name: Grant for the Web
+    tool_logo_image: /uploads/gftw.png
+    tool_description_text: >-
+      A fund by Mozilla, Creative Commons, and Coil, to boost open, fair, and
+      inclusive standards and innovation in Web Monetization.
+    learn_more_link: 'https://www.grantfortheweb.org/'
+  - tool_name: Xpring
+    tool_logo_image: /uploads/xspring.png
+    tool_description_text: >-
+      An open platform for money backed by Ripple. Xpring provides tools,
+      services and programs to make payment integrations easy.
+    learn_more_link: 'https://ripple.com/insights/welcome-to-xpring/'
+  - tool_name: GateHub
+    tool_logo_image: /uploads/gatehub.png
+    tool_description_text: >-
+      A wallet service that offers Web Monetization over Interledger via Payment
+      pointers to content creators.
+    learn_more_link: 'https://gatehub.net/'
+  - tool_name: Uphold
+    tool_logo_image: /uploads/uphold.png
+    tool_description_text: >-
+      Wallet and account provider that offers Web Monetization (ILP) enabled
+      wallets.
+    learn_more_link: 'https://uphold.com/'
+  - tool_name: Puma Browser
+    tool_logo_image: /uploads/puma-1.png
+    tool_description_text: A web browser powered by Coil and Interledger.
+    learn_more_link: 'https://www.pumabrowser.com/'
+developer_tools:
+  - tool_logo_image: /uploads/interledger-rs.png
+    tool_description_text: Interested in running an Interledger connector?
+    button_text: Check out this Guide
+    learn_more_link: >-
+      https://medium.com/interledger-blog/running-your-own-ilp-connector-c296a6dcf39a
+  - tool_logo_image: /uploads/github.png
+    tool_description_text: >-
+      Want to start building apps with Interledger? Download moneyd and check
+      out the tutorials to connect to Interledger in just a few minutes.
+    button_text: Download Moneyd
+    learn_more_link: >-
+      https://medium.com/interledger-blog/using-moneyd-to-join-the-ilp-testnet-ba64bd42bb14
+  - tool_logo_image: /uploads/slack.png
+    tool_description_text: >-
+      If you’re interested in getting involved in the project, join the
+      bi-weekly community calls and come chat with us on Slack.
+    button_text: Join Us on Slack
+    learn_more_link: >-
+      https://communityinviter.com/apps/interledger/interledger-working-groups-slack
+_subnav:
+  title: Take Action
+  links:
+    - label: Content Creators and Users
+      url: '#content-creators'
+    - label: Developers
+      url: '#developers'
+    - label: Partner
+      url: '#partner'
+---
+
+{% include navigation/subnav.html %}
+
+
+<section class="fullwidth-img-section position-relative d-flex">
+    <img class="img-fluid p-5 d-none d-md-flex" id="takeActionIllustration" src="/img/take-action/take-action-illustration.svg" />
+    <div class=" d-none d-md-flex" id="blueCircle"></div>
+    <div id="actionPhotoTwo" class=" d-none d-md-flex">
+      <img class="img-fluid " src="/img/take-action/photo-take-action-2.webp" alt="Looking over the shoulder of a woman using a laptop computer with a microphone" />
+    </div>
+    <div id="actionPhotoOne" class=" d-none d-md-flex">
+      <img class="img-fluid " src="/img/take-action/photo-take-action-1.webp" alt="A man smiling while using a smartphone at a desk" />
+    </div>
+  <div class="container h-100 mt-md-5">
+    <div class="row pt-5">
+      <div class="col-12 col-md-4 pt-5 text-center text-md-start">
+          <h1 class="text-hero text-blue editable">
+            Take Action
+          </h1>
+          <p class="text-large editable || my-3">
+            Open for businesses.<br />Open for creators.<br />Open for builders.<br /><strong>Open for all.</strong>
+          </p>
+      </div>
+      <div class="col-12 d-md-none">
+        <img class="img-fluid my-5" src="/img/take-action/take-action-illustration.svg" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="d-md-none p-0">
+    <div id="takeActionMobileImage">
+    </div>
+</section>
+
+<section class="bg-green-100 position-relative " id="content-creators">
+    <img class="img-fluid p-5  d-none d-md-flex" id="creatorToolsIllustration" src="/img/take-action/creators-illustration.svg" />
+  <div class="container pt-md-5 mt-5">
+    <div class="row">
+      <div class="col-12 col-md-6 text-center text-md-start">
+        <h1 class="h3 text-blue text-uppercase mb-4  editable ">
+          Ways to use open payment tools
+        </h1>
+        <h2 class="text-hero  editable ">
+          For Content Creators &amp; Users
+        </h2>
+        <p class="text-large  editable ">
+          Try these current Interledger enabled applications:
+        </p>
+      </div>
+      <div class="col-12 d-md-none">
+        <img class="img-fluid pt-5" src="/img/take-action/creators-illustration.svg" />
+      </div>
+    </div>
+    <div class="row mt-n5 mt-md-5">
+      {% for content-tool in page.content_creator_tools %}
+      <div class="col-12 col-md-6 col-lg-4 ||  mb-4">
+        <div class="card text-center h-100">
+          <img src="{{ content-tool.tool_logo_image }}" class="tool-logo" alt="{{ content-tool.tool_name }}" />
+          <p class="text-small"><strong>{{ content-tool.tool_name }}</strong></p>
+          <p class="text-small">{{ content-tool.tool_description_text }}</p>
+          <div class="mt-auto">
+            <a href="{{ content-tool.learn_more_link }}" target="_blank" class="button button-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue-100 position-relative" id="developers">
+  <img class="img-fluid p-5 d-none d-md-flex" id="devToolsIllustration" src="/img/take-action/developers-illustration.svg" />
+  <div class="container  py-5 my-5">
+    <div class="row">
+      <div class="col-12 col-md-5  text-center text-md-start">
+        <h1 class="h3 text-blue text-uppercase mb-4 editable">
+          Ways to use open payment tools
+        </h1>
+        <h2 class="text-hero editable">
+          For Developers
+        </h2>
+        <p class="text-large editable">
+          Join the Interledger Payments Community
+        </p>
+        <div class="col-12 d-md-none">
+          <img class="img-fluid pt-5" src="/img/take-action/developers-illustration.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="row mt-n5 mt-md-5">
+      {% for developer-tool in page.developer_tools %}
+      <div class="col-12 col-md-6 col-lg-4 ||  mb-4">
+        <div class="card text-center h-100">
+          <img src="{{ developer-tool.tool_logo_image }}" class="tool-logo" alt="{{ developertool.tool_name }}" />
+          <p class="text-small">{{ developer-tool.tool_description_text }}</p>
+          <div class="mt-auto">
+            <a href="{{ developer-tool.learn_more_link }}" target="_blank" class="text-underline text-blue text-semi">{{ developer-tool.button_text }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="d-md-none py-0" id="partnerMobileWrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-fluid  py-4 " src="/img/take-action/photo-partner.webp" alt="A group of five people sitting around a table working on laptops" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-purple-fade position-relative centered pt-0 pt-md-5" id="partner">
+  <div id="whiteCircle" class="d-none d-md-block"></div>
+  <div id="takeActionPartnerWithUs" class="d-none d-md-block">
+    <img class="img-fluid" id="takeActionPartnerWithUs" src="/img/take-action/photo-partner.webp" alt="A group of five people sitting around a table working on laptops" />
+  </div>
+  <div class="container ">
+    <div class="row justify-content-center justify-content-md-end">
+      <div class="col-12 col-md-6 editable text-center text-md-start">
+        <h1 class="h3 text-blue">Join the Interledger Foundation</h1>
+        <h2 class="h1 text-white mb-4">Partner with Us</h2>
+        <p class="text-white">We are always looking for partners to work with us in advancing the web platform, web standards, and open technologies that create a more equitable global society. If you are interested in working together on an initiative or supporting one of our existing initiatives,</p>
+        <p><a target="_blank" class="text-underline text-large text-primary text-semi mt-5 text-blue" href="mailto:careers@interledger.org">please contact us at info@interledger.org</a></p>
+      </div>
+    </div>
+  </div>
+</section>

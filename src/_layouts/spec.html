@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% include navigation/dev-nav.html %}
+<div class="dev-tools-wrapper">
+  <nav class="aside-nav d-lg-none">
+    {% include navigation/spec-side-nav.html %}
+  </nav>
+  <div class="container d-lg-flex">
+    <aside class="d-none d-lg-block">
+      <nav class="aside-nav ">
+        {% include navigation/spec-side-nav.html %}
+      </nav>
+    </aside>
+
+    <section class="dev-tools-content-wrapper">
+      <div class="container px-0 px-lg-4 ">
+        <div class="row">
+          <div class="col-12 col-xl-9 px-0 px-lg-4">
+            {% if spec.deprecated %}
+              <div class="alert alert-warning">
+
+              </div>
+            {% endif %}
+            {{ page.src | remote | markdownify | inject_anchors }}
+          </div>
+          <div class="d-none col-xl-3 d-xl-block">
+            <div class="position-fixed">
+              <p class="text-uppercase text-bold mb-0">On this Page</p>
+              {{ page.src | remote | markdownify | toc_only }}
+              <hr>
+              <a href="{{ page.src | replace: 'https://raw.githubusercontent.com/interledger/rfcs/master', 'https://github.com/interledger/rfcs/blob/master' }}" class="text-dark d-flex align-items-center"><span class="d-inline-block me-2">view source</span> <i class="ri-github-fill d-inline-block h4 mb-0"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

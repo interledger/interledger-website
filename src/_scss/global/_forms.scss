@@ -1,0 +1,144 @@
+.styled-select {
+  position: relative;
+  font-family: $font-family-base;
+  width: auto;
+  border-radius: 20px;
+  border: 1px solid $gray-600;
+  background: $white;
+  min-width: 50%;
+  padding: 7px;
+
+  select {
+    background: transparent;
+    border: none;
+    color: $gray-600;
+    width: 100%;
+  }
+  &.square-select {
+    border-radius: 0;
+    padding: 13px 7px;
+    margin: 10px 0;
+    border: 1px solid $gray-400;
+    font-weight: 100;
+    select {
+      color: $gray-400;
+    }
+  }
+}
+
+input[type="search"] {
+  border-radius: 20px;
+}
+
+.form-control {
+  height: calc(1.5em + 0.75rem + 4px);
+}
+
+.col-form-label,
+.form-check-label {
+  text-transform: uppercase;
+  color: $gray-600;
+  font-weight: 100;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: $gray-600;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid $gray-400;
+  border-radius: 0;
+  background: $white;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: $secondary;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+// React Select
+.react-select-container {
+  .react-select__control {
+    border-color: $mid;
+    &:hover {
+      border-color: $mid;
+      border-width: 1px;
+    }
+  }
+  .react-select__control--is-focused {
+    border-color: $mid;
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+  }
+  .react-select__input {
+    padding: 3px;
+  }
+  .react-select__single-value {
+    color: $dark;
+  }
+}
+
+// Location Autocomplete
+.locationField {
+  position: relative;
+}
+.autocomplete-dropdown-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: calc(100% + 5px);
+  box-shadow: 0 0 3px rgba($dark, 0.3);
+  z-index: 999;
+  .suggestion-item,
+  .suggestion-item--active {
+    padding: 0.5rem 1rem;
+    background-color: $light;
+    cursor: pointer;
+  }
+  .suggestion-item--active {
+    background-color: $light;
+  }
+}
+
+// Quantity Input
+.qty-input {
+  input.form-control {
+    width: 40px;
+    text-align: center;
+    &:focus {
+      box-shadow: inset 0 0 0 0.2rem rgba($primary, 0.25);
+    }
+  }
+}

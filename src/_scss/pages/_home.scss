@@ -1,0 +1,193 @@
+#home-intro {
+  .animation-wrapper {
+    #homeHoverOne {
+      top: 37%;
+      left: 57%;
+      animation: hoverUp 12s infinite ease-in;
+      animation-delay: 0.5s;
+      width: 10px;
+      height: 10px;
+    }
+    #homeHoverTwo {
+      top: 53%;
+      left: 54%;
+      animation: hoverDown 17s infinite ease-in;
+      width: 10px;
+      height: 10px;
+    }
+    #homeHoverThree {
+      top: 34%;
+      left: 83%;
+      animation: hoverDown 11s infinite ease-in;
+      animation-delay: 0.8s;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+#introIllustration {
+  height: 600px;
+}
+
+.home-carousel-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center center;
+  min-height: 200px;
+}
+.work-carousel-img {
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center center;
+  min-height: 200px;
+}
+
+.positioning-wrapper {
+  #homeIntroIllustration {
+    position: absolute;
+    left: 46%;
+    top: -25px;
+    max-width: 650px;
+  }
+  #featuredImageCircle {
+    position: absolute;
+    width: 1334px;
+    height: 640px;
+    background-image: url(/img/shapes/half-moon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -700px;
+    bottom: -80px;
+  }
+  #featuredImage {
+    width: 600px;
+    max-width: 90vw;
+    height: 429px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -80px;
+    z-index: 2;
+  }
+}
+
+#homeIntroIllustration {
+  max-width: 650px;
+  left: 45%;
+}
+
+#homeIntroIllustrationMobile {
+  padding-bottom: 142%;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    height: 100%;
+    width: 121%;
+    left: -8%;
+    background-image: url(/img/home/home-illustration.svg);
+    background-size: cover;
+  }
+}
+
+#featuredImageCircle {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  background-image: url(/img/shapes/half-moon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 48%;
+  bottom: -17px;
+}
+#featuredImage {
+  width: 525px;
+  max-width: 90vw;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  z-index: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+#featuredShapes {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 23%;
+    height: 231px;
+    width: 300px;
+    right: 52%;
+    background-image: url(/img/shapes/shapes-1.svg);
+    background-size: cover;
+  }
+  .animation-wrapper {
+    #homeHoverOne {
+      top: 26%;
+      right: 58%;
+      animation: hoverUp 12s infinite ease-in;
+      animation-delay: 0.5s;
+      width: 25px;
+      height: 25px;
+    }
+    #homeHoverTwo {
+      top: 32%;
+      right: 63%;
+      animation: hoverDown 11s infinite ease-in;
+      // animation-direction: alternate;
+      width: 20px;
+      height: 20px;
+    }
+    #homeHoverThree {
+      top: 42%;
+      right: 56%;
+      animation: hoverUp 18s infinite ease-in;
+      // animation-direction: alternate;
+      width: 23px;
+      height: 23px;
+    }
+    #homeHoverFour {
+      top: 26%;
+      right: 67%;
+      animation: hoverDown 16s infinite ease-in;
+      animation-delay: 1s;
+      width: 27px;
+      height: 27px;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  #featuredImageCircle {
+    right: 10%;
+  }
+  #featuredImageMobile {
+    z-index: 1;
+    margin-bottom: -80px;
+    padding-top: 100px;
+    // right: 36%;
+    // height: 330px;
+  }
+  #featuredShapes {
+    &::before {
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #featuredImageCircle {
+    right: -26%;
+    height: 375px;
+  }
+  #featuredImageMobile {
+    padding-top: 150px;
+    margin-bottom: -67px;
+  }
+}

@@ -1,0 +1,206 @@
+// #gftwButton {
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     height: 50px;
+//     width: 50px;
+//     background-image: url(/img/our-work/GFW-LOGO-WHT.svg);
+//     background-size: cover;
+//     margin-left: -70px;
+//   }
+// }
+#gftwLogo {
+  width: 60px;
+  height: 50px;
+}
+#ourWorkIllustrationMobile {
+  padding-bottom: 80%;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    height: 100%;
+    width: 133%;
+    left: -6%;
+    background-image: url(/img/our-work/our-work-illustration.svg);
+    background-size: cover;
+  }
+}
+
+#financialInclusionIllustrationMobile {
+  padding-bottom: 72%;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    height: 97%;
+    width: 109%;
+    left: -14%;
+    background-image: url(/img/our-work/finacial-inclusion-illustration.svg);
+    background-size: cover;
+  }
+}
+#openPaymentsWrapper {
+  #openPaymentsIllustration {
+    position: absolute;
+    left: 49%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: 700px;
+    max-width: 700px;
+    animation: spin 300s infinite;
+    transition-timing-function: linear;
+    &:nth-child(2) {
+      animation: spin-reverse 500s infinite;
+    }
+  }
+}
+#openPaymentsIllustrationMobile {
+  padding-bottom: 67%;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    height: 91%;
+    width: 118%;
+    left: -7%;
+    background-image: url(/img/our-work/open-payments-illustration.svg);
+    background-size: cover;
+  }
+}
+#webMonetizationIllustrationWrapper {
+  .animation-wrapper {
+    #webMonetizationHoverOne {
+      top: 26%;
+      right: 58%;
+      animation: hoverUp 12s infinite ease-in;
+      // animation-direction: alternate;
+      width: 25px;
+      height: 25px;
+    }
+    #webMonetizationHoverTwo {
+      top: 33%;
+      right: 92%;
+      animation: hoverDown 12s infinite ease-in;
+      animation-delay: 0.5s;
+      // animation-direction: alternate;
+      width: 21px;
+      height: 21px;
+    }
+    #webMonetizationHoverThree {
+      top: 32%;
+      right: 66%;
+      animation: hoverUp 15s infinite ease-in;
+      animation-delay: 0.2s;
+      // animation-direction: alternate;
+      width: 25px;
+      height: 25px;
+    }
+    #webMonetizationHoverFour {
+      top: 20%;
+      right: 86%;
+      animation: hoverDown 15s infinite ease-in;
+      animation-delay: 0.7s;
+      width: 23px;
+      height: 23px;
+    }
+    #webMonetizationHoverFive {
+      top: 19%;
+      right: 76%;
+      animation: hoverUp 12s infinite ease-in;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+#webMonetizationIllustration {
+  position: absolute;
+  right: 46%;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 950px;
+  max-width: 950px;
+}
+#webMonetizationIllustrationMobile {
+  padding-bottom: 72%;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    height: 92%;
+    width: 110%;
+    left: -14%;
+    background-image: url(/img/our-work/web-monetization-illustration-mobile.svg);
+    background-size: cover;
+  }
+}
+
+#purpleCircle {
+  position: absolute;
+  min-height: 750px;
+  max-height: 750px;
+  right: 50%;
+}
+#focusAreaIllustration {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 41%;
+  min-width: 1100px;
+  max-width: 1100px;
+}
+
+#financialInclusionIllustration {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 46%;
+  top: 50px;
+  min-width: 950px;
+  max-width: 950px;
+}
+
+#financialInclusionHoverOne {
+  bottom: 34%;
+  right: 24%;
+  animation: hoverUp 18s infinite linear;
+  // animation-direction: alternate;
+  width: 25px;
+  height: 25px;
+}
+#financialInclusionHoverTwo {
+  bottom: 42%;
+  right: 34%;
+  animation: hoverUp 15s infinite linear;
+  // animation-direction: alternate;
+  width: 18px;
+  height: 18px;
+}
+#financialInclusionHoverThree {
+  bottom: 43%;
+  right: 28%;
+  animation: hoverDown 11s infinite linear;
+  animation-delay: 0.2s;
+  // animation-direction: alternate;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  #gftwLogo {
+    width: 100%;
+  }
+}

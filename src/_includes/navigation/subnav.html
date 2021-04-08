@@ -1,0 +1,36 @@
+<nav id="secondaryNav" class="navbar text-white px-3 position-fixed w-100 secondary-nav">
+  <div class="container justify-content-start  d-none d-md-flex">
+
+    <span class="text-large text-bold text-uppercase pe-5">{{ page._subnav.title }}</span>
+    <ul class="nav">
+      {% for link in page._subnav.links %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ link.url }}">{{ link.label }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="accordion d-md-none d-flex" id="accordionAction">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="subNavAccordion">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#subNavMobile" aria-expanded="true" aria-controls="subNavMobile">
+          {{ page._subnav.title }}
+        </button>
+      </h2>
+      <div id="subNavMobile" class="accordion-collapse collapse " aria-labelledby="subNavAccordion" data-bs-parent="#accordionAction">
+        <div class="accordion-body">
+
+          <ul class="nav flex-column">
+            {% for link in page._subnav.links %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ link.url }}">{{ link.label }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

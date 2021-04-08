@@ -1,0 +1,47 @@
+
+<div class="d-none d-lg-block">
+  <h1 class="h3 mb-n1">Get Started</h1>
+  <ul class="devtool-nav mt-4 ">
+    <li class="nav-item">
+      <a class="nav-link {% if page.url contains '/get-started/overview/' %} active {% endif %}" href="/developer-tools/get-started/overview/">Overview</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.url contains '/get-started/set-up/' %} active {% endif %}" href="/developer-tools/get-started/set-up/">Setup and Use Interledger Accounts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.url contains '/get-started/manage-accounts/' %} active {% endif %}" href="/developer-tools/get-started/manage-accounts/">Manage Interledger Accounts Programmatically</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.url contains '/get-started/spin-up/' %} active {% endif %}" href="/developer-tools/get-started/spin-up/">Spin Up a Local ILP Network</a>
+    </li>
+  </ul>
+</div>
+
+<div class="accordion d-lg-none d-flex" id="accordionDev">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="devNavAccordion">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#devNavMobile" aria-expanded="true" aria-controls="devNavMobile">
+          Get Started
+        </button>
+      </h2>
+      <div id="devNavMobile" class="accordion-collapse collapse " aria-labelledby="devNavAccordion" data-bs-parent="#accordionDev">
+        <div class="accordion-body">
+          <ul class="nav  flex-column">
+            <li class="nav-item">
+              <a class="nav-link {% if page.url contains '/get-started/overview/' %} active {% endif %}" href="/developer-tools/get-started/overview/">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {% if page.url contains '/get-started/set-up/' %} active {% endif %}" href="/developer-tools/get-started/set-up/">Setup and Use Interledger Accounts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {% if page.url contains '/get-started/manage-accounts/' %} active {% endif %}" href="/developer-tools/get-started/manage-accounts/">Manage Interledger Accounts Programmatically</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {% if page.url contains '/get-started/spin-up/' %} active {% endif %}" href="/developer-tools/get-started/spin-up/">Spin Up a Local ILP Network</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>

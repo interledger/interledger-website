@@ -1,0 +1,16 @@
+graph G {
+  node [shape = box,height=.1,fontname = "helvetica"];
+  newrank=true;
+
+  s [shape=box style=filled color=lightgrey label="Sender"];
+  r [shape=box style=filled color=lightgrey label="Receiver"];
+
+  c1 [shape=box style=filled color=lightgrey label="Connector"];
+  c2 [shape=box style=filled color=lightgrey label="Connector"];
+
+  s:e -- c1:w;
+  c1:e -- c2:w;
+  c2:e -- r:w;
+
+  { rank=same; s c1 c2 r }
+}

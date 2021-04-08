@@ -1,0 +1,69 @@
+#aboutHero {
+  background: $white;
+  background: linear-gradient(90deg, $white 55%, $green-200 55%);
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    height: 300px;
+    width: 300px;
+    right: -10%;
+    background-image: url(/img/about-us/globe.svg);
+    background-size: cover;
+  }
+}
+// .positioning-wrapper {
+//   #aboutUsHeroIllustration {
+//     position: absolute;
+//     width: 1334px;
+//     height: 640px;
+//     // background-image: url(/img/shapes/half-moon.svg);
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     left: -700px;
+//     bottom: -80px;
+//   }
+// }
+
+#aboutUsHeroIllustration {
+  // padding-bottom: 142%;
+  position: relative;
+}
+
+#diversityMobileWrapper {
+  background: linear-gradient(180deg, $blue-100 50%, $white 50%);
+}
+
+#deiShapes {
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 7%;
+    height: 112px;
+    width: 73px;
+    right: 3%;
+    background-image: url(/img/shapes/shapes-3.svg);
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  #aboutHero {
+    background: linear-gradient(180deg, $white 65%, $green-200 65%);
+    padding-bottom: 11%;
+    &::before {
+      bottom: -12%;
+      height: 300px;
+      width: 300px;
+      right: 0;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  #deiShapes {
+    &::before {
+      display: none;
+    }
+  }
+}

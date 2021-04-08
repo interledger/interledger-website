@@ -1,0 +1,70 @@
+---
+layout: page
+title: Contact
+meta:
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <h1 class="editable">Contact Us</h1>
+        <p class="editable">
+          Let us know if you have any concerns, questions, or kind words for us.
+          We are happy to get back to you as soon as possible. Be sure to check
+          the FAQ.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          action="/thank-you"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" class="form-control" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" class="form-control" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" class="form-control" required />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label for="inquiry">Inquiry</label>
+                <textarea
+                  name="inquiry"
+                  cols="30"
+                  rows="8"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

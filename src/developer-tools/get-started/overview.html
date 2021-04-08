@@ -1,0 +1,138 @@
+---
+layout: developer-tools
+title: Overview
+---
+
+<section class="dev-tools-content-wrapper">
+  <div class="container px-0 px-lg-4">
+    <div class="row">
+      <div class="col-12 col-xl-10  px-0 px-lg-4 d-flex flex-row mb-3">
+        <div class="d-flex align-items-center pe-4 d-none d-md-flex">
+          <img class="img-fluid" alt="Interledger Protocol" src="/img/shapes/inteledger.png" />
+        </div>
+        <div>
+          <span class="text-semi text-primary">Overview</span>
+          <h1 class="editable">
+            THE INTERLEDGER PROTOCOL
+          </h1>
+          <h2 class="editable h4">
+            Enable seamless exchange of value across payment networks.
+          </h2>
+        </div>
+      </div>
+      <div class="col-12 col-xl-10  px-0 px-lg-4">
+        <div class="editable">
+          <p>The Interledger Protocol is an open protocol suite for sending payments across different ledgers. Like the internet, connectors route packets of money across independent networks. The open architecture and minimal protocol enable interoperability for any value transfer system.</p>
+          <p><strong>Interledger is not tied to a single company, blockchain, or currency.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-xl-10  px-0 px-lg-4">
+        <div class="row">
+          <div class="col-12 col-md-4 px-0 px-lg-4 text-center">
+            <img class="img-fluid   overview-icon" src="/img/docs/code.svg" alt="Multi-Hop Routing" />
+            <p class="editable mb-0">
+              <strong>Code with Money</strong>
+            </p>
+            <p class="editable">
+              Add payments without being tied to a single currency or payment provider.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <img class="img-fluid overview-icon" src="/img/docs/routing.svg" alt="Multi-Hop Routing" />
+            <p class="editable mb-0">
+              <strong>Multi-Hop Routing</strong>
+            </p>
+            <p class="editable">
+              Send payments to other ledgers, even if they are multiple hops away.
+            </p>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <img class="img-fluid  overview-icon" src="/img/docs/protocol.svg" alt="Multi-Hop Routing" />
+            <p class="editable mb-0">
+              <strong>Simple Protocol</strong>
+            </p>
+            <p class="editable">
+              Inspired by TCP/IP, Interledger is easy to implement and use.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-12 col-xl-10 px-0 px-lg-4 ">
+        <div class="editable">
+          <h1>Interledger Overview</h1>
+          <p>Enable seamless exchange of value across payment networks.</p>
+          <p>Traditional payment networks operate independently from each other. Sending value is easy only if the sender and recipient have accounts on the same network, but it can be slow and expensive if they have accounts on different networks. Interledger makes it easy to transact in whatever currency or payment network you choose, because Interledger is not tied to any one company, blockchain, or currency. Using Interledger, you can send XRP to someone who wants to receive ETH, or you can send USD to someone who wants to receive EUR.</p>
+          <h2>What is Interledger?</h2>
+          <p>Interledger is a network of computers that enables the sending of value across independent payment networks. Similar to how the internet routes packets information, Interledger routes packets of value. Computers on the Interledger network are called&nbsp;<em>nodes</em>. Nodes can take one or more of the following roles:</p>
+          <ul>
+            <li>Sender &ndash; Initiates a value transfer.</li>
+            <li>Router &ndash; Applies currency exchange and forwards packets of value. This is an intermediary node between the sender and the receiver.</li>
+            <li>Receiver &ndash; Receives the value.</li>
+          </ul>
+          <p><img class="img-fluid" alt="ILP nodes" src="/img/docs/ilp-nodes-2.png" /></p>
+          <p><strong></strong></p>
+          <p><strong>Note:</strong>&nbsp;The terms&nbsp;<em>Router</em>&nbsp;and&nbsp;<em>Connector</em>&nbsp;are used interchangeably throughout the documentation.</p>
+          <h2>How does Interledger work?</h2>
+          <p>At the core of Interledger is the&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0027-interledger-protocol-4/">Interledger Protocol (ILPv4)&nbsp;<em></em></a>, which is a set of rules that define how nodes should send value over the Interledger network. ILPv4 is a&nbsp;<em>request/response</em>&nbsp;protocol, where requests and responses are ILPv4 packets. Typically, a single aggregate payment from source to destination is split into multiple ILP packets. Each ILP packet contains transaction information, which is private to the nodes participating in the transaction. ILPv4 has three packet types -&nbsp;<em>Prepare</em>,&nbsp;<em>Fulfill</em>, and&nbsp;<em>Reject</em>.</p>
+          <p><img class="img-fluid" alt="ILP Packets" src="/img/docs/ilp-packets.png" /></p>
+          <p>The sender constructs and sends a Prepare packet as a request to the connecting router. The routers forward the packet until it reaches the receiver. The receiver then accepts or rejects the packet by sending a Fulfill packet or a Reject packet as the response. The routers relay the response from the receiver back to the sender. When the sender receives a Fulfill packet, it knows that the packet was successfully delivered to the receiver. The sender then continues to send the remaining Prepare packets until the value is fully transferred.</p>
+          <p>Interledger does not rely on any single payment network for processing value transactions. You can connect with an ILPv4 router at any time to join the network. Furthermore, Interledger sends value as tiny data packets, which makes transactions fast, secure, and inexpensive.</p>
+          <p><strong>Tip:</strong>&nbsp;For a deeper dive into how ILPv4 works, see&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0027-interledger-protocol-4/#prerequisites">ILPv4 Flow&nbsp;<em></em></a>.</p>
+          <h2>Building on Interledger</h2>
+          <p>Build payments into your apps or other protocols without tying yourself to a specific currency or payment network. Create accounts on our demo ledgers and start sending Interledger payments with the client libraries. Check out&nbsp;<a href="https://interledger.org/setup-wallets.html">Getting Started</a>&nbsp;for more details.</p>
+          <h2>Interledger architecture</h2>
+          <p>Interledger enables payments across many different types of ledgers. The Interledger Protocol Suite is comprised of four layers: the Application, Transport, Interledger, and Link protocols. To learn more, see the Interledger&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0001-interledger-architecture/">Architecture Overview&nbsp;<em></em></a>.</p>
+          <h2>Protocol specs and APIs</h2>
+          <p>To dive into the technical specs, see the&nbsp;<a target="_blank" href="https://github.com/interledger/rfcs">Interledger RFCs&nbsp;<em></em></a>. Also see the documentation for the components of the reference implementation.</p>
+          <h2>Security</h2>
+          <p>Interledger enables secure, multi-hop payments using&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0022-hashed-timelock-agreements/">Hashed Timelock Agreements&nbsp;<em></em></a>. As of Interledger version 4, these conditions are not enforced by the ledger, as it would be too costly and slow. Instead, participants in the network use these hashlocks to perform accounting with their peers. This accounting is used to determine in-flight balances, which are periodically settled with on-ledger transfers or payment channel claims. For a detailed description of how this works, read the&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0032-peering-clearing-settlement/">Peering, Clearing, and Settlement&nbsp;<em></em></a>&nbsp;documentation.</p>
+          <p>Next:&nbsp;<a href="https://interledger.org/setup-wallets.html">Set up and use Interledger accounts</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="dev-tools-content-wrapper">
+  <div class="container px-0 px-lg-4">
+
+    <div class="row">
+      <div class="col-12 col-xl-10 px-0 px-lg-4 ">
+        <div class="editable">
+        <h1>Interledger Overview</h1>
+        <p>Enable seamless exchange of value across payment networks.</p>
+        <p>Traditional payment networks operate independently from each other. Sending value is easy only if the sender and recipient have accounts on the same network, but it can be slow and expensive if they have accounts on different networks. Interledger makes it easy to transact in whatever currency or payment network you choose, because Interledger is not tied to any one company, blockchain, or currency. Using Interledger, you can send XRP to someone who wants to receive ETH, or you can send USD to someone who wants to receive EUR.</p>
+        <h2>What is Interledger?</h2>
+        <p>Interledger is a network of computers that enables the sending of value across independent payment networks. Similar to how the Internet routes packets information, Interledger routes packets of value. Computers on the Interledger network are called&nbsp;<em>nodes</em>. Nodes can take one or more of the following roles:</p>
+        <ul>
+          <li>Sender &ndash; Initiates a value transfer.</li>
+          <li>Router &ndash; Applies currency exchange and forwards packets of value. This is an intermediary node between the sender and the receiver.</li>
+          <li>Receiver &ndash; Receives the value.</li>
+        </ul>
+        <p><img class="img-fluid" alt="ILP nodes" src="/img/docs/ilp-nodes-2.png" /></p>
+        <p><strong></strong></p>
+        <p><strong>Note:</strong>&nbsp;The terms&nbsp;<em>Router</em>&nbsp;and&nbsp;<em>Connector</em>&nbsp;are used interchangeably throughout the documentation.</p>
+        <h2>How does Interledger work?</h2>
+        <p>At the core of Interledger is the&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0027-interledger-protocol-4/">Interledger Protocol (ILPv4)&nbsp;<em></em></a>, which is a set of rules that define how nodes should send value over the Interledger network. ILPv4 is a&nbsp;<em>request/response</em>&nbsp;protocol, where requests and responses are ILPv4 packets. Typically, a single aggregate payment from source to destination is split into multiple ILP packets. Each ILP packet contains transaction information, which is private to the nodes participating in the transaction. ILPv4 has three packet types -&nbsp;<em>Prepare</em>,&nbsp;<em>Fulfill</em>, and&nbsp;<em>Reject</em>.</p>
+        <p><img class="img-fluid" alt="ILP Packets" src="/img/docs/ilp-packets.png" /></p>
+        <p>The sender constructs and sends a Prepare packet as a request to the connecting router. The routers forward the packet until it reaches the receiver. The receiver then accepts or rejects the packet by sending a Fulfill packet or a Reject packet as the response. The routers relay the response from the receiver back to the sender. When the sender receives a Fulfill packet, it knows that the packet was successfully delivered to the receiver. The sender then continues to send the remaining Prepare packets until the value is fully transferred.</p>
+        <p>Interledger does not rely on any single payment network for processing value transactions. You can connect with an ILPv4 router at any time to join the network. Furthermore, Interledger sends value as tiny data packets, which makes transactions fast, secure, and inexpensive.</p>
+        <p><strong>Tip:</strong>&nbsp;For a deeper dive into how ILPv4 works, see&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0027-interledger-protocol-4/#prerequisites">ILPv4 Flow&nbsp;<em></em></a>.</p>
+        <h2>Building on Interledger</h2>
+        <p>Build payments into your apps or other protocols without tying yourself to a specific currency or payment network. Create accounts on our demo ledgers and start sending Interledger payments with the client libraries. Check out&nbsp;<a href="https://interledger.org/setup-wallets.html">Getting Started</a>&nbsp;for more details.</p>
+        <h2>Interledger architecture</h2>
+        <p>Interledger enables payments across many different types of ledgers. The Interledger Protocol Suite is comprised of four layers: the Application, Transport, Interledger, and Link protocols. To learn more, see the Interledger&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0001-interledger-architecture/">Architecture Overview&nbsp;<em></em></a>.</p>
+        <h2>Protocol specs and APIs</h2>
+        <p>To dive into the technical specs, see the&nbsp;<a target="_blank" href="https://github.com/interledger/rfcs">Interledger RFCs&nbsp;<em></em></a>. Also see the documentation for the components of the reference implementation.</p>
+        <h2>Security</h2>
+        <p>Interledger enables secure, multi-hop payments using&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0022-hashed-timelock-agreements/">Hashed Timelock Agreements&nbsp;<em></em></a>. As of Interledger version 4, these conditions are not enforced by the ledger, as it would be too costly and slow. Instead, participants in the network use these hashlocks to perform accounting with their peers. This accounting is used to determine in-flight balances, which are periodically settled with on-ledger transfers or payment channel claims. For a detailed description of how this works, read the&nbsp;<a target="_blank" href="https://interledger.org/rfcs/0032-peering-clearing-settlement/">Peering, Clearing, and Settlement&nbsp;<em></em></a>&nbsp;documentation.</p>
+        <p>Next:&nbsp;<a href="https://interledger.org/setup-wallets.html">Set up and use Interledger accounts</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section> -->

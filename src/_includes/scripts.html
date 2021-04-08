@@ -1,0 +1,145 @@
+<!-- JS Dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"
+  defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<!-- <script src="{{ '/js/main.js' | prepend: site.baseurl }}" defer></script> -->
+
+<script defer>
+  $(document).ready(function(){
+    var controller = new ScrollMagic.Controller();
+
+    $('[data-lazy-type]').each(function () {
+      var currentElement = this;
+      var $this = $(this);
+      var type = $this.data('lazy-type');
+      var lazySrc = $this.data('lazy-src');
+      var scene = new ScrollMagic.Scene({
+        triggerElement: currentElement,
+        reverse: false,
+        offset: -500
+      })
+        .on('enter', function () {
+          if (type == 'image') {
+            $this.attr('src', lazySrc);
+          }
+          if (type == 'bg-image') {
+            $this.css('background-image', 'url(' + lazySrc + ')')
+          }
+          if (type == 'video') {
+            $this.attr('src', lazySrc);
+          }
+          if (type == 'bg-video') {
+            lazyLoadBgVideo($this);
+          }
+        })
+        .on('exit', function () {
+          if (type == 'bg-video') {
+            // test to confirm this is working
+            currentElement.pause();
+          }
+        })
+        .setClassToggle(currentElement, "active")
+        .addTo(controller);
+    })
+  })
+</script>
+
+<script>
+  new Glider(document.querySelector('.glider'), {
+    slidesToShow: 1,
+    dots: '#dots',
+    draggable: true,
+      scrollLock: true,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    },
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+</script>
+
+<script>
+  new Glider(document.querySelector('.gliderExpanded'), {
+    slidesToShow: 1,
+    dots: '#greenDots',
+    draggable: true,
+      scrollLock: false,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    },
+    responsive: [
+      {
+        breakpoint: 1105,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+</script>
+<script>
+  new Glider(document.querySelector('.gliderMembership'), {
+    slidesToShow: 1,
+    dots: '#dots',
+    draggable: true,
+    scrollLock: true,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+</script>
+
+<script>(function () {
+    $('.menu-wrapper').on('click', function () {
+      $('.hamburger-menu').toggleClass('animate');
+    })
+  })();</script>
+
+
+<script>
+  let parent = document.querySelector('.aside-nav').parentElement;
+
+    while (parent) {
+      const hasOverflow = getComputedStyle(parent).overflow;
+      if (hasOverflow !== 'visible') {
+        console.log(hasOverflow, parent);
+      }
+      parent = parent.parentElement;
+    }
+</script>

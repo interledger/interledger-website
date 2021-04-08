@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.68;}
+	.st1{fill:url(#Path_239_1_);}
+	.st2{fill:url(#Path_239-2_1_);}
+	.st3{fill:#543BA3;}
+</style>
+<g id="Layer_2_1_">
+	<g id="Layer_1-2">
+		<g id="Group_1277">
+			<g id="Group_1086">
+				<g id="Group_331" class="st0">
+					<g id="Group_211">
+						<g id="Group_210">
+							
+								<linearGradient id="Path_239_1_" gradientUnits="userSpaceOnUse" x1="-4447.6201" y1="7768.1475" x2="-4447.6201" y2="7769.1479" gradientTransform="matrix(41.34 0 0 23.53 183894.5156 -182782.875)">
+								<stop  offset="0" style="stop-color:#634AAF"/>
+								<stop  offset="1" style="stop-color:#593EA5"/>
+							</linearGradient>
+							<path id="Path_239" class="st1" d="M49.3,42.8c-13.2-6-26.4,7.7-39.6,0.9c-0.3-0.1-0.5-0.5-0.5-0.8V25.8
+								c0-0.5,0.4-0.9,0.8-0.9c0,0,0,0,0,0c0.1,0,0.2,0,0.4,0.1c13.2,6,26.4-7.7,39.6-0.9c0.3,0.2,0.5,0.5,0.5,0.8V42
+								c0,0.5-0.4,0.9-0.9,0.9c0,0,0,0,0,0C49.6,42.9,49.4,42.9,49.3,42.8"/>
+						</g>
+					</g>
+				</g>
+				<g id="Group_332" class="st0">
+					<g id="Group_211-2">
+						<g id="Group_210-2">
+							
+								<linearGradient id="Path_239-2_1_" gradientUnits="userSpaceOnUse" x1="-4447.6201" y1="7768.1475" x2="-4447.6201" y2="7769.1479" gradientTransform="matrix(41.34 0 0 23.53 183934.5156 -182750.7031)">
+								<stop  offset="0" style="stop-color:#634AAF"/>
+								<stop  offset="1" style="stop-color:#593EA5"/>
+							</linearGradient>
+							<path id="Path_239-2" class="st2" d="M89.3,75c-13.2-6-26.4,7.7-39.6,0.9c-0.3-0.1-0.5-0.4-0.5-0.8V57.9
+								c0-0.5,0.4-0.9,0.8-0.9c0,0,0,0,0,0c0.1,0,0.2,0,0.4,0.1c13.2,6,26.4-7.7,39.6-0.9c0.3,0.2,0.5,0.5,0.5,0.8v17.2
+								c0,0.5-0.4,0.9-0.9,0.9C89.6,75.1,89.4,75.1,89.3,75"/>
+						</g>
+					</g>
+				</g>
+				<circle id="Ellipse_77" class="st3" cx="59.6" cy="34" r="3.5"/>
+				<circle id="Ellipse_79" class="st3" cx="26.6" cy="66.9" r="3.5"/>
+				<circle id="Ellipse_78" class="st3" cx="72.6" cy="34" r="3.5"/>
+				<circle id="Ellipse_80" class="st3" cx="39.6" cy="66.9" r="3.5"/>
+				<path id="Polygon_2" class="st3" d="M15.1,62.9c0.5-0.3,1.1-0.1,1.4,0.3c0.1,0.2,0.2,0.3,0.2,0.5v5.7c0,0.6-0.4,1-1,1
+					c-0.2,0-0.3,0-0.5-0.1l-4.9-2.7c-0.5-0.3-0.7-0.9-0.4-1.4c0,0,0,0,0,0c0.1-0.2,0.2-0.3,0.4-0.4L15.1,62.9z"/>
+				<path id="Polygon_3" class="st3" d="M83.9,31.1c0-0.6,0.4-1,1-1c0.2,0,0.4,0,0.5,0.1l4.8,3c0.5,0.3,0.6,0.9,0.3,1.4c0,0,0,0,0,0
+					c-0.1,0.1-0.2,0.3-0.4,0.4l-4.9,2.7c-0.5,0.3-1.1,0.1-1.4-0.4c0,0,0,0,0,0c-0.1-0.1-0.1-0.3-0.1-0.5L83.9,31.1z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

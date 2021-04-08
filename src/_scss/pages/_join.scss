@@ -1,0 +1,15 @@
+#joinHero {
+  background: $white;
+  background: linear-gradient(90deg, $white 52%, $purple-200 52%);
+}
+
+@media (max-width: 991px) {
+  #joinHero {
+    background: linear-gradient(180deg, $white 60%, $purple-200 60%);
+  }
+}
+@media (max-width: 768px) {
+  #joinHero {
+    background: linear-gradient(180deg, $purple-200 15%, $white 15%);
+  }
+}

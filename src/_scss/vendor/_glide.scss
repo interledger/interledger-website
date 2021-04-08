@@ -1,0 +1,29 @@
+.glider-slide {
+  margin: 0 25px;
+}
+
+.glider-prev,
+.glider-next {
+  height: 20px;
+  width: 20px;
+  border-bottom: 4px solid $white !important;
+  top: 0 !important;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.glider-prev {
+  border-left: 4px solid $white !important;
+  transform: rotate(45deg);
+  &.glider-nav-small {
+    left: 22px !important;
+  }
+}
+.glider-next {
+  border-right: 4px solid $white !important;
+  transform: rotate(-45deg);
+  &.glider-nav-small {
+    right: 22px !important;
+  }
+}

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% if page.featured_image %}
+        <img
+          src="{{ page.featured_image | prepend: site.url }}"
+          class="img-fluid mb-5"
+          alt="{{ page.title }} image"
+        />
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: '%B %d, %Y'}}</p>
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</section>

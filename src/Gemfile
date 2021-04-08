@@ -1,0 +1,11 @@
+source "http://rubygems.org"
+ruby "2.6.2"
+gem "jekyll", "~>3.8.6"
+gem 'sassc'
+gem 'scss_lint'
+gem 'front_matter_parser'
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-toc'
+end

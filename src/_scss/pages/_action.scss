@@ -1,0 +1,93 @@
+#takeActionIllustration {
+  position: absolute;
+  left: 40%;
+  top: 71px;
+  min-width: 950px;
+  max-width: 950px;
+}
+#blueCircle {
+  position: absolute;
+  right: 45%;
+  bottom: 0px;
+  width: 1100px;
+  height: 640px;
+  background-image: url(/img/shapes/half-moon-blue.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
+}
+#partner {
+  min-height: 600px;
+}
+#actionPhotoTwo {
+  position: absolute;
+  right: 64%;
+  bottom: 0px;
+  height: 324px;
+  width: 450px;
+  img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+#actionPhotoOne {
+  position: absolute;
+  right: 53%;
+  bottom: 0px;
+  height: 216px;
+  width: 300px;
+  img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+#takeActionMobileImage {
+  background-image: url(/img/take-action/take-action-mobile.png);
+  background-size: cover;
+  width: 100vw;
+  padding-top: 37%;
+}
+#creatorToolsIllustration {
+  position: absolute;
+  left: 49%;
+  top: 5%;
+  min-width: 700px;
+  max-width: 700px;
+}
+#devToolsIllustration {
+  position: absolute;
+  left: 48%;
+  top: 5%;
+  min-width: 700px;
+  max-width: 700px;
+}
+#whiteCircle {
+  position: absolute;
+  right: 57%;
+  bottom: 0px;
+  width: 900px;
+  height: 500px;
+  background-image: url(/img/shapes/half-moon-white.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#takeActionPartnerWithUs {
+  position: absolute;
+  right: 42%;
+  bottom: 0%;
+  height: 324px;
+  width: 450px;
+  img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+#partnerMobileWrapper {
+  background: linear-gradient(180deg, $blue-100 50%, $purple-100 50%);
+}
+
+@media (max-width: 990px) {
+  #creatorToolsIllustration {
+    min-width: 600px;
+    max-width: 600px;
+  }
+}

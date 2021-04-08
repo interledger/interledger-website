@@ -1,0 +1,286 @@
+// Typography
+.text-thin {
+  font-weight: 300 !important;
+}
+.text-semi {
+  font-weight: 600 !important;
+}
+.text-bold {
+  font-weight: 700 !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+.text-green {
+  color: $green-200 !important;
+}
+.text-blue {
+  color: $blue-400 !important;
+}
+
+.text-purple {
+  color: $purple-100 !important;
+}
+.text-gray {
+  color: $gray-500 !important;
+}
+.text-pink {
+  color: $pink !important;
+}
+.text-large {
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+}
+.text-small {
+  font-size: 0.875rem;
+  line-height: 1.6rem;
+}
+
+.overview-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -10px;
+}
+.text-underline {
+  border-bottom: 6px solid $primary;
+  &:hover {
+    color: $blue-400 !important;
+    border-bottom: 6px solid transparent;
+  }
+}
+.text-underline-white {
+  border-bottom: 6px solid $white;
+  &:hover {
+    color: $blue-400 !important;
+    border-bottom: 6px solid transparent;
+  }
+}
+.text-hero {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+// Compontents
+.button {
+  display: inline-block;
+  border: 3px solid $primary;
+  padding: 10px 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+.button-filled {
+  background-color: $primary;
+  color: $white;
+  &:hover {
+    background-color: $blue-300;
+    // background-color: rgba($primary, 0.3);
+    color: $primary;
+  }
+}
+.button-outline {
+  background-color: transparent;
+  color: $primary;
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+.button-outline-white {
+  border: 3px solid $white;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+.impact-icon {
+  max-width: 75px;
+  max-height: 75px;
+}
+.check-icon {
+  height: 20px;
+  width: 20px;
+}
+.halfwidth-img {
+  position: absolute;
+  height: 750px;
+  width: 800px;
+  right: 55%;
+  background-size: cover;
+}
+.border-bottom-gray-thick {
+  border-bottom: 2px $gray-400 solid;
+}
+.border-bottom-gray-thin {
+  border-bottom: 1px $gray-300 solid;
+}
+
+.illustration {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+// Layout
+.fullwidth-img-section {
+  position: relative;
+  min-height: 750px;
+  padding: 0px;
+}
+
+.positioning-wrapper {
+  position: relative;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-green-100 {
+  background-color: $green-100;
+}
+.bg-blue-100 {
+  background-color: $blue-100;
+}
+.bg-blue-300 {
+  background-color: $blue-300;
+}
+.bg-blue-400 {
+  background-color: $blue-400;
+}
+.bg-blue-500 {
+  background-color: $blue-500;
+}
+.bg-gray {
+  background-color: $gray-300;
+}
+.bg-gray-900 {
+  background-color: $gray-900;
+}
+.bg-purple-fade {
+  background: $purple-200;
+  background: linear-gradient(180deg, $purple-100 0%, $purple-200 100%);
+}
+.bg-green-fade {
+  background-color: $green-100;
+  background: linear-gradient(180deg, $green-100 0%, $blue-200 100%);
+}
+.bg-blue-fade {
+  background-color: $blue-100;
+  background: linear-gradient(180deg, $blue-100 0%, $white 100%);
+}
+.bg-purple-circle {
+  background-image: url(/img/shapes/purple-circle-bg.svg);
+  background-repeat: no-repeat;
+  // background-position: 20%;
+}
+
+// Global
+.opacity-80 {
+  opacity: 0.8;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.card-icon {
+  max-height: 150px;
+  max-width: 150px;
+  padding-bottom: 25px;
+}
+.social-icon {
+  transition: 0.2s;
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+  }
+  &:hover {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+}
+
+.tool-logo {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-photo {
+  border-radius: 500px;
+}
+#footerLogo {
+  max-width: 250px;
+}
+
+#greenDots {
+  .glider-dot.active {
+    background: $green-200;
+  }
+}
+
+.hollow-bullet {
+  list-style-type: none;
+  li {
+    margin: 5px 0;
+    &:before {
+      content: "⭘";
+      color: $primary;
+      display: inline-block;
+      width: 1.5rem;
+      margin-left: -40px;
+      padding-left: 5px;
+    }
+  }
+}
+.news__image {
+  max-width: 400px;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.circle-animation {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/shapes/circle.svg);
+  background-size: cover;
+}
+.cross-animation {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/shapes/cross.svg);
+  background-size: cover;
+}
+
+.photo-border-green {
+  border-bottom: 15px solid $lime-100;
+}
+// .half-width-photo {
+//   position: absolute;
+//   width: calc(50vw - 15px);
+//   height: 600px;
+//   background: red;
+//   background-size: cover;
+// }
+
+@media (max-width: 768px) {
+  .fullwidth-img-section {
+    min-height: 500px;
+  }
+}

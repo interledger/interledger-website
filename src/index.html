@@ -1,0 +1,199 @@
+---
+layout: page
+title: Open and Inclusive Payments
+featured_program:
+  name: Grant for the Web
+  link: 'https://www.grantfortheweb.org/'
+  program_image: /uploads/grant-for-the-web-featured-image.jpg
+  subtitle_text: >-
+    Grant for the Web is a $100M fund to boost open, fair, and inclusive
+    standards and innovation in Web Monetization.
+  write_up_html: >-
+    <p><strong>Distributed Media Lab</strong><br />An innovative reader revenue
+    platform that harnesses Web Monetization to power distributed reader revenue
+    across a network of participating publishers. This decentralized approach
+    will empower publishers to harness the natural scalability of the open
+    web.&nbsp;<strong><a target="_blank" rel="noopener"
+    href="https://www.grantfortheweb.org/blog/dmlaward">Learn
+    More</a></strong></p><p><strong>Fueling social justice with a monetization
+    stream</strong><br />Web Monetizing deployments on Ushahidi, an open-source
+    crowdsourcing platform that&rsquo;s been used globally for crisis response,
+    human rights protection, good governance, and ensuring integrity in
+    elections.&nbsp;<strong><a target="_blank" rel="noopener"
+    href="https://www.grantfortheweb.org/grantees">Learn
+    More</a></strong></p><p><strong>GftW Ambassador Akintunde Sultan
+    Bolaji</strong><br />&ldquo;Hack Sultan&rdquo; working to activate 10K
+    developers in Web Monetization across the African continent.&nbsp;<strong><a
+    target="_blank" rel="noopener"
+    href="https://www.grantfortheweb.org/blog/akintunde-sultan-bolaji">Learn
+    More</a></strong></p>
+---
+
+<section class="pt-5 px-3  p-md-5 fullwidth-img-section centered" id="home-intro">
+  <img class="img-fluid p-md-5 illustration d-none d-md-flex" id="homeIntroIllustration" src="/img/home/home-illustration.svg" />
+  <div class="container h-100 fullwidth-img-section d-flex justify-content-center  align-items-start align-items-md-center">
+    <div class="row ">
+      <div class="col-12 col-md-6 col-md-5 ">
+        <div>
+          <h1 class="text-center text-md-start editable">
+            An open and inclusive payments network that puts humanity first.
+          </h1>
+          <p class="text-large text-center text-md-start editable my-3">
+            The Interledger Foundation and its community are building pathways to financial access and opportunity across the world, connecting humanity in a new way.
+          </p>
+          <div class="text-center d-flex flex-column align-items-center d-sm-block text-md-start "><a class="button button-filled editable me-md-3" href="/our-work/">Our Work</a> <a class="button button-outline editable" href="/developer-tools/get-started/overview/">Build with Interledger</a>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-md-none" id="homeIntroIllustrationMobile">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-blue-100">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 text-center ">
+        <div>
+          <h1 class="editable">
+            Interledger is working towards a more equitable and creative global society through an open payments network in which anyone can seamlessly earn, share, buy, sell, and trade with anyone else in the world.
+          </h1>
+          <h2 class="text-primary mt-5 mb-4 editable">
+            To drive this vision forward we will
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row  mt-4">
+      <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="card h-100 text-center text-large ">
+          <img class="img-fluid card-icon mx-auto" src="/img/home/connectcommunity.svg" alt="Connect Icon" />
+          <p class="editable">
+            <strong>Connect</strong> a powerful community of web advocates and leaders.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="card h-100 text-center text-large ">
+          <img class="img-fluid card-icon mx-auto" src="/img/home/creativesolutions-icon.svg" alt="Promote Icon" />
+          <p class="editable">
+            <strong>Promote</strong> creative and innovative solutions to connecting humanity.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card h-100 text-center text-large ">
+          <img class="img-fluid card-icon mx-auto" src="/img/home/steward-icon.svg" alt="Steward Icon" />
+          <p class="editable">
+            <strong>Steward</strong> technology and standards work that advances open payment technology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center ">
+        <h2 class="text-primary mt-5 mb-4 ">
+          <a class="text-underline text-bold editable" href="/about-us/">Learn More About Interledger</a>
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-purple-fade">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white text-center editable">
+          Platforms using Interledger Technology
+        </h1>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 position-relative">
+        <glider-carousel>
+          <div class="glider">
+            {% for casestudy in site.casestudies %}
+            <div data-cms-editor-link="cloudcannon:collections/{{ post.path }}" class="cms-editor-link">
+              <div class="card">
+                <div class="container px-0">
+                  <div class="row">
+                    <div class="col-12 col-xl-5">
+                      <div class="home-carousel-img" style="background-image: url({{ casestudy.featured_image }});"></div>
+                    </div>
+                    <div class="col-12 col-xl-7 p-xl-5">
+                      <h2 class="text-hero text-center text-lg-start mt-4 mt-lg-0">{{ casestudy.title }}</h2>
+                      <p>{{ casestudy.featured_text }}</p>
+                      <div class="text-center d-flex flex-column align-items-center d-md-block text-lg-start ">
+                        <a href="{{ casestudy.url }}" class="button button-outline">Learn More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <button aria-label="Previous" class="glider-prev"></button>
+          <button aria-label="Next" class="glider-next"></button>
+          <div role="tablist" class="pt-4" id="dots"></div>
+        </glider-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-green-fade position-relative" id="featuredShapes">
+  <div class="animation-wrapper d-none d-md-flex">
+    <div class="circle-animation" id="homeHoverOne"></div>
+    <div class="circle-animation" id="homeHoverTwo"></div>
+    <div class="circle-animation" id="homeHoverThree"></div>
+    <div class="cross-animation" id="homeHoverFour"></div>
+  </div>
+  <div id="featuredImageCircle"></div>
+  <div id="featuredImage" class="d-none d-lg-block" style="background-image: url({{ page.featured_program.program_image }});"></div>
+  <div class="container">
+    <div class="row justify-content-center justify-content-md-end">
+      <div class="col-12 col-lg-5 text-center text-lg-start px-md-5 px-lg-0">
+        <h1 class="text-green h2 mb-4">Featured Program</h1>
+        <h2 class="h1 text-hero">{{ page.featured_program.name }}</h2>
+        <p class="text-large">{{ page.featured_program.subtitle_text }}</p>
+        {{ page.featured_program.write_up_html }}
+        <!-- <p><strong>Distributed Media Lab</strong><br />An innovative reader revenue platform that harnesses Web Monetization to power distributed reader revenue across a network of participating publishers. This decentralized approach will empower publishers to harness the natural scalability of the open web. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/blog/dmlaward">Learn More</a></strong></p>
+        <p><strong>Fueling social justice with a monetization stream</strong><br />Web Monetizing deployments on Ushahidi, an open-source crowdsourcing platform that&rsquo;s been used globally for crisis response, human rights protection, good governance, and ensuring integrity in elections. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/grantees">Learn More</a></strong></p>
+        <p><strong>GftW Ambassador Akintunde Sultan Bolaji</strong><br />&ldquo;Hack Sultan&rdquo; working to activate 10K developers in Web Monetization across the African continent. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/blog/akintunde-sultan-bolaji">Learn More</a></strong></p> -->
+        <h3><a target="_blank" class="text-underline" href="{{ page.featured_program.link }}">Learn More About {{ page.featured_program.name }}</a></h3>
+      </div>
+      <div class="col-12 d-lg-none" id="featuredImageMobile">
+        <img class="img-fluid " src="{{ page.featured_program.program_image }}" alt="{{ page.featured_program.name }} Image" />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="bg-green-fade position-relative" id="featuredShapes">
+  <div class="animation-wrapper d-none d-md-flex">
+    <div class="circle-animation" id="homeHoverOne"></div>
+    <div class="circle-animation" id="homeHoverTwo"></div>
+    <div class="circle-animation" id="homeHoverThree"></div>
+    <div class="cross-animation" id="homeHoverFour"></div>
+  </div>
+  <div id="featuredImageCircle"></div>
+  <div id="featuredImage" class="d-none d-lg-block" style="background-image: url(/img/home/grant-for-the-web-featured-image.png);"></div>
+  <div class="container">
+    <div class="row justify-content-center justify-content-md-end">
+      <div class="col-12 col-lg-5 text-center text-lg-start px-md-5 px-lg-0">
+        <h1 class="text-green h2 mb-4">Featured Program</h1>
+        <h2 class="h1 text-hero">Grant for the Web</h2>
+        <p class="text-large">Grant for the Web is a $100M fund to boost open, fair, and inclusive standards and innovation in Web Monetization.</p>
+        <p><strong>Distributed Media Lab</strong><br />An innovative reader revenue platform that harnesses Web Monetization to power distributed reader revenue across a network of participating publishers. This decentralized approach will empower publishers to harness the natural scalability of the open web. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/blog/dmlaward">Learn More</a></strong></p>
+        <p><strong>Fueling social justice with a monetization stream</strong><br />Web Monetizing deployments on Ushahidi, an open-source crowdsourcing platform that&rsquo;s been used globally for crisis response, human rights protection, good governance, and ensuring integrity in elections. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/grantees">Learn More</a></strong></p>
+        <p><strong>GftW Ambassador Akintunde Sultan Bolaji</strong><br />&ldquo;Hack Sultan&rdquo; working to activate 10K developers in Web Monetization across the African continent. <strong><a target="_blank" rel="noopener" href="https://www.grantfortheweb.org/blog/akintunde-sultan-bolaji">Learn More</a></strong></p>
+        <h3><a target="_blank" class="text-underline" href="https://www.grantfortheweb.org/">Learn More About Grant for the Web</a></h3>
+      </div>
+      <div class="col-12 d-lg-none" id="featuredImageMobile">
+        <img class="img-fluid " src="/uploads/grant-for-the-web-featured-image.jpg" alt="Grant For the Web screen capture" />
+      </div>
+    </div>
+  </div>
+</section> -->
+{% include contact.html %}

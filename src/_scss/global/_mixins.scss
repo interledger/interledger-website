@@ -1,0 +1,40 @@
+@mixin transition($duration: 0.3s, $property: all, $effect: ease-in-out) {
+  transition: $property $duration $effect;
+}
+
+@mixin animation($effect: fadeIn, $duration: 0.5s, $delay: 0s) {
+  animation-name: $effect;
+  animation-duration: $duration;
+  animation-fill-mode: both;
+  animation-delay: ($delay);
+}
+
+@mixin make-responsive-cards($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $grid-breakpoints) {
+  // Common properties for all breakpoints
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: - $gutter / 2 ;
+  margin-left: - $gutter / 2;
+  
+  // @extend %card-wrapper;
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+    .card {
+      flex: 0 0 calc(100% - #{$grid-gutter-width});
+      margin-left: $gutter / 2;
+      margin-right: $gutter / 2;
+    }
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @for $i from 1 through $columns {
+        &.cards#{$infix}-#{$i} {
+          .card {
+            flex: 0 0 calc(#{100/$i}% - #{$grid-gutter-width});
+            margin-left: $gutter / 2;
+            margin-right: $gutter / 2;
+          }
+        }
+      }
+    }
+  }
+}

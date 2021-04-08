@@ -1,0 +1,37 @@
+---
+layout: developer-tools
+title: ILP Summit Videos
+summit_videos:
+  - title: ILP Summit 2019 | State of the Interledger | Evan Schwartz
+    video_embed: https://www.youtube.com/embed/HTXLAM3PCUY
+resources:
+  - name: W3C Web Payments
+    resource_url: 'https://w3c.github.io/webpayments/proposals/interledger/'
+  - name: Payment Pointers
+    resource_url: 'https://paymentpointers.org/'
+  - name: Web Monetization
+    resource_url: 'https://webmonetization.org/'
+  - name: Medium Blog
+    resource_url: 'https://medium.com/interledger-blog'
+---
+
+<section class="dev-tools-content-wrapper">
+  <div class="container px-0 px-lg-4 ">
+    <div class="row">
+      <div class="col-12 col-xl-10 px-0 px-lg-4">
+        <div class="editable">
+          <h1>ILP Summit 2019 Videos</h1>
+          <p>The 2019 summit brought together developers, entrepreneurs, and researchers in San Francisco for two days of sharing, building, and learning. Here you can find the recordings of the sessions and talks. Enjoy!</p>
+        </div>
+      </div>
+      {% for video in page.summit_videos %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <h2>{{ video.title }}</h2>
+        <iframe width="560" height="315" src="{{ video.video_embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+

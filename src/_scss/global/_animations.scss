@@ -1,0 +1,117 @@
+@keyframes cardSlideIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.card {
+  // Loop through the cards and delay the loading animation.
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) {
+      @include animation(cardSlideIn, 0.8s, 0.1s * $i);
+    }
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-reverse {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes hoverUp {
+  0% {
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px) scale(0.9);
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+  // from {
+  //   transform: translateY(10px) scale(1);
+  //   opacity: 1;
+  // }
+  // to {
+  //   transform: translateY(-10px) scale(1.2);
+  //   opacity: 0;
+  // }
+}
+@keyframes hoverDown {
+  0% {
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(50px) scale(0.9);
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+}
