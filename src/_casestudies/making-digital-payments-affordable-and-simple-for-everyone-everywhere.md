@@ -3,7 +3,7 @@ name:
 title: 'Making Digital Payments Affordable and Simple for Everyone, Everywhere'
 subtitle:
 layout: case-studies
-featured_image: /
+featured_image: /uploads/mojaloop-foundation-orange2.jpg
 featured_text: >-
   The Mojaloop Foundation is a charitable nonprofit with a vision of universal
   financial inclusion. Its mission is to enable developing countries to design
