@@ -18,12 +18,12 @@ faq:
         <div class="accordion accordion-flush" id="accordionFAQ">
           {% for faq in page.faq %}
           <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <h2 class="accordion-header" id="flush-headingflush-collapse-{{ faq.question | slugify }}">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{ faq.question | slugify }}" aria-expanded="false" aria-controls="flush-collapse-{{ faq.question | slugify }}">
                 {{ faq.question }}
               </button>
             </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFAQ">
+            <div id="flush-collapse-{{ faq.question | slugify }}" class="accordion-collapse collapse" aria-labelledby="flush-headingflush-collapse-{{ faq.question | slugify }}" data-bs-parent="#accordionFAQ">
               <div class="accordion-body">{{ faq.answer_html }}</div>
             </div>
           </div>
