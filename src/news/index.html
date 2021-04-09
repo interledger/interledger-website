@@ -10,7 +10,8 @@ title: "Interledger News"
     </div>
   </div>
   <div class="row">
-  {% for post in site.posts %}
+    {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
+  {% for post in sorted-posts %}
   <div class="col-12 col md-6 col-lg-4 mb-4">
     <div>
           <div style="background-image: url({{ post.featured_image }})" class="news__image">
