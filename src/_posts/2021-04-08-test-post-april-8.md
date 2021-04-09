@@ -1,5 +1,5 @@
 ---
-name: Test Post April 8
+name: April 8
 date: 2021-04-08 00:00:00
 layout: news
 featured_image:
