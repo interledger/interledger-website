@@ -16,7 +16,7 @@ title: "Interledger News"
     <div>
           <div style="background-image: url({{ post.featured_image }})" class="news__image">
           </div>
-          <p class="mt-3 mb-0 text-large"><strong>{{ post.title }}</strong></p>
+          <p class="mt-3 mb-0 text-large"><strong>{{ post.name }}</strong></p>
           <p>{{ post.write_up_html | markdownify | strip_html | truncate: 60 }}</p>
 
           <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
