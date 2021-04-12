@@ -4,8 +4,9 @@ layout: team
 photo_image:
 role: >-
   Chairperson of the Interledger Foundation, Founder and CEO of Coil, and
-  Co-Founder of the Interledger Protocol
+  Co-Creator of the Interledger Protocol
 bio_text:
 linkedin_link:
 twitter_link:
 ---
+
