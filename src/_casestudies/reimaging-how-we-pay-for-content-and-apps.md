@@ -5,8 +5,8 @@ subtitle:
 layout: case-studies
 featured_image: /uploads/puma.png
 featured_text: >-
-  Puma is a mobile Web3 browser that rethinks how we discover and pay for online
-  content, games and services.
+  Puma is a fast and private mobile Web3 browser that makes it easy to support
+  creators, game & app developers and charities of your choice.
 write_up_html: >-
   <p><strong>A Browser That Serves You, Not Big
   Advertising</strong></p><p>Founded by Yuriy Dybskiy in 2019, Puma is a mobile
@@ -69,3 +69,4 @@ write_up_html: >-
   on <a href="https://twitter.com/PumaBrowser">Twitter</a>.</p>
 learn_more_link: 'https://www.pumabrowser.com/'
 ---
+
