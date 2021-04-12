@@ -2,7 +2,7 @@
 name: >-
   Interledger Foundation Launches to Build More Equitable and Creative
   Opportunities on the Web
-date: 2021-04-12 17:43:31
+date: 2021-04-12 17:45:56
 layout: news
 featured_image: /uploads/ilf-media-logos.png
 write_up_html: >-
