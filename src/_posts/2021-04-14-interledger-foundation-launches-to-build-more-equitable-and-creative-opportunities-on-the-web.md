@@ -10,6 +10,7 @@ write_up_html: >-
   Payments Network Allowing for Broader Participation in Economic Opportunities
   on the Web</em></p>
 categories:
+  - News
 ---
 **San Francisco, Calif.** —**&nbsp;April 14, 2021**&nbsp;—The[Interledger Foundation](https://interledger.org/) today announced that it has formally launched operations as a charitable nonprofit organization. The Foundation’s mission is to steward and advocate for Interledger, an open protocol that permits frictionless payments and micropayments across currencies and ledgers, resulting in opportunities for broader global financial inclusion. Although the creators of the internet knew that it was important to incorporate digital payments natively into its infrastructure, a web-native payments feature is still “[reserved for future use](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)” according to its 402 error code. As a result, the gap has been filled over the last 30 years with closed, fee-based and siloed payment networks, which have helped accelerate the financial exclusion of the world's 1.7 billion unbanked people. Simultaneously, predatory revenue models such as programmatic advertising and data tracking, combined with the high cost of serving mobile ads, prevent millions from participating in digital creator economies. By using an open payments network in which anyone can seamlessly earn, buy, sell, trade and share, the Interledger Foundation will build equitable pathways to financial access and digital participation.
 
