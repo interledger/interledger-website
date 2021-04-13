@@ -2,7 +2,7 @@
 name: >-
   Interledger Foundation Launches to Build More Equitable and Creative
   Opportunities on the Web
-date: 2021-04-13 12:47:52
+date: 2021-04-13 14:34:32
 layout: news
 featured_image: /uploads/ilf-media-logos.png
 write_up_html: >-
@@ -98,20 +98,22 @@ write_up_html: >-
   monetized video platform <a
   href="https://interledger.org/case-studies/cinnamon--spicing-up-video-creation-sharing-and-monetizing/">Cinnamon</a>
   to stage films worldwide, enabling ticket holders to get access to special
-  bonus events and monetize revenue in terms of hours watched. The <a
+  bonus events and monetize viewing revenue in terms of hours watched. The <a
   href="https://interledger.org/case-studies/reimaging-how-we-pay-for-content-and-apps/">Puma
-  Browser</a> is the first browser to natively support the Web Monetization
-  standard, using Interledger.</p><p>"To truly enable open payments and web
-  monetization requires interoperability &mdash; between data, money and beyond.
-  Open source protocols like Interledger have the potential to change this,
-  doing for money what the internet did for data and making it possible for 1.7
-  billion unbanked people to more fully participate in the formal global
-  financial system,&rdquo; said Monica Long, General Manager of RippleX at
-  Ripple, a Founding Member of the Interledger Foundation. &ldquo;Partnering
-  with the Foundation brings us one step closer to achieving this vision by
-  creating standards for payments that will, in turn, foster opportunities for
-  the budding creator economy to monetize.&rdquo;&nbsp;</p><p>To receive the
-  latest news and updates from the Interledger Foundation, sign up <a
+  Browser</a>, the first browser to natively support the Web Monetization
+  standard using Interledger, enables direct value transfer between content and
+  game creators and their fans, creating a great alternative to ads.</p><p>"To
+  truly enable open payments and web monetization requires interoperability
+  &mdash; between data, money and beyond. Open source protocols like Interledger
+  have the potential to change this, doing for money what the internet did for
+  data and making it possible for 1.7 billion unbanked people to more fully
+  participate in the formal global financial system,&rdquo; said Monica Long,
+  General Manager of RippleX at Ripple, a Founding Member of the Interledger
+  Foundation. &ldquo;Partnering with the Foundation brings us one step closer to
+  achieving this vision by creating standards for payments that will, in turn,
+  foster opportunities for the budding creator economy to
+  monetize.&rdquo;&nbsp;</p><p>To receive the latest news and updates from the
+  Interledger Foundation, sign up <a
   href="https://app.e2ma.net/app2/audience/signup/1940649/1929074/">here</a>.</p><p><strong>About
   Interledger and Web Monetization</strong></p><p>Interledger is an open source
   technology that can send payments across different networks, regardless of
