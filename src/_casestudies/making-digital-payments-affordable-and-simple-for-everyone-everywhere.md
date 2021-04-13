@@ -69,8 +69,7 @@ write_up_html: >-
   trillion to emerging countries' GDP by 2025, an increase of 6 percent 'above
   business as usual,&rsquo; according to McKinsey Global Institute. Initiatives
   such as Mojaloop and Interledger can play a vital role in making this a
-  reality.</p><p>To learn more about Mojaloop and the Mojaloop Foundation, visit
-  <a href="https://mojaloop.io">https://mojaloop.io</a>.&nbsp;</p><p>&nbsp;</p>
+  reality.</p><p>&nbsp;</p><p>&nbsp;</p>
 learn_more_link: 'https://mojaloop.io'
 ---
 
