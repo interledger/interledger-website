@@ -69,4 +69,3 @@ write_up_html: >-
   on <a href="https://twitter.com/PumaBrowser">Twitter</a>.</p>
 learn_more_link: 'https://www.pumabrowser.com/'
 ---
-
