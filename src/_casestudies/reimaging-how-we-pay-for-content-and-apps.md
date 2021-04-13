@@ -1,6 +1,6 @@
 ---
 name:
-title: Reimaging How we Pay for Content and Apps
+title: Reimagining How we Pay for Content and Apps
 subtitle:
 layout: case-studies
 featured_image: /uploads/puma.png
