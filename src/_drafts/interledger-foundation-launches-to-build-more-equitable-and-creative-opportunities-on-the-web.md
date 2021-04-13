@@ -9,14 +9,17 @@ write_up_html: >-
   <p><em>Interledger and its Global Development Community Will Advance an Open
   Payments Network Allowing for Broader Participation in Economic Opportunities
   on the Web</em></p><p><strong>San Francisco, Calif. </strong>&mdash;<strong>
-  April 14, 2021</strong> &mdash;<strong> </strong>The Interledger Foundation
-  today announced that it has formally launched operations as a charitable
-  nonprofit organization. The Foundation&rsquo;s mission is to steward and
-  advocate for Interledger, an open protocol that permits frictionless payments
-  and micropayments across currencies and ledgers, resulting in opportunities
-  for broader global financial inclusion. Although the creators of the internet
-  knew that it was important to incorporate digital payments natively into its
-  infrastructure, a web-native payments feature is still &ldquo;<a
+  April 14, 2021</strong> &mdash;<strong> </strong>The <a target="_blank"
+  rel="noopener" href="interledger.org">Interledger Foundation</a> today
+  announced that it has formally launched operations as a charitable nonprofit
+  organization. The Foundation&rsquo;s mission is to steward and advocate for <a
+  target="_blank" rel="noopener"
+  href="https://interledger.org/rfcs/0003-interledger-protocol/">Interledger</a>,
+  an open protocol that permits frictionless payments and micropayments across
+  currencies and ledgers, resulting in opportunities for broader global
+  financial inclusion. Although the creators of the internet knew that it was
+  important to incorporate digital payments natively into its infrastructure, a
+  web-native payments feature is still &ldquo;<a
   href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">reserved for
   future use</a>&rdquo; according to its 402 error code. As a result, the gap
   has been filled over the last 30 years with closed, fee-based and siloed
@@ -150,24 +153,25 @@ write_up_html: >-
   anywhere, has the potential to increase economic security and opportunity for
   the 1.7 billion people who lack access to financial accounts and bring them
   into the fold of the global digital economy,&rdquo; said Kosta Peric, Deputy
-  Director of the <a
+  Director of the <a target="_blank" rel="noopener"
   href="https://www.gatesfoundation.org/our-work/programs/global-growth-and-opportunity/financial-services-for-the-poor">Financial
   Services for the Poor program at the Bill &amp; Melinda Gates Foundation</a>,
   a member of the Interledger Foundation Board of Directors, and Chair of the
   Mojaloop Foundation.</p><p>&ldquo;Creating economic fairness and opportunity
   for the unbanked and vulnerable populations is our highest priority,&rdquo;
-  said Maha Bahou, CEO of Jordan Payments and Clearing Company (JoPACC), and a
-  member of the Interledger Foundation Board of Directors. &ldquo;We are proud
-  to support the Interledger Foundation and its efforts to advance a more
-  inclusive web future where everyone, everywhere can connect and create as part
-  of the global economy.&rdquo;</p><p>&ldquo;The Interledger Foundation and
-  Grant for the Web are dedicated to driving financial inclusion by supporting
-  innovators that have historically been excluded as leaders in emergent
-  technologies. Open payment networks on the web can decentralize the privilege
-  associated with monetizing content and we are excited to build a community of
-  web advocates, creators and publishers who are developing powerful solutions
-  to control who benefits from the distribution of their work,&rdquo; said Chris
-  Lawrence, Senior Program Manager, <a
+  said Maha Bahou, CEO of <a target="_blank" rel="noopener"
+  href="https://www.jopacc.com/Default/En">Jordan Payments and Clearing Company
+  (JoPACC)</a>, and a member of the Interledger Foundation Board of Directors.
+  &ldquo;We are proud to support the Interledger Foundation and its efforts to
+  advance a more inclusive web future where everyone, everywhere can connect and
+  create as part of the global economy.&rdquo;</p><p>&ldquo;The Interledger
+  Foundation and Grant for the Web are dedicated to driving financial inclusion
+  by supporting innovators that have historically been excluded as leaders in
+  emergent technologies. Open payment networks on the web can decentralize the
+  privilege associated with monetizing content and we are excited to build a
+  community of web advocates, creators and publishers who are developing
+  powerful solutions to control who benefits from the distribution of their
+  work,&rdquo; said Chris Lawrence, Senior Program Manager, <a
   href="https://www.grantfortheweb.org/">Grant for the Web</a>, Interledger
   Foundation.</p><p>&ldquo;Interledger has the potential to revolutionize
   digital payments and change the economy of the web. Along the way, it will
@@ -197,11 +201,11 @@ write_up_html: >-
   making it possible for consumers to browse content without relinquishing reams
   of personal data,&rdquo; said Mark Surman, Executive Director, <a
   href="https://foundation.mozilla.org/en/">Mozilla Foundation</a>, a Grant for
-  the Web Founding Collaborator.</p><p>&nbsp;</p><p>&ldquo;To achieve their
-  financial inclusion goals within this decade, central banks and digital
-  financial services providers realize that their real-time payment platforms
-  need to connect to all of their nation&rsquo;s traditional bank, mobile money
-  and financial systems. By operating on Interledger, Mojaloop helps solve this
+  the Web Founding Collaborator.</p><p>&ldquo;To achieve their financial
+  inclusion goals within this decade, central banks and digital financial
+  services providers realize that their real-time payment platforms need to
+  connect to all of their nation&rsquo;s traditional bank, mobile money and
+  financial systems. By operating on Interledger, Mojaloop helps solve this
   challenge. We are excited about the launch of the Interledger Foundation and
   look forward to collaborating to advance financial inclusion,&rdquo; said <a
   href="https://mojaloop.io/">Mojaloop Foundation</a> Executive Director Paula
