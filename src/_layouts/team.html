@@ -1,0 +1,32 @@
+---
+layout: default
+---
+      <section class="pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <img src="{{ page.photo_image }}" class="img-fluid team-photo" alt="{{ page.name }} headshot" />
+            </div>
+            <div class="col-12 col-lg-8">
+              <p class="h2 text-primary text-bold">{{ page.name }}</p>
+              <p class="h2 text-primary text-thin">{{ page.role }}</p>
+
+              <div class="bio-social">
+                {% if page.linkedin_link %}
+                <a href="{{ page.linkedin_link }}" target="_blank">
+                  <img src="/img/about-us/follow-linkedin.svg" alt="{{ page.name }} on LinkedIn" />
+                </a>
+                {% endif %}
+                {% if page.twitter_link %}
+                <a href="{{ page.twitter_link }}" target="_blank">
+                  <img src="/img/about-us/follow-twitter.svg" alt="{{ page.name }} on Twitter" />
+                </a>
+                {% endif %}
+              </div>
+              <p class="mt-4">{{ page.bio_text }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+

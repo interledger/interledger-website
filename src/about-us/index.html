@@ -1,50 +1,28 @@
 ---
 layout: page
 title: About Us
-team-members:
-  - name: Briana Marbury
-    photo_image: /uploads/briana-marbury.jpeg
-    role: Executive Director
-    bio_text: >-
-      Briana Marbury serves as Executive Director of The Interledger Foundation.
-      She brings 15 years of non-profit experience and leadership to the role,
-      as well as a passion for promoting financial inclusion for all. As
-      Executive Director, Briana is responsible for driving awareness and
-      education around the innovative Interledger Protocol technology, with the
-      goal of encouraging mass adoption via disparate channels and stakeholders.
-      She is dedicated to expanding the public’s understanding of the
-      Interledger Protocol and its immense potential to improve lives.
-    linkedin_link: 'https://www.linkedin.com/in/briana-marbury-a1492a37/'
-    twitter_link:
-  - name: Chris Lawrence
-    photo_image: /uploads/chris-lawrence.jpeg
-    role: Senior Program Manager
-    bio_text: >-
-      Chris is an experienced nonprofit professional who has spent the last 15
-      years as a dedicated educator, network builder, and advocate for
-      non-profit organizations. Chris is currently a Senior Program Manager for
-      Grant for Web at the Interledger Foundation. Along with Erika Drushka, he
-      oversees all aspects of the program. As Vice President, Mozilla Leadership
-      Network, Chris oversaw the development and expansion of a global network
-      of leaders to build the values of the open internet into all aspects of
-      human society.
-    linkedin_link: 'https://www.linkedin.com/in/chrislarry/'
-    twitter_link:
-  - name: Erika Drushka
-    photo_image: /uploads/erikadrushka.jpeg
-    role: Senior Program Manager
-    bio_text: >-
-      Erika has spent the last 12 years in social impact and technology
-      organizations, leading teams in pursuit of mission-based goals. An expert
-      cat-herder with a background in advocacy and communications, she uses
-      strategic thinking, process, and collaboration to channel creativity
-      around a project into intentional, focused activity. Prior to joining
-      Interledger Foundation, Erika was a Program Director at Loup Design and
-      Innovation, and a Program Designer and Manager at the Mozilla Foundation.
-      She holds and MA in Intercultural Communication and is a Rockwood
-      Leadership Institute alumnus.
-    linkedin_link:
-    twitter_link:
+our_people:
+  team_members:
+    - briana-marbury
+    - chris-lawrence
+    - erika-drushka
+board:
+  team_members:
+    - stefan-thomas
+    - chris-larsen
+    - konstantin-peric
+    - maha-bahou
+    - evan-schwartz
+    - briana-marbury
+officers:
+  - role: Chairperson
+    team_member: stefan-thomas
+  - role: President
+    team_member: evan-schwartz
+  - role: Executive Director
+    team_member: briana-marbury
+  - role: Treasurer
+    team_member: gary-morris
 funders:
   - name: Coil
     logo_image: /img/about-us/coil-technologies-vector-logo.svg
@@ -71,9 +49,6 @@ funders:
 
       </div>
       <div class="col-12 col-md-7 p-5" id="aboutUsHeroIllustration">
-        <!-- <div class="positioning-wrapper">
-          <div id="aboutUsHeroIllustration"></div>
-        </div> -->
         <img src="/img/about-us/header-photo.webp" class="img-fluid photo-border-green  m-md-5 mb-5 mb-md-0" alt="Two people using mobile phones to exchange information" />
       </div>
     </div>
@@ -161,18 +136,18 @@ funders:
 
 <section class="bg-primary">
   <div class="container">
-    <div class="row">
+
+    <div class="row my-lg-5" id="our-people">
       <div class="col-12 text-white text-center ">
         <h1 class="h2 text-uppercase editable">
           Our People
         </h1>
       </div>
-    </div>
-    <div class="row my-lg-5">
-      {% for member in page.team-members %}
+      {% for slug in page.our_people.team_members %}
+      {% assign member = site.team_members | where: 'slug', slug | first %}
       <div class="col-12 col-md-4 text-center mb-5">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-5 p-md-5" alt="{{ member.name }} headshot" />
-        <p class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</p>
+        <h4 class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</h4>
         <p class=" text-white   mb-2">{{ member.role }}</p>
         <button type="button" class="button button-outline button-outline-white" data-bs-toggle="modal" data-bs-target="#{{ member.name | slugify }}Modal">
           Read Bio
@@ -215,6 +190,49 @@ funders:
         </div>
       </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="bg-primary pt-0">
+  <div class="container">
+    <div class="row py-5 justify-content-center" id="board" >
+            <div class="col-12 text-white text-center ">
+              <h2 class="h2 text-uppercase editable">
+                Board of Directors
+              </h2>
+            </div>
+      {% for slug in page.board.team_members %}
+      {% assign board = site.team_members | where: 'slug', slug | first %}
+      <div class="col-12 col-md-10 col-lg-7 my-3  text-white mt-3">
+        <h4>{{ board.name }}</h4>
+        <p>{{ board.role }}</p>
+      </div>
+      {% endfor %}
+
+    </div>
+
+
+
+
+    <div class="row py-5 justify-content-center" id="officers">
+      <div class="col-12 text-white text-center ">
+        <h1 class="h2 text-uppercase editable">
+          Officers
+        </h1>
+      </div>
+
+      {% for officer in page.officers %}
+        {% assign person = site.team_members | where: 'slug', officer.team_member | first %}
+        <div class="col-12 col-md-6 col-lg-3 text-white mt-3">
+          <div class="p-2 m-3">
+            <h3 class="border-bottom pb-2">{{ officer.role }}</h3>
+            <h4>{{ person.name }}</h4>
+            <p>{{ person.role }}</p>
+          </div>
+        </div>
+      {% endfor %}
+
     </div>
   </div>
 </section>

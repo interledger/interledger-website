@@ -22,6 +22,11 @@ collections:
     output: true
     layout: case-studies
     permalink: /case-studies/:path/
+  team_members:
+    output: true
+    layout: team
+    permalink: /about-us/:path/
+
 
 defaults:
   - scope:

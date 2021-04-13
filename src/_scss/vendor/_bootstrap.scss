@@ -41,6 +41,31 @@
   }
 }
 
+.accordion-flush {
+  .accordion-item {
+    .accordion-header {
+      .accordion-button {
+        padding-left: 0px;
+        font-size: 1.25rem;
+        border: 0px;
+        font-weight: 600;
+        &:not(.collapsed) {
+          background-color: transparent;
+        }
+        &::after {
+          content: none;
+        }
+      }
+    }
+    .accordion-collapse {
+      border: 0px;
+      .accordion-body {
+        padding-left: 0px;
+      }
+    }
+  }
+}
+
 .carousel-item {
   background-color: $white;
   border-radius: 15px;
