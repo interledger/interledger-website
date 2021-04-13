@@ -1,6 +1,6 @@
 ---
 name: Introducing the Interledger Foundation
-date: 2021-04-13 17:26:18
+date: 2021-04-13 17:27:22
 layout: news
 featured_image: /uploads/ilf-blog-images.png
 write_up_html: >-
@@ -58,4 +58,5 @@ write_up_html: >-
   href="https://www.linkedin.com/company/interledger-foundation">LinkedIn</a> to
   stay up to date.</p>
 categories:
+  - Blog
 ---
