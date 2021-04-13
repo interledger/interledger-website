@@ -15,13 +15,13 @@ board:
     - evan-schwartz
     - briana-marbury
 officers:
-  chairperson:
+  - role: Chairperson
     team_member: stefan-thomas
-  president:
+  - role: President
     team_member: evan-schwartz
-  executive_director:
+  - role: Executive Director
     team_member: briana-marbury
-  treasurer:
+  - role: Treasurer
     team_member: gary-morris
 funders:
   - name: Coil
@@ -222,38 +222,16 @@ funders:
         </h1>
       </div>
 
-      <div class="col-12 col-md-3 text-md-center text-white mt-3">
-        <h3>Chairperson</h3>
-        {% for slug in page.officers.chairperson.team_member %}
-        {% assign board = site.team_members | where: 'slug', slug | first %}
-        <h4>{{ board.name }}</h4>
-        <p>{{ board.role }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-12 col-md-3 text-md-center text-white mt-3">
-        <h3>President</h3>
-        {% for slug in page.officers.president.team_member %}
-        {% assign board = site.team_members | where: 'slug', slug | first %}
-        <h4>{{ board.name }}</h4>
-        <p>{{ board.role }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-12 col-md-3 text-md-center text-white mt-3">
-        <h3>Executive Director</h3>
-        {% for slug in page.officers.executive_director.team_member %}
-        {% assign board = site.team_members | where: 'slug', slug | first %}
-        <h4>{{ board.name }}</h4>
-        <p>{{ board.role }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-12 col-md-3 text-md-center text-white mt-3">
-        <h3>Treasurer</h3>
-        {% for slug in page.officers.treasurer.team_member %}
-        {% assign board = site.team_members | where: 'slug', slug | first %}
-        <h4>{{ board.name }}</h4>
-        <p>{{ board.role }}</p>
-        {% endfor %}
-      </div>
+      {% for officer in page.officers %}
+        {% assign person = site.team_members | where: 'slug', officer.team_member | first %}
+        <div class="col-12 col-md-6 col-lg-3 text-white mt-3">
+          <div class="p-2 m-3">
+            <h3 class="border-bottom pb-2">{{ officer.role }}</h3>
+            <h4>{{ person.name }}</h4>
+            <p>{{ person.role }}</p>
+          </div>
+        </div>
+      {% endfor %}
 
     </div>
   </div>
