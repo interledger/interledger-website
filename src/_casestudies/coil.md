@@ -69,9 +69,7 @@ write_up_html: >-
   the internet did for communication applications.&rdquo;</p><p>Using
   Interledger, Coil has the potential to improve the experience for both
   creators and consumers. Ultimately, this will change the way consumers access
-  content and compensate content creators.</p><p>To learn more about Coil and
-  become a member, visit<a href="https://coil.com/"> </a><a
-  href="https://coil.com/">https://coil.com/</a>.</p>
+  content and compensate content creators.</p><p>&nbsp;</p>
 learn_more_link: 'https://coil.com/'
 ---
 

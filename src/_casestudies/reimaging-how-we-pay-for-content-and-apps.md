@@ -1,6 +1,6 @@
 ---
 name:
-title: Reimaging How we Pay for Content and Apps
+title: Reimagining How we Pay for Content and Apps
 subtitle:
 layout: case-studies
 featured_image: /uploads/puma.png
@@ -64,8 +64,7 @@ write_up_html: >-
   deeply about privacy, curious developers and creators looking for an
   alternative to advertising or paywalls for monetizing their content online.
   The future of Puma is bright, and the team is really excited about what the
-  coming years have in store.</p><p>To learn more, visit <a
-  href="https://www.pumabrowser.com/">https://www.pumabrowser.com/</a> or follow
-  on <a href="https://twitter.com/PumaBrowser">Twitter</a>.</p>
+  coming years have in store.</p><p>&nbsp;</p>
 learn_more_link: 'https://www.pumabrowser.com/'
 ---
+
