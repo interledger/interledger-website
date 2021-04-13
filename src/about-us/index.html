@@ -204,7 +204,7 @@ funders:
             </div>
       {% for slug in page.board.team_members %}
       {% assign board = site.team_members | where: 'slug', slug | first %}
-      <div class="col-12 col-md-3 text-center text-white mt-3">
+      <div class="col-12 col-md-10 col-lg-7 my-3  text-white mt-3">
         <h4>{{ board.name }}</h4>
         <p>{{ board.role }}</p>
       </div>
@@ -222,7 +222,7 @@ funders:
         </h1>
       </div>
 
-      <div class="col-12 col-md-3 text-center text-white mt-3">
+      <div class="col-12 col-md-3 text-md-center text-white mt-3">
         <h3>Chairperson</h3>
         {% for slug in page.officers.chairperson.team_member %}
         {% assign board = site.team_members | where: 'slug', slug | first %}
@@ -230,7 +230,7 @@ funders:
         <p>{{ board.role }}</p>
         {% endfor %}
       </div>
-      <div class="col-12 col-md-3 text-center text-white mt-3">
+      <div class="col-12 col-md-3 text-md-center text-white mt-3">
         <h3>President</h3>
         {% for slug in page.officers.president.team_member %}
         {% assign board = site.team_members | where: 'slug', slug | first %}
@@ -238,7 +238,7 @@ funders:
         <p>{{ board.role }}</p>
         {% endfor %}
       </div>
-      <div class="col-12 col-md-3 text-center text-white mt-3">
+      <div class="col-12 col-md-3 text-md-center text-white mt-3">
         <h3>Executive Director</h3>
         {% for slug in page.officers.executive_director.team_member %}
         {% assign board = site.team_members | where: 'slug', slug | first %}
@@ -246,7 +246,7 @@ funders:
         <p>{{ board.role }}</p>
         {% endfor %}
       </div>
-      <div class="col-12 col-md-3 text-center text-white mt-3">
+      <div class="col-12 col-md-3 text-md-center text-white mt-3">
         <h3>Treasurer</h3>
         {% for slug in page.officers.treasurer.team_member %}
         {% assign board = site.team_members | where: 'slug', slug | first %}
