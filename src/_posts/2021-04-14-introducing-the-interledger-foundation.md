@@ -54,8 +54,10 @@ write_up_html: >-
   can have on financial inclusion and Web Monetization. There are many ways that
   you can help Interledger Foundation achieve its mission of connecting our
   global society. <a href="https://interledger.org/join/">Learn more about how
-  you can get involved</a>, watch this space for additional information, sign up
-  for news and updates, and follow us on <a
+  you can get involved</a>, watch this space for additional information, <a
+  target="_blank" rel="noopener"
+  href="https://app.e2ma.net/app2/audience/signup/1940649/1929074/">sign up for
+  news and updates</a>, and follow us on <a
   href="https://twitter.com/interledger?lang=en">Twitter</a> and <a
   href="https://www.linkedin.com/company/interledger-foundation">LinkedIn</a> to
   stay up to date.</p>
