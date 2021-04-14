@@ -21,15 +21,15 @@ write_up_html: >-
   Opportunities on the Web</strong></p><p>The idea for the Interledger protocol
   was born in 2015 when Stefan Thomas and Evan Schwartz, its co-creators,
   realized how difficult it was to make cross border payments. Stefan tells a
-  story about a time when he tried to pay an Airbnb host, but by the time the
-  person received their payment, it had gone through numerous third parties and
-  been subject to a variety of fees, leaving the host with almost nothing. He
-  saw the system as being very flawed, inefficient and clunky. Having worked in
-  accounting and finance for years, I noticed many of the same issues
-  myself.</p><p>By moving currency as frictionlessly as the internet moves
-  information, payments sent using the Interledger network are secure, fast, and
-  can be sent across borders from one country to the next and in any currency.
-  In this way, the protocol, as utilized by <a target="_blank" rel="noopener"
+  story about an Airbnb host, who by the time they received their payment, it
+  had gone through numerous third parties and been subject to a variety of fees,
+  leaving the host with almost nothing. He saw the system as being very flawed,
+  inefficient and clunky. Having worked in accounting and finance for years, I
+  noticed many of the same issues myself.</p><p>By moving currency as
+  frictionlessly as the internet moves information, payments sent using the
+  Interledger network are secure, fast, and can be sent across borders from one
+  country to the next and in any currency. In this way, the protocol, as
+  utilized by <a target="_blank" rel="noopener"
   href="https://interledger.org/case-studies/making-digital-payments-affordable-and-simple-for-everyone-everywhere/">Mojaloop</a>,
   helps to advance financial inclusion by including and integrating people who
   have historically been left out of the digital financial
