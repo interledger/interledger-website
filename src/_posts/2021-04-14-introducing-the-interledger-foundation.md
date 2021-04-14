@@ -2,7 +2,7 @@
 name: Introducing the Interledger Foundation
 date: 2021-04-14 12:00:00
 layout: news
-featured_image: /uploads/ilf-blog-images.png
+featured_image: /uploads/ilf-media-logos.png
 write_up_html: >-
   <p>By Briana Marbury, Executive Director</p><p>I couldn&rsquo;t be more
   excited to announce the formal launch of the Interledger Foundation, which
