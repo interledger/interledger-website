@@ -42,12 +42,13 @@ write_up_html: >-
   Foundation will continue to provide governance for Grant for the
   Web.</p><p>"The Interledger Foundation aims to bring global awareness to this
   amazing technology," said Interledger Foundation Executive Director Briana
-  Marbury (<a href="https://interledger.org/news">read her inaugural blog
-  here</a>). "And the potential impact would be life-changing for one-third of
-  the world&rsquo;s population. By fostering the interoperability of formerly
-  siloed networks and providing alternatives to traditional earning models on
-  the web, the Interledger Protocol has the power to greatly advance financial
-  inclusion and uplift the lives of billions in the
+  Marbury (<a target="_blank" rel="noopener"
+  href="https://interledger.org/blog/2021/04/14/introducing-the-interledger-foundation/">read
+  her inaugural blog here</a>). "And the potential impact would be life-changing
+  for one-third of the world&rsquo;s population. By fostering the
+  interoperability of formerly siloed networks and providing alternatives to
+  traditional earning models on the web, the Interledger Protocol has the power
+  to greatly advance financial inclusion and uplift the lives of billions in the
   process."</p><p><strong>Interledger: Driving Global Financial
   Inclusion</strong></p><p>One of the most compelling open payments use cases of
   the Interledger Protocol has been <a
