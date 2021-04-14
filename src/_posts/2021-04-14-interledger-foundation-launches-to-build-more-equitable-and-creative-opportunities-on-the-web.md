@@ -10,10 +10,10 @@ write_up_html: >-
   Payments Network Allowing for Broader Participation in Economic Opportunities
   on the Web</em></p><p><strong>San Francisco, Calif. </strong>&mdash;<strong>
   April 14, 2021</strong> &mdash;<strong> </strong>The <a target="_blank"
-  rel="noopener" href="interledger.org">Interledger Foundation</a> today
-  announced that it has formally launched operations as a charitable nonprofit
-  organization. The Foundation&rsquo;s mission is to steward and advocate for <a
-  target="_blank" rel="noopener"
+  rel="noopener" href="https://interledger.org/">Interledger Foundation</a>
+  today announced that it has formally launched operations as a charitable
+  nonprofit organization. The Foundation&rsquo;s mission is to steward and
+  advocate for <a target="_blank" rel="noopener"
   href="https://interledger.org/rfcs/0003-interledger-protocol/">Interledger</a>,
   an open protocol that permits frictionless payments and micropayments across
   currencies and ledgers, resulting in opportunities for broader global
@@ -117,7 +117,8 @@ write_up_html: >-
   Foundation brings us one step closer to achieving this vision by creating
   standards for payments that will, in turn, foster opportunities for the
   budding creator economy to monetize.&rdquo;</p><p>To receive the latest news
-  and updates from the Interledger Foundation, sign up <a
+  and updates from the Interledger Foundation, sign up <a target="_blank"
+  rel="noopener"
   href="https://app.e2ma.net/app2/audience/signup/1940649/1929074/">here</a>.</p><p><strong>About
   Interledger and Web Monetization</strong></p><p>Interledger is an open source
   technology that can send payments across different networks, regardless of
