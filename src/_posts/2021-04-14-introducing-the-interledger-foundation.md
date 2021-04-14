@@ -5,14 +5,16 @@ layout: news
 featured_image: /uploads/ilf-media-logos.png
 write_up_html: >-
   <p>By Briana Marbury, Executive Director</p><p>I couldn&rsquo;t be more
-  excited to announce the formal launch of the Interledger Foundation, which
-  represents the next phase in the development of Interledger, an open protocol
-  technology that allows the frictionless movement of payments and micropayments
-  across different ledgers. By advancing open payment standards and technologies
-  that keep people connected, our vision is to have a more equitable and
-  creative global society where anyone can seamlessly earn, share, buy, sell and
-  trade with anyone else in the world. We encourage organizations interested in
-  the Interledger Foundation&rsquo;s financial inclusion mission to <a
+  excited to announce the <a target="_blank" rel="noopener"
+  href="https://interledger.org/news/2021/04/14/interledger-foundation-launches-to-build-more-equitable-and-creative-opportunities-on-the-web/">formal
+  launch of the Interledger Foundation</a>, which represents the next phase in
+  the development of Interledger, an open protocol technology that allows the
+  frictionless movement of payments and micropayments across different ledgers.
+  By advancing open payment standards and technologies that keep people
+  connected, our vision is to have a more equitable and creative global society
+  where anyone can seamlessly earn, share, buy, sell and trade with anyone else
+  in the world. We encourage organizations interested in the Interledger
+  Foundation&rsquo;s financial inclusion mission to <a
   href="https://interledger.org/join/">join us</a>.</p><p>Here is why the
   Foundation was formed and ways to get involved:&nbsp;</p><p><strong>Building
   More Equitable and Creative Opportunities on the Web</strong></p><p>The idea
