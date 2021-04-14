@@ -42,8 +42,7 @@ write_up_html: >-
   Foundation will continue to provide governance for Grant for the
   Web.</p><p>"The Interledger Foundation aims to bring global awareness to this
   amazing technology," said Interledger Foundation Executive Director Briana
-  Marbury (<a target="_blank" rel="noopener"
-  href="https://interledger.org/blog/2021/04/14/introducing-the-interledger-foundation/">read
+  Marbury (<a target="_blank" rel="noopener" href="http://bit.ly/ILFblog">read
   her inaugural blog here</a>). "And the potential impact would be life-changing
   for one-third of the world&rsquo;s population. By fostering the
   interoperability of formerly siloed networks and providing alternatives to
