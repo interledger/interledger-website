@@ -61,6 +61,8 @@ sass:
   # style: compressed
   sass_dir: _scss
 
+include: ['interledger.pdf']
+
 plugins:
   - jekyll-toc
   - jekyll-sitemap
