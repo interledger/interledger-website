@@ -1,6 +1,6 @@
 ---
 name: Introducing the Interledger Foundation
-date: 2021-04-13 17:27:22
+date: 2021-04-14 12:00:00
 layout: news
 featured_image: /uploads/ilf-blog-images.png
 write_up_html: >-
