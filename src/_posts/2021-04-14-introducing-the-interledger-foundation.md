@@ -29,7 +29,7 @@ write_up_html: >-
   myself.</p><p>By moving currency as frictionlessly as the internet moves
   information, payments sent using the Interledger network are secure, fast, and
   can be sent across borders from one country to the next and in any currency.
-  In this way, the protocol, as utilized by <a
+  In this way, the protocol, as utilized by <a target="_blank" rel="noopener"
   href="https://interledger.org/case-studies/making-digital-payments-affordable-and-simple-for-everyone-everywhere/">Mojaloop</a>,
   helps to advance financial inclusion by including and integrating people who
   have historically been left out of the digital financial
