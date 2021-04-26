@@ -1,0 +1,25 @@
+---
+layout: default
+title: Interledger Recent Coverage
+press:
+  - publication: Forbes
+    title: Interledger Foundation Aims To Make Web Payments As Easy As Email
+    url:
+    date:
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h1 class="editable text-primary">Latest Press</h1>
+      </div>
+      {% for press in page.press %}
+      <div class="col-12 my-4">
+        <h3>{{ press.title }}</h3>
+        <a href="{{ page.url }}" target="_blank">Read Publication <span class="text-gray">{{ press.date }} | {{ press.publication }}</span></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
