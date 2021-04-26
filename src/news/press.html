@@ -23,7 +23,7 @@ press:
       {% for press in page.press %}
       <div class="col-12 my-4">
         <h3>{{ press.title }}</h3>
-        <a href="{{ page.url }}" target="_blank">Read Publication <span class="text-gray">{{ press.date }} | {{ press.publication }}</span></a>
+        <a href="{{ page.url }}" target="_blank">Read Publication <span class="text-gray">{{ press.publication }} | {{ press.date | date: "%b %d, %Y" }}</span></a>
       </div>
       {% endfor %}
     </div>
