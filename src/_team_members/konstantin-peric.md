@@ -1,5 +1,5 @@
 ---
-name: Konstantin Peric
+name: Konstantin (Kosta) Peric
 layout: team
 photo_image:
 role: >-
@@ -9,3 +9,4 @@ bio_text:
 linkedin_link:
 twitter_link:
 ---
+
