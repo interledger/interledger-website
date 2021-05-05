@@ -1,37 +1,36 @@
 ---
 name: Getting to Know Grant for the Web
-date: 2021-05-05 19:13:06
+date: 2021-05-05 19:13:00
 layout: news
 featured_image: /uploads/08.jpg
 write_up_html: >-
-  <p>By Chris Lawrence and Erika Drushka, Senior Program Managers for Grant for
-  the Web, Interledger Foundation</p><p>Here at the Interledger Foundation,
-  we&rsquo;re focused on building pathways to financial access and opportunity
-  around the world. At the center of this is how we use the internet to connect
-  and share our work, and how the world&rsquo;s creators are compensated for
-  that work. To that end, we&rsquo;re so proud to have Grant for the Web as a
-  featured program under the Interledger Foundation umbrella. In a nutshell,
-  Grant for the Web is a fund dedicated to boosting open, fair and inclusive
-  standards and innovation in Web Monetization. The program awards millions of
-  dollars to grantees who are working to further a privacy-centric, open and
-  accessible Web Monetization ecosystem. We&rsquo;re excited to introduce you to
-  Grant for the Web and shed some light on some of our most commonly asked
-  questions.</p><p><strong>How did Grant for the Web come to be and how did the
-  Interledger relationship develop? &nbsp; </strong></p><p>The idea for Grant
-  for the Web actually predates the Interledger Foundation by about a year and a
-  half. We first started working with Coil as creative consultants in July 2019,
-  with a focus on providing the design and program support needed to help get
-  Grant for the Web up and running. The program officially launched in September
-  2019, and we started giving away grants in the Spring of 2020. Not long after,
-  plans for launching the Interledger Foundation started to take shape, with the
-  idea that Grant for the Web would move under its stewardship. At that point,
-  we onboarded fully to the Interledger Foundation and started working full time
-  to help shape the Foundation and further the work of Grant for the Web as a
-  program under its scope. Today, all Grant for the Web activities are
-  Interledger Foundation activities.</p><p><strong>What are the requirements to
-  be considered for a grant and how can I get involved?</strong></p><p>Grant for
-  the Web funds individuals, projects and global communities that contribute to
-  a privacy-centric, open and accessible Web Monetization ecosystem. It
+  <p>Here at the Interledger Foundation, we&rsquo;re focused on building
+  pathways to financial access and opportunity around the world. At the center
+  of this is how we use the internet to connect and share our work, and how the
+  world&rsquo;s creators are compensated for that work. To that end, we&rsquo;re
+  so proud to have Grant for the Web as a featured program under the Interledger
+  Foundation umbrella. In a nutshell, Grant for the Web is a fund dedicated to
+  boosting open, fair and inclusive standards and innovation in Web
+  Monetization. The program awards millions of dollars to grantees who are
+  working to further a privacy-centric, open and accessible Web Monetization
+  ecosystem. We&rsquo;re excited to introduce you to Grant for the Web and shed
+  some light on some of our most commonly asked questions.</p><p><strong>How did
+  Grant for the Web come to be and how did the Interledger relationship develop?
+  &nbsp; </strong></p><p>The idea for Grant for the Web actually predates the
+  Interledger Foundation by about a year and a half. We first started working
+  with Coil as creative consultants in July 2019, with a focus on providing the
+  design and program support needed to help get Grant for the Web up and
+  running. The program officially launched in September 2019, and we started
+  giving away grants in the Spring of 2020. Not long after, plans for launching
+  the Interledger Foundation started to take shape, with the idea that Grant for
+  the Web would move under its stewardship. At that point, we onboarded fully to
+  the Interledger Foundation and started working full time to help shape the
+  Foundation and further the work of Grant for the Web as a program under its
+  scope. Today, all Grant for the Web activities are Interledger Foundation
+  activities.</p><p><strong>What are the requirements to be considered for a
+  grant and how can I get involved?</strong></p><p>Grant for the Web funds
+  individuals, projects and global communities that contribute to a
+  privacy-centric, open and accessible Web Monetization ecosystem. It
   prioritizes innovative ideas that incorporate or build upon the Web
   Monetization proposed standard and protocols. Grantees must either use the
   Interledger protocol or the Web Monetization standard, or both, to qualify. In
@@ -80,6 +79,9 @@ write_up_html: >-
   href="https://signup.e2ma.net/signup/1940649/1929074/">join our mailing
   list</a> and follow the Interledger Foundation on <a
   href="https://twitter.com/Interledger">Twitter</a> and <a
-  href="https://www.linkedin.com/company/interledger-foundation/">LinkedIn</a>.</p>
+  href="https://www.linkedin.com/company/interledger-foundation/">LinkedIn</a>.</p><p><em>By
+  Chris Lawrence and Erika Drushka, Senior Program Managers for Grant for the
+  Web, Interledger Foundation</em></p>
 categories:
+  - Blog
 ---
