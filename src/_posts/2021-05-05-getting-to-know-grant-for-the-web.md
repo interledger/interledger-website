@@ -40,6 +40,7 @@ write_up_html: >-
   represents a diverse group of people.</li><li>The output of the team benefits
   communities that have been historically underrepresented.</li></ul><p>In terms
   of timing, the first public call for proposals wrapped in September, and <a
+  target="_blank" rel="noopener"
   href="https://www.grantfortheweb.org/grantees">those grantees</a> came on
   board. Since then, we opened up a &ldquo;second chance&rdquo; call for
   proposals, in which those who didn&rsquo;t receive funding on their initial
@@ -59,26 +60,29 @@ write_up_html: >-
   by advancing Web Monetization standards. There&rsquo;s truly something for
   everyone, from those drilled into the tech and writing code on GitHub, to
   ballet dancers, to game developers, to authors working on children&rsquo;s
-  stories &ndash; and that&rsquo;s just the beginning. <a
-  href="https://www.grantfortheweb.org/grantees">Check out our full list of
-  grantees and their projects here</a>.</p><p><strong>What is the Technical
-  Scholars Program and how can I get involved?</strong></p><p>We kicked off the
-  Technical Scholars program last year to fund talented independent browser
-  engineers who are experimenting and integrating Web Monetization into browsers
-  in order to get closer to native browser support. If you&rsquo;re interested
-  in building Web Monetization into the web platform, you could be a great
-  candidate for this program. <a
+  stories &ndash; and that&rsquo;s just the beginning. <a target="_blank"
+  rel="noopener" href="https://www.grantfortheweb.org/grantees">Check out our
+  full list of grantees and their projects here</a>.</p><p><strong>What is the
+  Technical Scholars Program and how can I get involved?</strong></p><p>We
+  kicked off the Technical Scholars program last year to fund talented
+  independent browser engineers who are experimenting and integrating Web
+  Monetization into browsers in order to get closer to native browser support.
+  If you&rsquo;re interested in building Web Monetization into the web platform,
+  you could be a great candidate for this program. <a target="_blank"
+  rel="noopener"
   href="https://www.grantfortheweb.org/blog/browser-technical-scholar">Follow
   this link</a> to read more about the program, meet our first technical scholar
   and apply.</p><p>We hope the above helped spark your interest in Grant for the
-  Web! Got other pressing questions? Check out <a
+  Web! Got other pressing questions? Check out <a target="_blank" rel="noopener"
   href="https://www.grantfortheweb.org/faq">our FAQ</a> and consider joining <a
+  target="_blank" rel="noopener"
   href="https://community.webmonetization.org/">our Community Forum</a>, where
   you can ask questions and learn from the community.</p><p>To stay up to date
-  on all things Interledger, <a
+  on all things Interledger, <a target="_blank" rel="noopener"
   href="https://signup.e2ma.net/signup/1940649/1929074/">join our mailing
-  list</a> and follow the Interledger Foundation on <a
-  href="https://twitter.com/Interledger">Twitter</a> and <a
+  list</a> and follow the Interledger Foundation on <a target="_blank"
+  rel="noopener" href="https://twitter.com/Interledger">Twitter</a> and <a
+  target="_blank" rel="noopener"
   href="https://www.linkedin.com/company/interledger-foundation/">LinkedIn</a>.</p><p><em>By
   Chris Lawrence and Erika Drushka, Senior Program Managers for Grant for the
   Web, Interledger Foundation</em></p>
