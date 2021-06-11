@@ -20,32 +20,7 @@
 #partner {
   min-height: 600px;
 }
-#actionPhotoTwo {
-  position: absolute;
-  right: 64%;
-  bottom: 0px;
-  height: 324px;
-  width: 450px;
-  img {
-    border-radius: 10px 10px 0 0;
-  }
-}
-#actionPhotoOne {
-  position: absolute;
-  right: 53%;
-  bottom: 0px;
-  height: 216px;
-  width: 300px;
-  img {
-    border-radius: 10px 10px 0 0;
-  }
-}
-#takeActionMobileImage {
-  background-image: url(/img/take-action/take-action-mobile.png);
-  background-size: cover;
-  width: 100vw;
-  padding-top: 37%;
-}
+
 #creatorToolsIllustration {
   position: absolute;
   left: 49%;
