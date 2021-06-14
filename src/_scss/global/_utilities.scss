@@ -29,7 +29,7 @@
 }
 .text-large {
   font-size: 1.4rem;
-  line-height: 2.3rem;
+  line-height: 1.9rem;
 }
 .text-small {
   font-size: 0.875rem;
@@ -68,6 +68,7 @@
   font-weight: 700;
   margin-top: 15px;
   transition: 0.2s;
+  width: fit-content;
 }
 .button-filled {
   background-color: $primary;

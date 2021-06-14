@@ -1,30 +1,96 @@
 ---
 layout: default
 title: "Interledger News"
+featured_news:
 ---
 <section>
-<div class="container">
-  <div class="row mt-n3 mb-4">
-    <div class="col-12">
-      <h1 class="text-uppercase text-purple ">Latest News</h1>
-      <a href="/news/press/" class="editable">See Recent Coverage</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-uppercase text-purple">Featured News & Stories</h1>
+      </div>
+    </div>
+    <div class="row">
+      {% for item in site.news  %}
+      {% if item.featured == true %}
+        <div class="col-12 col-md-3 col-xl-4">
+          <div class="card">
+
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
-  <div class="row">
-    {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
-  {% for post in sorted-posts %}
-  <div class="col-12 col md-6 col-lg-4 mb-4">
-    <div>
+</section>
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-uppercase mb-0">Recent Coverage</h2>
+        <a href="#">See all Recent Coverage</a>
+      </div>
+    </div>
+    <div class="row mt-3">
+
+    </div>
+  </div>
+</section>
+<section class="bg-mid">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-uppercase mb-0">Latest Updates</h2>
+        <a href="#">See all Updates</a>
+      </div>
+    </div>
+    <div class="row mt-3">
+      {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted-posts %}
+      <div class="col-12 col md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+        <div class="card p-0 border">
+          <div class="card-header">
+            <div style="background-image: url({{ post.featured_image }})" class="news__image">
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="text-large"><strong>{{ post.name }}</strong></p>
+            <!-- <p class="mb-0">{{ post.write_up_html | markdownify | strip_html | truncate: 70 }}</p> -->
+          </div>
+          <div class="card-footer">
+            <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<!--
+<section class="bg-light">
+  <div class="container">
+    <div class="row mt-n3 mb-4">
+      <div class="col-12">
+        <h1 class="text-uppercase text-purple">Latest News</h1>
+        <a href="/news/press/" class="editable">See Recent Coverage</a>
+      </div>
+    </div>
+    <div class="row">
+      {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted-posts %}
+      <div class="col-12 col md-6 col-lg-4 mb-4">
+        <div>
           <div style="background-image: url({{ post.featured_image }})" class="news__image">
           </div>
           <p class="mt-3 mb-0 text-large"><strong>{{ post.name }}</strong></p>
           <p>{{ post.write_up_html | markdownify | strip_html | truncate: 60 }}</p>
-
           <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-
   </div>
-  {% endfor %}
-</div>
-</div>
-</section>
+</section> -->
