@@ -28,11 +28,31 @@ featured_news:
     <div class="row">
       <div class="col-12">
         <h2 class="text-uppercase mb-0">Recent Coverage</h2>
-        <a href="#">See all Recent Coverage</a>
+        <a href="recent-coverage/">See all Recent Coverage</a>
       </div>
     </div>
     <div class="row mt-3">
-
+      {% assign recent-coverage = site.news | where: "news_category", "recent_coverage" | sort: 'date' | reverse %}
+      {% for article in recent-coverage limit: 4 %}
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
+        <div class="card p-0 border">
+          <div class="card-header">
+            <img
+            src="{{ article.featured_image }}"
+            class="img-fluid"
+            alt=""
+            />
+          </div>
+          <div class="card-body">
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }}</p>
+            <p class="mb-0"><strong>{{ article.title }}</strong></p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ article.link }}" target="_blank" class="mt-0">Read Article</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -41,13 +61,33 @@ featured_news:
     <div class="row">
       <div class="col-12">
         <h2 class="text-uppercase mb-0">Latest Updates</h2>
-        <a href="#">See all Updates</a>
+        <a href="latest-updates/">See all Updates</a>
       </div>
     </div>
     <div class="row mt-3">
+      {% assign latest-updates = site.news | where: "news_category", "blog_post" | sort: 'date' | reverse %}
+      {% for article in latest-updates limit: 8 %}
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
+        <div class="card p-0 border">
+          <div class="card-header">
+            <div style="background-image: url({{ article.featured_image }})" class="news__image">
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }}</p>
+            <p class="mb-0"><strong>{{ article.title }}</strong></p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ article.url }}" class="mt-0 button button-outline">Read Article</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- <div class="row mt-3">
       {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
       {% for post in sorted-posts %}
-      <div class="col-12 col md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
           <div class="card-header">
             <div style="background-image: url({{ post.featured_image }})" class="news__image">
@@ -55,7 +95,7 @@ featured_news:
           </div>
           <div class="card-body">
             <p class="text-large"><strong>{{ post.name }}</strong></p>
-            <!-- <p class="mb-0">{{ post.write_up_html | markdownify | strip_html | truncate: 70 }}</p> -->
+            <p class="mb-0">{{ post.write_up_html | markdownify | strip_html | truncate: 70 }}</p>
           </div>
           <div class="card-footer">
             <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
@@ -64,33 +104,6 @@ featured_news:
         </div>
       </div>
       {% endfor %}
-    </div>
+    </div> -->
   </div>
 </section>
-
-
-<!--
-<section class="bg-light">
-  <div class="container">
-    <div class="row mt-n3 mb-4">
-      <div class="col-12">
-        <h1 class="text-uppercase text-purple">Latest News</h1>
-        <a href="/news/press/" class="editable">See Recent Coverage</a>
-      </div>
-    </div>
-    <div class="row">
-      {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
-      {% for post in sorted-posts %}
-      <div class="col-12 col md-6 col-lg-4 mb-4">
-        <div>
-          <div style="background-image: url({{ post.featured_image }})" class="news__image">
-          </div>
-          <p class="mt-3 mb-0 text-large"><strong>{{ post.name }}</strong></p>
-          <p>{{ post.write_up_html | markdownify | strip_html | truncate: 60 }}</p>
-          <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section> -->
