@@ -106,3 +106,7 @@ toc:
 
 exclude:
   - .jekyll-cache
+
+news_categories:
+  - recent_coverage
+  - blog_post

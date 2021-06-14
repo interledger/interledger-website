@@ -1,7 +1,7 @@
 ---
 title:
 date:
-article_url:
+featured_image:
 write_up_html:
 news_category:
 link:
