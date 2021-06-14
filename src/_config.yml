@@ -26,6 +26,9 @@ collections:
     output: true
     layout: team
     permalink: /about-us/:path/
+  news:
+    output: true
+    layout: news
 
 
 defaults:

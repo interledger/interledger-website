@@ -1,5 +1,4 @@
 ---
-_layout: news
 title:
 date:
 article_url:
