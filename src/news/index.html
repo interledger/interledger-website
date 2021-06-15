@@ -16,14 +16,67 @@ featured_news:
       </div>
     </div>
     <div class="row">
-      {% for item in site.news  %}
-      {% if item.featured == true %}
-        <div class="col-12 col-md-3 col-xl-4">
-          <div class="card">
-
+      {% for object in page.featured_news %}
+        {% assign featured = site.news | where: 'slug', object | first %}
+        {% if forloop.first %}
+        <div class="col-12 d-none d-md-block">
+          <div class="row my-4">
+            <div class="col-12 col-md-6 col-lg-7">
+              <img src="{{ featured.featured_image }}" class="img-fluid" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+              <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
+              <p class="mb-0 text-hero"><strong>{{ featured.title }}</strong></p>
+              <p>{{ featured.write_up_html | truncate: 85 }}</p>
+              {% if featured.news_category == "recent_coverage" %}
+                <a href="{{ featured.link }}" target="_blank" class="mt-0">Read Article</a>
+              {% endif %}
+              {% if featured.news_category == "blog_post" %}
+                <a href="{{ featured.link }}" class="mt-0 button button-outline">Read More</a>
+              {% endif %}
+            </div>
           </div>
         </div>
-      {% endif %}
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch d-block d-md-none">
+          <div class="card p-0 border">
+            <div class="card-header">
+              <img src="{{ featured.featured_image }}" class="img-fluid" alt="" />
+            </div>
+            <div class="card-body">
+              <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
+              <p class="mb-0"><strong>{{ featured.title }}</strong></p>
+            </div>
+            <div class="card-footer">
+              {% if featured.news_category == "recent_coverage" %}
+              <a href="{{ featured.link }}" target="_blank" class="mt-0">Read Article</a>
+              {% endif %}
+              {% if featured.news_category == "blog_post" %}
+              <a href="{{ featured.link }}" class="mt-0 button button-outline">Read More</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% else %}
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
+            <div class="card p-0 border">
+              <div class="card-header">
+                <img src="{{ featured.featured_image }}" class="img-fluid" alt="" />
+              </div>
+              <div class="card-body">
+                <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
+                <p class="mb-0"><strong>{{ featured.title }}</strong></p>
+              </div>
+              <div class="card-footer">
+                {% if featured.news_category == "recent_coverage" %}
+                <a href="{{ featured.link }}" target="_blank" class="mt-0">Read Article</a>
+                {% endif %}
+                {% if featured.news_category == "blog_post" %}
+                <a href="{{ featured.link }}" class="mt-0 button button-outline">Read More</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -83,32 +136,11 @@ featured_news:
             <p class="mb-0"><strong>{{ article.title }}</strong></p>
           </div>
           <div class="card-footer">
-            <a href="{{ article.url }}" class="mt-0 button button-outline">Read Article</a>
+            <a href="{{ article.url }}" class="mt-0 button button-outline">Read More</a>
           </div>
         </div>
       </div>
       {% endfor %}
     </div>
-    <!-- <div class="row mt-3">
-      {% assign sorted-posts = site.posts | sort: 'date' | reverse %}
-      {% for post in sorted-posts %}
-      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
-        <div class="card p-0 border">
-          <div class="card-header">
-            <div style="background-image: url({{ post.featured_image }})" class="news__image">
-            </div>
-          </div>
-          <div class="card-body">
-            <p class="text-large"><strong>{{ post.name }}</strong></p>
-            <p class="mb-0">{{ post.write_up_html | markdownify | strip_html | truncate: 70 }}</p>
-          </div>
-          <div class="card-footer">
-            <a href="{{ post.url }}" class="button button-outline mt-0">Read More</a>
-          </div>
-
-        </div>
-      </div>
-      {% endfor %}
-    </div> -->
   </div>
 </section>
