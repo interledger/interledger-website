@@ -21,13 +21,13 @@ featured_news:
         {% if forloop.first %}
         <div class="col-12 d-none d-md-block">
           <div class="row my-4">
-            <div class="col-12 col-md-6 col-lg-7">
-              <img src="{{ featured.featured_image }}" class="img-fluid" alt="" />
+            <div class="col-12 col-md-6 col-lg-5">
+              <img src="{% if featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}" class="img-fluid" alt="" />
             </div>
             <div class="col-12 col-md-6 col-lg-5">
               <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
               <p class="mb-0 text-hero"><strong>{{ featured.title }}</strong></p>
-              <p>{{ featured.write_up_html | truncate: 85 }}</p>
+              <p>{{ featured.write_up_html | truncatewords: 20 }}</p>
               {% if featured.news_category == "recent_coverage" %}
                 <a href="{{ featured.link }}" target="_blank" class="mt-0">Read Article</a>
               {% endif %}
@@ -128,7 +128,9 @@ featured_news:
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
           <div class="card-header">
-            <div style="background-image: url({{ article.featured_image }})" class="news__image">
+            <div style="background-image: url(
+              {% if featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
+              )" class="news__image">
             </div>
           </div>
           <div class="card-body">
