@@ -29,6 +29,7 @@ collections:
   news:
     output: true
     layout: news
+    permalink: /news/:path/
 
 
 defaults:

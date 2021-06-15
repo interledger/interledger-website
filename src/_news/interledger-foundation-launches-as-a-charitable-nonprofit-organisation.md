@@ -1,5 +1,6 @@
 ---
 title: Interledger Foundation launches as a charitable nonprofit organisation
+layout: news
 date: 2021-04-15 00:00:00
 featured_image: /uploads/the-paypers-logo.jpg
 write_up_html:

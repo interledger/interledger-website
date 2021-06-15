@@ -1,5 +1,6 @@
 ---
 title: Interledger Foundation Aims To Make Web Payments As Easy As Email
+layout: news
 date: 2021-04-20 00:00:00
 featured_image: /uploads/forbes-logo.png
 write_up_html:

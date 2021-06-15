@@ -1,29 +1,28 @@
 ---
 layout: default
 ---
-
-    <section class="pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <a href="/news"><span class="text-purple text-uppercase text-bold">Back to News</span></a>
-          </div>
-        </div>
-        <div class="row casestudy-header my-4" style="background-image: url('{{ page.featured_image }}');">
-        </div>
-        <div class="row mt-5">
-          <div class="col-12 col-md-5 col-lg-4 mb-4 mb-md-0">
-            <h2 class="text-hero text-primary">{{ page.title }}</h2>
-            <h3 class="h3 text-thin">{{ page.date | date: " %b %-d, %Y" }}</h3>
-            <div class="mt-5 ">
-            </div>
-          </div>
-          <div class="col-12 col-md-7 col-lg-8 ps-md-5">
-            <p><strong>
-                {{ page.featured_text }}
-              </strong></p>
-            {{ page.write_up_html }}
-          </div>
+<section class="pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a href="/news"><span class="text-purple text-uppercase text-bold">Back to News</span></a>
+      </div>
+    </div>
+    <div class="row casestudy-header my-4" style="background-image: url('{{ page.featured_image }}');">
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 col-md-5 col-lg-4 mb-4 mb-md-0">
+        <h2 class="text-hero text-primary">{{ page.title }}</h2>
+        <h3 class="h3 text-thin">{{ page.date | date: " %b %-d, %Y" }}</h3>
+        <div class="mt-5 ">
         </div>
       </div>
-    </section>
+      <div class="col-12 col-md-7 col-lg-8 ps-md-5">
+        <p><strong>
+            {{ page.featured_text }}
+          </strong></p>
+        {{ page.write_up_html }}
+      </div>
+    </div>
+  </div>
+</section>
