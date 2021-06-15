@@ -1,7 +1,7 @@
 ---
 title: Getting To Know Grant For The Web
 date: 2021-05-05 00:00:00
-featured_image:
+featured_image: /uploads/08.jpg
 write_up_html: >-
   <p>Here at the Interledger Foundation, we&rsquo;re focused on building
   pathways to financial access and opportunity around the world. At the center
@@ -89,3 +89,4 @@ write_up_html: >-
 news_category: blog_post
 link:
 ---
+
