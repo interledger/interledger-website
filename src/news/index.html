@@ -24,7 +24,7 @@ featured_news:
         <div class="col-12 d-none d-md-block">
           <div class="row my-4">
             <div class="col-12 col-md-6 col-lg-5">
-              <img src="{% if featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}" class="img-fluid" alt="" />
+              <img src="{% if featured.featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}" class="img-fluid" alt="" />
             </div>
             <div class="col-12 col-md-6 col-lg-5">
               <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
@@ -42,7 +42,7 @@ featured_news:
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch d-block d-md-none">
           <div class="card p-0 border">
             <div class="card-header">
-              <img src="{{ featured.featured_image }}" class="img-fluid" alt="" />
+              <img src="{% if featured.featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}" class="img-fluid" alt="" />
             </div>
             <div class="card-body">
               <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
@@ -131,7 +131,7 @@ featured_news:
         <div class="card p-0 border">
           <div class="card-header">
             <div style="background-image: url(
-              {% if featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
+              {% if article.featured_image %}{{ article.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
               )" class="news__image">
             </div>
           </div>
