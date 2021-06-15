@@ -86,6 +86,9 @@ featured_news:
     </div>
   </div>
 </section>
+<div class="bg-primary centered">
+  <a class="py-5 text-white h3" href="" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign for the Interledger Mailing List</a>
+</div>
 <section class="bg-light">
   <div class="container">
     <div class="row">
@@ -101,8 +104,7 @@ featured_news:
         <div class="card p-0 border">
           <div class="card-header">
             <div style="background-image: url(
-                                          {% if article.featured_image %}{{ article.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
-                                          )" class="news__image">
+              {% if article.featured_image %}{{ article.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %})" class="news__image">
             </div>
           </div>
           <div class="card-body">
@@ -150,3 +152,15 @@ featured_news:
     </div>
   </div>
 </section>
+
+
+  <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body d-flex justify-content-center">
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+          <iframe src="https://app.e2ma.net/app2/audience/signup/1940649/1929074/" width="510" height="1200" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
