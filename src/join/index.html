@@ -209,9 +209,274 @@ membership_level:
 <section class="bg-blue-500">
   <div class="container">
     <div class="row ">
-      <div class="col-12 text-center text-white editable">
-        <h1 >Become A Member</h1>
-        <h2 >
+      <div class="col-12 text-center ">
+        <h1 class="text-hero text-white editable">
+          Become A Member
+        </h1>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="card p-5">
+          <h2 class="h3 text-primary text-center text-uppercase editable">
+            Membership Levels and Benefits
+          </h2>
+          <div class="container">
+
+            <div class="row border-bottom-gray-thick mt-5 pb-3">
+              <div class="col-4">
+                <h4>Benefit</h4>
+              </div>
+              {% for benefit in page.membership_level %}
+              <div class="col text-center">
+                <h4>{{ benefit.level_title }}</h4>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-4">
+              <div class="col-4">
+                <p class="text-semi text-uppercase">Pricing</p>
+              </div>
+              {% for pricing in page.membership_level %}
+              <div class="col text-center">
+                <p class="text-semi text-primary">{{ pricing.pricing }}</p>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Eligible for Board of Directors (BoD) seat</p>
+              </div>
+              {% for bodseat in page.membership_level %}
+              {% assign available = bodseat.feature.eligible_for_board_seat.available %}
+              {% assign info = bodseat.feature.eligible_for_board_seat.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Eligible for seat on Councils</p>
+              </div>
+              {% for concilseat in page.membership_level %}
+              {% assign available = concilseat.feature.eligible_for_council_seat.available %}
+              {% assign info = concilseat.feature.eligible_for_council_seat.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Eligible for Committee Chair position</p>
+              </div>
+              {% for committeeseat in page.membership_level %}
+              {% assign available = committeeseat.feature.eligible_for_committee_chair_position.available %}
+              {% assign info = committeeseat.feature.eligible_for_committee_chair_position.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>May participate in Committees</p>
+              </div>
+              {% for committeeparticipation in page.membership_level %}
+              {% assign available = committeeparticipation.feature.eligible_for_committee_participation.available %}
+              {% assign info = committeeparticipation.feature.eligible_for_committee_participation.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Voting Rights within Working Groups</p>
+              </div>
+              {% for voting in page.membership_level %}
+              {% assign available = voting.feature.working_group_voting_rights.available %}
+              {% assign info = voting.feature.working_group_voting_rights.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>May participate in Working Groups</p>
+              </div>
+              {% for workinggroup in page.membership_level %}
+              {% assign available = workinggroup.feature.working_group_participation.available %}
+              {% assign info = workinggroup.feature.working_group_participation.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Personalized payment pointer on website</p>
+              </div>
+              {% for paymentpointer in page.membership_level %}
+              {% assign available = paymentpointer.feature.personalized_payment_pointer.available %}
+              {% assign info = paymentpointer.feature.personalized_payment_pointer.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Attend F2F events</p>
+              </div>
+              {% for f2f in page.membership_level %}
+              {% assign available = f2f.feature.attend_f2f_events.available %}
+              {% assign info = f2f.feature.attend_f2f_events.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Access to standards in process</p>
+              </div>
+              {% for standards in page.membership_level %}
+              {% assign available = standards.feature.access_standards_in_process.available %}
+              {% assign info = standards.feature.access_standards_in_process.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Access to code development in process</p>
+              </div>
+              {% for code in page.membership_level %}
+              {% assign available = code.feature.access_code_development_in_process.available %}
+              {% assign info = code.feature.access_code_development_in_process.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row border-bottom-gray-thin mt-3 centered">
+              <div class="col-4">
+                <p>Access to published documents</p>
+              </div>
+              {% for docs in page.membership_level %}
+              {% assign available = docs.feature.access_published_documents.available %}
+              {% assign info = docs.feature.access_published_documents.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="row mt-3 centered">
+              <div class="col-4">
+                <p>May propose new work items</p>
+              </div>
+              {% for newwork in page.membership_level %}
+              {% assign available = newwork.feature.propose_new_work_items.available %}
+              {% assign info = newwork.feature.propose_new_work_items.additional_info %}
+              <div class="col text-center">
+                {% if available == true %}
+                <img class="{% if info %} check-icon {% else %} check-icon mb-3 {% endif %}" src="/img/shapes/check.svg" alt="Included" />
+                {% endif %}
+                {% if info %}
+                <p class="text-small text-primary">{{ info }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid px-0 d-lg-none">
+    <div class="row mb-4">
+      <div class="col-12 text-center ">
+        <h1 class="text-hero text-white editable">
+          Become A Member
+        </h1>
+        <h2 class="text-hero text-white editable">
           Organization Membership Levels and Benefits
         </h2>
       </div>
