@@ -14,9 +14,11 @@ body {
 
 ::selection {
   background: $blue-200;
+  color: $black;
 }
 ::-moz-selection {
-  background: $primary;
+  background: $blue-200;
+  color: $black;
 }
 
 section {

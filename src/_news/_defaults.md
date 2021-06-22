@@ -1,7 +1,9 @@
 ---
-name:
+title:
+layout: news
 date:
 featured_image:
 write_up_html:
-categories:
+news_category:
+link:
 ---

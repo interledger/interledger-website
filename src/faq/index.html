@@ -444,9 +444,9 @@ faq:
       <div class="col-12 col-md-10 col-lg-8">
         <div class="accordion accordion-flush" id="accordionFAQ">
           {% for faq in page.faq %}
-          <div class="accordion-item">
+          <div class="accordion-item my-4">
             <h2 class="accordion-header" id="flush-headingflush-collapse-{{ faq.question | slugify }}">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{ faq.question | slugify }}" aria-expanded="false" aria-controls="flush-collapse-{{ faq.question | slugify }}">
+              <button class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{ faq.question | slugify }}" aria-expanded="false" aria-controls="flush-collapse-{{ faq.question | slugify }}">
                 {{ faq.question }}
               </button>
             </h2>
