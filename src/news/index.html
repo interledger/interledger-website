@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Interledger News
-banner_news:
-featured_news:
+banner_story:
+featured_stories:
   - getting-to-know-grant-for-the-web
   - >-
     interledger-foundation-launches-to-build-more-equitable-and-creative-opportunities-on-the-web
@@ -20,7 +20,7 @@ featured_news:
     </div>
     <div class="row">
       {% for object in page.featured_news %}
-        {% assign featured = site.news | where: 'slug', object | first %}
+        {% assign featured = site.stories | where: 'slug', object | first %}
         {% if forloop.first %}
         <div class="col-12 d-none d-md-block">
           <div class="row my-4">
@@ -96,7 +96,7 @@ featured_news:
       </div>
     </div>
     <div class="row mt-3">
-      {% assign recent-coverage = site.news | where: "news_category", "recent_coverage" | sort: 'date' | reverse %}
+      {% assign recent-coverage = site.stories | where: "news_category", "recent_coverage" | sort: 'date' | reverse %}
       {% for article in recent-coverage limit: 4 %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
@@ -124,7 +124,7 @@ featured_news:
       </div>
     </div>
     <div class="row mt-3">
-      {% assign latest-updates = site.news | where: "news_category", "blog_post" | sort: 'date' | reverse %}
+      {% assign latest-updates = site.stories | where: "news_category", "blog_post" | sort: 'date' | reverse %}
       {% for article in latest-updates limit: 8 %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">

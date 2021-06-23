@@ -10,7 +10,7 @@ title: Latest Updates
       </div>
     </div>
     <div class="row mt-3">
-    {% assign latest-updates = site.news | where: "news_category", "blog_post" | sort: 'date' | reverse %}
+    {% assign latest-updates = site.stories | where: "news_category", "blog_post" | sort: 'date' | reverse %}
     {% for article in latest-updates  %}
     <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
       <div class="card p-0 border">
