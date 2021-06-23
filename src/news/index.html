@@ -65,8 +65,8 @@ featured_stories:
           <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
             <div class="card p-0 border">
               <div class="card-body">
-                <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }} {% if featured.organization %}
-                — {{ featured.organization }}
+                <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }} {% if featured.publication %}
+                — {{ featured.publication }}
                 {% endif %}</p>
 
                 <p class="mb-0"><strong>{{ featured.title }}</strong></p>
@@ -102,8 +102,8 @@ featured_stories:
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
           <div class="card-body">
-            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }} {% if article.organization %}
-              — {{ article.organization }}
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }} {% if article.publication %}
+              — {{ article.publication }}
               {% endif %}</p>
             <p class="mb-0"><strong>{{ article.title }}</strong></p>
           </div>

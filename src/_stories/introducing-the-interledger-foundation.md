@@ -64,5 +64,5 @@ write_up_html: >-
   stay up to date.</p><p><em>By Briana Marbury, Executive Director</em></p>
 news_category: blog_post
 link:
-organization:
+publication:
 ---

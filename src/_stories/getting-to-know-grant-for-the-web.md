@@ -89,6 +89,6 @@ write_up_html: >-
   Web, Interledger Foundation</em></p>
 news_category: blog_post
 link:
-organization:
+publication:
 ---
 

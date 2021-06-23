@@ -14,15 +14,14 @@ title: Recent Coverage
       {% for article in recent-coverage  %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
-          <div class="card-header">
-            <img src="{{ article.featured_image }}" class="img-fluid" alt="" />
-          </div>
           <div class="card-body">
-            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }}</p>
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }} {% if article.publication %}
+              — {{ article.publication }}
+              {% endif %}</p>
             <p class="mb-0"><strong>{{ article.title }}</strong></p>
           </div>
           <div class="card-footer">
-            <a href="{{ article.link }}" target="_blank" class="mt-0">Read Article</a>
+            <a href="{{ article.link }}" target="_blank" class="mt-0 button button-outline">Read Article</a>
           </div>
         </div>
       </div>
