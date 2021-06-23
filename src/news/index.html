@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Interledger News
+banner_news:
 featured_news:
   - getting-to-know-grant-for-the-web
   - >-
@@ -61,19 +62,16 @@ featured_news:
         {% else %}
           <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
             <div class="card p-0 border">
-              <div class="card-header">
-                <div style="background-image: url(
-                              {% if featured.featured_image %}{{ featured.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
-                              )" class="news__image">
-                </div>
-              </div>
               <div class="card-body">
-                <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
+                <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }} {% if featured.organization %}
+                — {{ featured.organization }}
+                {% endif %}</p>
+
                 <p class="mb-0"><strong>{{ featured.title }}</strong></p>
               </div>
               <div class="card-footer">
                 {% if featured.news_category == "recent_coverage" %}
-                <a href="{{ featured.link }}" target="_blank" class="mt-0">Read Article</a>
+                <a href="{{ featured.link }}" target="_blank" class="mt-0 button button-outline">Read Article</a>
                 {% endif %}
                 {% if featured.news_category == "blog_post" %}
                 <a href="{{ featured.url }}" class="mt-0 button button-outline">Read More</a>
@@ -102,17 +100,14 @@ featured_news:
       {% for article in recent-coverage limit: 4 %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
-          <div class="card-header">
-            <div style="background-image: url(
-              {% if article.featured_image %}{{ article.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %})" class="news__image">
-            </div>
-          </div>
           <div class="card-body">
-            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }}</p>
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }} {% if article.organization %}
+              — {{ article.organization }}
+              {% endif %}</p>
             <p class="mb-0"><strong>{{ article.title }}</strong></p>
           </div>
           <div class="card-footer">
-            <a href="{{ article.link }}" target="_blank" class="mt-0">Read Article</a>
+            <a href="{{ article.link }}" target="_blank" class="mt-0 button button-outline">Read Article</a>
           </div>
         </div>
       </div>
@@ -133,12 +128,6 @@ featured_news:
       {% for article in latest-updates limit: 8 %}
       <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
         <div class="card p-0 border">
-          <div class="card-header">
-            <div style="background-image: url(
-              {% if article.featured_image %}{{ article.featured_image }}{% else %} /uploads/ilf-media-logos.png {% endif %}
-              )" class="news__image">
-            </div>
-          </div>
           <div class="card-body">
             <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }}</p>
             <p class="mb-0"><strong>{{ article.title }}</strong></p>

@@ -214,4 +214,5 @@ write_up_html: >-
   Foundation</a>&nbsp;Executive Director Paula Hunter.</p>
 news_category: blog_post
 link:
+organization:
 ---
