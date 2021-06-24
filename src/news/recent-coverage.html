@@ -1,0 +1,31 @@
+---
+layout: default
+title: Recent Coverage
+---
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-uppercase mb-0">Recent Coverage</h1>
+      </div>
+    </div>
+    <div class="row mt-3">
+      {% assign recent-coverage = site.stories | where: "news_category", "recent_coverage" | sort: 'date' | reverse %}
+      {% for article in recent-coverage  %}
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
+        <div class="card p-0 border">
+          <div class="card-body">
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ article.date | date: " %b %-d, %Y" }} {% if article.publication %}
+              — {{ article.publication }}
+              {% endif %}</p>
+            <p class="mb-0"><strong>{{ article.title }}</strong></p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ article.link }}" target="_blank" class="mt-0 button button-outline">Read Article</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

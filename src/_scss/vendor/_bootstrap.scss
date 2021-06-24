@@ -34,8 +34,8 @@
 
 .card {
   border: 0px;
-  padding: 35px;
-  border-radius: 12px;
+  padding: 25px;
+  border-radius: 8px;
   &:nth-child(1) {
     animation-name: none;
   }
@@ -116,9 +116,27 @@
   &:hover {
     background-color: $primary;
     color: $white !important;
+    border-color: $primary;
   }
 }
 
 .btn-close {
   padding: 1rem;
+}
+
+.card {
+  width: 100%;
+  .card-header {
+    border: 0px;
+    padding: 0rem;
+    background-color: transparent;
+    .news__image {
+      border-radius: 8px 8px 0 0;
+    }
+  }
+  .card-footer {
+    border: 0px;
+    padding: 1rem;
+    background-color: transparent;
+  }
 }

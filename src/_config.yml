@@ -26,6 +26,10 @@ collections:
     output: true
     layout: team
     permalink: /about-us/:path/
+  stories:
+    output: true
+    layout: news
+    permalink: /news/:path/
 
 
 defaults:
@@ -100,3 +104,10 @@ toc:
   sublist_class: ''
   item_class: toc-entry
   item_prefix: toc-
+
+exclude:
+  - .jekyll-cache
+
+news_categories:
+  - recent_coverage
+  - blog_post

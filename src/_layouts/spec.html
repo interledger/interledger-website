@@ -22,7 +22,7 @@ layout: default
 
               </div>
             {% endif %}
-            {{ page.src | remote | markdownify | inject_anchors }}
+            {{ page.src | remote | markdownify | inject_anchors | replace: 'href="../', 'href="https://github.com/interledger/rfcs/blob/master/' }}
           </div>
           <div class="d-none col-xl-3 d-xl-block">
             <div class="position-fixed">
