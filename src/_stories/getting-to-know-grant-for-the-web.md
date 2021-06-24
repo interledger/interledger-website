@@ -1,7 +1,7 @@
 ---
 title: Getting To Know Grant For The Web
 layout: news
-date: 2021-05-05 00:00:00
+date: 2022-05-05 00:00:00
 featured_image: /uploads/08.jpg
 write_up_html: >-
   <p>Here at the Interledger Foundation, we&rsquo;re focused on building
