@@ -2,7 +2,7 @@
   "name": "interledger.org",
   "version": "0.1.0",
   "private": true,
-  "description": "A marketing site and documentation for the Interledger Foundation",
+  "description": "The Interledger Foundation and its community are building pathways to financial access and opportunity across the world, connecting humanity in a new way.",
   "repository": {
     "type": "git",
     "url": ""
