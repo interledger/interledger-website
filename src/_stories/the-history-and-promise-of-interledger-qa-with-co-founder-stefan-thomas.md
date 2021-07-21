@@ -1,7 +1,7 @@
 ---
 title: 'The History and Promise of Interledger: Q&A with Co-Founder Stefan Thomas'
 layout: news
-date:
+date: 2021-07-21 00:00:00
 featured_image: /uploads/13.jpg
 write_up_html: >-
   <p>The Interledger Foundation community is comprised of a multitude of diverse
@@ -154,3 +154,4 @@ news_category: blog_post
 link:
 publication:
 ---
+
