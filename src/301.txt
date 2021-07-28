@@ -2,3 +2,4 @@
 /api/posts/ /api/posts.json
 /api/elements/ /api/elements.json
 /interledger.pdf /uploads/interledger.pdf
+/community.html /developer-tools/community/
