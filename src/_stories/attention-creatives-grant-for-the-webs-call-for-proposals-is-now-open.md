@@ -1,7 +1,7 @@
 ---
 title: 'Attention Creatives: Grant for the Web''s Call for Proposals is Now Open'
 layout: news
-date: 2021-07-28 07:00:00
+date: 2021-07-28 04:00:00
 featured_image: /uploads/08.jpg
 write_up_html: >-
   <p>Through the Grant for the Web program, the <a target="_blank"
