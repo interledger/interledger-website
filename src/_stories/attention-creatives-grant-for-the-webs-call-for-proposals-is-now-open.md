@@ -2,7 +2,7 @@
 title: 'Attention Creatives: Grant for the Web''s Call for Proposals is Now Open'
 layout: news
 date: 2021-07-28 04:00:00
-featured_image: /uploads/08.jpg
+featured_image: /uploads/11.jpg
 write_up_html: >-
   <p>Through the Grant for the Web program, the <a target="_blank"
   rel="noopener" href="https://interledger.org/">Interledger Foundation</a> aims
