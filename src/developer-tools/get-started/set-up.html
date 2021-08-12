@@ -10,12 +10,12 @@ title: Setup and Use Interledger Accounts
         <div class="editable">
           <h1>Get Started With Interledger Accounts</h1>
           <p>Make payments on a testnet.</p>
-          <p>To get started using Interledger, we'll walk through using a test network, which uses fake money, rather than transferring real value. This Interledger testnet is currently maintained by teams at&nbsp;<a target="_blank" href="https://xpring.io/">Xpring&nbsp;<em></em></a>&nbsp;and&nbsp;<a target="_blank" href="https://coil.com/">Coil</a>, but anyone can join.</p>
+          <p>To get started using Interledger, we'll walk through using a test network, which uses fake money, rather than transferring real value. This Interledger testnet is currently maintained by teams at&nbsp;<a target="_blank" href="https://ripple.com/ripplex/">RippleX&nbsp;<em></em></a>&nbsp;and&nbsp;<a target="_blank" href="https://coil.com/">Coil</a>, but anyone can join.</p>
           <p>The RippleX and Rafiki testnet connectors, both used in this tutorial, together form a network for users to practice sending and receiving test currency values.</p>
           <p>With Interledger, all currency pairs that senders and receivers use are supported. For simplicity, this tutorial demonstrates sending and receiving test XRP only, but in practice senders and receivers can use different currencies.</p>
           <p>This tutorial describes two ways to create an Interledger account to send and receive test funds:</p>
           <ul>
-            <li>With a&nbsp;<a target="_blank" href="https://ripplex.io/">ripplex.io&nbsp;<em></em></a>&nbsp;account</li>
+            <li>With a&nbsp;<a target="_blank" href="https://ripplex.io/">RippleX&nbsp;<em></em></a>&nbsp;account</li>
             <li>With a&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>&nbsp;account</li>
           </ul>
           <p>Both of these types of Interledger accounts allow you to send and receive test funds, and are useful for developing and testing apps. These types of accounts can also be referred to as "wallet" accounts.</p>
@@ -27,14 +27,13 @@ title: Setup and Use Interledger Accounts
             <li><a target="_blank" href="https://github.com/interledgerjs/ilp-connector">Javascript Connector&nbsp;<em></em></a>&nbsp;&mdash; Battle-tested in production.</li>
           </ul>
           <h3>1. Create Interledger Wallet Accounts</h3>
-          <p>For this tutorial, you should create both a ripplex.io and rafiki.money wallet account.</p>
-          <h4>CREATE AN ACCOUNT AT RIPPLEX.IO</h4>
+          <p>For this tutorial, you should create both a RippleX and rafiki.money wallet account.</p>
+          <h4>CREATE A RIPPLEX ACCOUNT</h4>
           <ol>
-            <li>Navigate to https://ripplex.io and click&nbsp;<code>Create Dev Account</code>.</li>
-            <li>Log in to see the RippleX portal. Once logged-in, click on "Interledger Wallet" to get started.</li>
+            <li>Navigate to https://faucet.ilpv4.dev/ and click&nbsp;<code>Generate ILP TestNet Credentials</code>.</li>
           </ol>
           <h4>CREATE AN ACCOUNT AT HTTPS://RAFIKI.MONEY</h4>
-          <p>The&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>&nbsp;site also allows you to create an Interledger-enabled wallet that is compatible with the testnet wallet provided by Xpring. Use the following instructions to get setup:</p>
+          <p>The&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>&nbsp;site also allows you to create an Interledger-enabled wallet that is compatible with the testnet wallet provided by RippleX. Use the following instructions to get setup:</p>
           <ol>
             <li>Open&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>.</li>
             <li>Click&nbsp;<strong>Create an account</strong>&nbsp;and follow the instructions.</li>
@@ -45,26 +44,38 @@ title: Setup and Use Interledger Accounts
           </ol>
           <h3>2. Locate Your Own Payment Pointer</h3>
           <ol>
-            <li>In each wallet, you will see a page with a payment pointer in the following formats:&nbsp;<code>$xpring.money/{your-account-name}</code>&nbsp;(RippleX Wallet) and&nbsp;<code>rafiki.money/p/{user-id}</code>&nbsp;(Rafki Money). As indicated by the payment pointer, each wallet is Interledger-enabled.</li>
-            <li>Because your new accounts don't have any test funds, you will want to add value to them. In RippleX, click the blue&nbsp;<code>Make it rain</code>&nbsp;button to get free money! In Rafki, click the&nbsp;<code>Add Funds</code>&nbsp;button.</li>
+            <li>In each wallet, you will see a page with a payment pointer in the following formats:&nbsp;<code>$jc.ilpv4.dev/{your-account-name}</code>&nbsp;(RippleX Wallet) and&nbsp;<code>rafiki.money/p/{user-id}</code>&nbsp;(Rafki Money). As indicated by the payment pointer, each wallet is Interledger-enabled.</li>
+            <li>Because your new accounts don't have any test funds, you will want to add value to them. {{DAVID_TODO FOR RIPPLEX}}. In Rafki, click the&nbsp;<code>Add Funds</code>&nbsp;button.</li>
             <li>If you want someone to pay you, provide them with your payment pointer. That's it!</li>
           </ol>
           <p>Note that when you subsequently log in to either testnet account, you will see the current state of your wallet with the current amount of test XRP. Your accounts can receive test XRP when you are not logged in.</p>
           <h3>3. Send Money Between Interledger Wallets</h3>
           <p>Once you have testnet funds in one of your wallets, you can send those funds to any other Interledger-enabled wallet.</p>
           <ol>
-            <li>Sign in to your account at&nbsp;<a target="_blank" href="https://ripplex.io/">https://ripplex.io&nbsp;<em></em></a></li>
-            <li>Look at the&nbsp;<strong>Send</strong>&nbsp;portion of the page on the right.</li>
-            <li>Enter the number of test XRP that you want to send.</li>
-            <li>Enter the payment pointer for the address you want to send test XRP to (hint: try one from&nbsp;<a target="_blank" href="https://rafiki.money/">https://rafiki.money&nbsp;<em></em></a>).</li>
-            <li>Click&nbsp;<strong>Send</strong>.</li>
+            <li>Use the RippleX Wallet you created earlier at https://faucet.ilpv4.dev/</li>
+            <li>Decide the amount of XRP that you want to send.</li>
+            <li>Decide to which payment pointer you want to send test XRP to (hint: try one from&nbsp;<a target="_blank" href="https://rafiki.money/">https://rafiki.money&nbsp;<em></em></a>).</li>
+            <li>Execute the following POST request with the correct information</li>
+            <pre>
+              <code>
+              curl --location \
+              --request POST 'https://hermes-rest.ilpv4.dev/accounts/{your-account-id}/pay' \
+              --header 'Content-Type: application/json' \
+              --header 'Accept: application/json' \
+              --header 'Authorization: Bearer {auth_token}' \
+              --data-raw '{
+                "amount": "1000000",
+                "destinationPaymentPointer": "$rafiki.money/p/{receiver-email-address}"
+              }'
+            </code>
+          </pre>
           </ol>
-          <p>The amount of test XRP in the lower left adjusts to the new value. At the same time, if you have your rafiki.money wallet account open in another tab, you will see your balance in that wallet account go down.</p>
+          <p>The amount of test XRP in the sender account_id adjusts to the new value. At the same time, if you have your rafiki.money wallet account open in another tab, you will see your balance in that wallet account go up.</p>
           <p>Next, send the money back via the following steps:</p>
           <ol>
             <li>On the rafiki.money home page, click the account you want to use to send test XRP.</li>
             <li>Click&nbsp;<strong>Send</strong>&nbsp;button (found in the upper-left of the screen).</li>
-            <li>Enter your Xpring&nbsp;<strong>Payment Pointer</strong>, the&nbsp;<strong>Amount (XRP)</strong>, and click&nbsp;<strong>Send</strong>.</li>
+            <li>Enter your RippleX&nbsp;<strong>Payment Pointer</strong>, the&nbsp;<strong>Amount (XRP)</strong>, and click&nbsp;<strong>Send</strong>.</li>
           </ol>
           <p>Experiment with sending and receiving test funds between payment pointers on different sites, adding more test funds to your accounts as desired. In this tutorial, there are no transaction costs for sending and receiving test funds, but a different Interledger implementation could impose transaction costs.</p>
         </div>
