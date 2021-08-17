@@ -15,14 +15,14 @@ title: Setup and Use Interledger Accounts
           <p>With Interledger, all currency pairs that senders and receivers use are supported. For simplicity, this tutorial demonstrates sending and receiving test XRP only, but in practice senders and receivers can use different currencies.</p>
           <p>This tutorial describes two ways to create an Interledger account to send and receive test funds:</p>
           <ul>
-            <li>With a&nbsp;<a target="_blank" href="https://ripplex.io/">RippleX&nbsp;<em></em></a>&nbsp;account</li>
+            <li>With an <a target="_blank" href="https://faucet.ilpv4.dev/">ilpv4.dev&nbsp;<em></em></a>&nbsp;account</li>
             <li>With a&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>&nbsp;account</li>
           </ul>
           <p>Both of these types of Interledger accounts allow you to send and receive test funds, and are useful for developing and testing apps. These types of accounts can also be referred to as "wallet" accounts.</p>
-          <p>You can also interact with these wallets programmatically. See&nbsp;<a href="https://interledger.org/setup-wallets-programmatically.html">Use Interledger programmaticallly</a>.</p>
+          <p>You can also interact with these wallets programmatically. See&nbsp;<a href="https://interledger.org/developer-tools/get-started/manage-accounts/">Manage Interledger programmaticallly</a>.</p>
           <p>If you want to send&nbsp;<em>actual</em>&nbsp;value in your app with an Interledger account, refer to the following open-source projects (contributions welcome):</p>
           <ul>
-            <li><a target="_blank" href="https://connector.interledger4j.dev/">Java Connector&nbsp;<em></em></a>&nbsp;&mdash; Actively maintained by RippleX and recommended for new production deployments.</li>
+            <li><a target="_blank" href="https://connector.interledger4j.dev/">Java Connector&nbsp;<em></em></a>&nbsp;&mdash; Not actively maintained, but the development team is open to hearing about <a href="https://feedback.interledger4j.dev/">new feature requests</a>.</li>
             <li><a target="_blank" href="http://interledger.rs/">Rust Connector&nbsp;<em></em></a>&nbsp;&mdash; Not actively maintained, but recommended to get started for its ease of use and feature-set.</li>
             <li><a target="_blank" href="https://github.com/interledgerjs/ilp-connector">Javascript Connector&nbsp;<em></em></a>&nbsp;&mdash; Battle-tested in production.</li>
           </ul>
@@ -30,7 +30,8 @@ title: Setup and Use Interledger Accounts
           <p>For this tutorial, you should create both a RippleX and rafiki.money wallet account.</p>
           <h4>CREATE A RIPPLEX ACCOUNT</h4>
           <ol>
-            <li>Navigate to https://faucet.ilpv4.dev/ and click&nbsp;<code>Generate ILP TestNet Credentials</code>.</li>
+            <li>Navigate to https://wallet.ilpv4.dev/ and click&nbsp;<code>Sign in</code>.</li>
+            <li>NOTE: Only use Github login!</li>
           </ol>
           <h4>CREATE AN ACCOUNT AT HTTPS://RAFIKI.MONEY</h4>
           <p>The&nbsp;<a target="_blank" href="https://rafiki.money/">rafiki.money&nbsp;<em></em></a>&nbsp;site also allows you to create an Interledger-enabled wallet that is compatible with the testnet wallet provided by RippleX. Use the following instructions to get setup:</p>
@@ -44,8 +45,9 @@ title: Setup and Use Interledger Accounts
           </ol>
           <h3>2. Locate Your Own Payment Pointer</h3>
           <ol>
-            <li>In each wallet, you will see a page with a payment pointer in the following formats:&nbsp;<code>$jc.ilpv4.dev/{your-account-name}</code>&nbsp;(RippleX Wallet) and&nbsp;<code>rafiki.money/p/{user-id}</code>&nbsp;(Rafki Money). As indicated by the payment pointer, each wallet is Interledger-enabled.</li>
-            <li>Because your new accounts don't have any test funds, you will want to add value to them. {{DAVID_TODO FOR RIPPLEX}}. In Rafki, click the&nbsp;<code>Add Funds</code>&nbsp;button.</li>
+            <li>In each wallet, you will see a page with a payment pointer in the following formats:&nbsp;<code>$money.ilpv4.dev/{your-account-name}</code>&nbsp;(RippleX Wallet) and&nbsp;<code>rafiki.money/p/{user-id}</code>&nbsp;(Rafki Money). As indicated by the payment pointer, each wallet is Interledger-enabled.</li>
+            <li>To add funds to your Rafki wallet, click the&nbsp;<code>Add Funds</code>&nbsp;button.</li>
+            <li>To add funds to your RippleX wallet, click the&nbsp;<code>Make it rain</code>&nbsp;button.</li>
             <li>If you want someone to pay you, provide them with your payment pointer. That's it!</li>
           </ol>
           <p>Note that when you subsequently log in to either testnet account, you will see the current state of your wallet with the current amount of test XRP. Your accounts can receive test XRP when you are not logged in.</p>
@@ -55,22 +57,10 @@ title: Setup and Use Interledger Accounts
             <li>Use the RippleX Wallet you created earlier at https://faucet.ilpv4.dev/</li>
             <li>Decide the amount of XRP that you want to send.</li>
             <li>Decide to which payment pointer you want to send test XRP to (hint: try one from&nbsp;<a target="_blank" href="https://rafiki.money/">https://rafiki.money&nbsp;<em></em></a>).</li>
-            <li>Execute the following POST request with the correct information</li>
-            <pre>
-              <code>
-              curl --location \
-              --request POST 'https://hermes-rest.ilpv4.dev/accounts/{your-account-id}/pay' \
-              --header 'Content-Type: application/json' \
-              --header 'Accept: application/json' \
-              --header 'Authorization: Bearer {auth_token}' \
-              --data-raw '{
-                "amount": "1000000",
-                "destinationPaymentPointer": "$rafiki.money/p/{receiver-email-address}"
-              }'
-            </code>
+            <li>Click <strong>Send</strong>.</li>
           </pre>
           </ol>
-          <p>The amount of test XRP in the sender account_id adjusts to the new value. At the same time, if you have your rafiki.money wallet account open in another tab, you will see your balance in that wallet account go up.</p>
+          <p>The amount of test XRP in the sender account adjusts to the new value. At the same time, if you have your rafiki.money wallet account open in another tab, you will see your balance in that wallet account go up.</p>
           <p>Next, send the money back via the following steps:</p>
           <ol>
             <li>On the rafiki.money home page, click the account you want to use to send test XRP.</li>
