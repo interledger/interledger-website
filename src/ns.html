@@ -1,0 +1,34 @@
+---
+layout: page
+title: Interledger RDF Ontology
+---
+
+<div class="container"><div class="row ||"><div class="col-12 col-lg-6 text-center text-md-start"><div class="editable">
+
+<section  id="#hasPaymentPointer" onclick="window.location='/ns#hasPaymentPointer';">
+  <h2 class="text-bold editable">#hasPaymentPointer</h2>
+  <div>Predicate to link from a WebID to a node of type InterledgerPaymentPointer.</div>
+</section>
+
+<section id="#paymentPointerValue" onclick="window.location='/ns#paymentPointerValue';">
+  <h2 class="text-bold editable">#paymentPointerValue</h2>
+  <div>Predicate to link from a node of type InterledgerPaymentPointer to a payment pointer string value.</div>
+</section>
+
+<section id="#InterledgerPaymentPointer" onclick="window.location='/ns#InterledgerPaymentPointer';">
+  <h2 class="text-bold editable">#InterledgerPaymentPointer</h2>
+  <div>RDF class to describe Interledger Pointer Pointers in RDF.</div>
+</section>
+
+<section id="#InterledgerPaymentPointer" onclick="window.location='/ns#InterledgerPaymentPointer';">
+  <h2 class="text-bold editable">Example</h2>
+  <div><pre><code>
+@prefix ilp: &lt;https://interledger.org/ns#&gt;.
+<#me> ilp:hasPaymentPointer [
+    a ilp:InterledgerPaymentPointer;
+    ilp:paymentPointerValue "$example.com".
+  ].
+</code></pre></div>
+</section>
+
+</div></div></div></div>
