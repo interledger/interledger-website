@@ -4,7 +4,8 @@ This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cl
 
 ## Getting Started ##
 1. Install Ruby 2.6.2
-2. Install Node packages: `yarn install`
+2. Run `gem install bundler:2.2.19`
+3. Install Node packages: `yarn install`
 
 ## Daily Startup ##
 1. `cd` to project directory
