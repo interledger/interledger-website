@@ -8,10 +8,8 @@ bio_text: >-
   as a dedicated educator, network builder, and advocate for non-profit
   organizations. Chris is currently the Head of Programs at the Interledger
   Foundation. He oversees all aspects of the programatic activity of the
-  foundation. As Vice President, Mozilla Leadership Network, Chris oversaw the
-  development and expansion of a global network of leaders to build the values
-  of the open internet into all aspects of human society.
+  foundation.
 linkedin_link: https://www.linkedin.com/in/chrislarry/
-twitter_link:
+twitter_link: https://twitter.com/chrislarry33
 ---
 
