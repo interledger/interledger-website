@@ -62,6 +62,7 @@ write_up_html: >-
   where we gather case studies from people currently experimenting with the new
   standard.<br /><br /><em>By Alex Lakatos, Technology Lead, Interledger
   Foundation</em></p>
-categories:
-  - Blog
+news_category: blog_post
+link:
+publication:
 ---
