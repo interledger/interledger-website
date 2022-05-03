@@ -1,5 +1,5 @@
 ---
-title: Announcing a New Call for Proposals for ILP-Based Financial Services
+name: Announcing a New Call for Proposals for ILP-Based Financial Services
 layout: news
 date: 2022-05-03 12:00:00
 featured_image: /uploads/11.jpg
