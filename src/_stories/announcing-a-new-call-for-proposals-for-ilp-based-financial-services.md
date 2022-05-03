@@ -1,7 +1,7 @@
 ---
 name: Announcing a New Call for Proposals for ILP-Based Financial Services
 layout: news
-date: 2022-05-03 12:00:00
+date: 2022-05-04 11:00:00
 featured_image: /uploads/11.jpg
 write_up_html: >-
   <p>The Interledger Foundation (ILF) and its community are building pathways to
