@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interledger News
-banner_story: introducing-the-interledger-foundation
+banner_story: announcing-grants-for-interledger-protocol-based-financial-services
 ---
 
 <section>
@@ -22,7 +22,7 @@ banner_story: introducing-the-interledger-foundation
             </div>
             <div class="col-12 col-md-6 col-lg-5">
               <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
-              <p class="mb-0 text-hero"><strong>{{ featured.title }}</strong></p>
+              <p class="mb-0 text-hero"><strong>{{ featured.name }}</strong></p>
               <p>{{ featured.write_up_html | truncatewords: 20 }}</p>
               {% if featured.news_category == "recent_coverage" %}
                 <a href="{{ featured.link }}" target="_blank" class="mt-0 button button-outline">Read Article</a>
@@ -40,7 +40,7 @@ banner_story: introducing-the-interledger-foundation
             </div>
             <div class="card-body">
               <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ featured.date | date: " %b %-d, %Y" }}</p>
-              <p class="mb-0"><strong>{{ featured.title }}</strong></p>
+              <p class="mb-0"><strong>{{ featured.name }}</strong></p>
             </div>
             <div class="card-footer">
               {% if featured.news_category == "recent_coverage" %}
@@ -63,7 +63,7 @@ banner_story: introducing-the-interledger-foundation
                 — {{ featured.publication }}
                 {% endif %}</p>
 
-                <p class="mb-0"><strong>{{ featured.title }}</strong></p>
+                <p class="mb-0"><strong>{{ featured.name }}</strong></p>
               </div>
               <div class="card-footer">
                 {% if featured.news_category == "recent_coverage" %}

@@ -6,6 +6,12 @@ our_people:
     - briana-marbury
     - chris-lawrence
     - erika-drushka
+    - alex-lakatos
+    - ayesha-ware
+    - julaire-hall
+    - mohammed-islam
+    - tiffany-rolle
+    - vineel-pindi
 board:
   team_members:
     - stefan-thomas
@@ -145,8 +151,8 @@ funders:
       </div>
       {% for slug in page.our_people.team_members %}
       {% assign member = site.team_members | where: 'slug', slug | first %}
-      <div class="col-12 col-md-4 text-center mb-5">
-        <img src="{{ member.photo_image }}" class="img-fluid team-photo p-5 p-md-5" alt="{{ member.name }} headshot" />
+      <div class="col-12 col-md-3 text-center mb-4">
+        <img src="{{ member.photo_image }}" class="img-fluid team-photo p-4 p-md-4" alt="{{ member.name }} headshot" />
         <h4 class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</h4>
         <p class=" text-white   mb-2">{{ member.role }}</p>
         <button type="button" class="button button-outline button-outline-white" data-bs-toggle="modal" data-bs-target="#{{ member.name | slugify }}Modal">
@@ -196,7 +202,7 @@ funders:
 
 <section class="bg-primary pt-0">
   <div class="container">
-    <div class="row py-5 justify-content-center" id="board" >
+    <div class="row py-5 justify-content-center" id="board">
             <div class="col-12 text-white text-center ">
               <h2 class="h2 text-uppercase editable">
                 Board of Directors
@@ -261,15 +267,15 @@ funders:
   <div class="container my-5">
     <div class="row centered justify-content-end">
       <div class="col-12 col-md-6  text-center text-md-start">
-        <h1 class="text-uppercase h2 text-green mb-4 ">Careers</h1>
+        <h1 class="text-uppercase h2 text-green mb-4">Careers</h1>
         <h2 class="editable">
           Join us in building a universal payment network that puts humanity first.
         </h2>
-        <img class="img-fluid d-md-none py-4 " src="/img/about-us/careers-image.webp" alt="Two women using a laptop" />
-        <p class=" editable">
+        <img class="img-fluid d-md-none py-4" src="/img/about-us/careers-image.webp" alt="Two women using a laptop" />
+        <p class="editable">
           We&rsquo;re always eager to hear from prospective candidates who share our ambition and vision for the future.
         </p>
-        <a href="mailto:careers@interledger.org" target="_blank" class="text-underline text-large text-primary text-semi editable">Send your resume and cover letter to careers@interledger.org</a>
+        <a href="https://interledger-foundation.breezy.hr/" target="_blank" class="btn btn-secondary text-large text-primary text-semi editable">View Current Openings</a>
       </div>
     </div>
   </div>
