@@ -44,12 +44,11 @@ write_up_html: >-
   the ILP network to more users as we are, and this opportunity sounds inviting
   to you, please consider applying! The current CFP is open until July 8, 2022
   and as always, we&rsquo;re here to answer any questions you may have at <a
-  href="mailto:info@interledger.org">info@interledger.org</a>.</p><p>Thanks
-  you,</p><p>Briana Marbury</p><p>Executive Director, The Interledger Foundation
-  &nbsp;&nbsp;</p><p><strong>Join one of our upcoming office hours to ask
-  questions about the Call for Proposals:</strong></p><p><strong>Week
-  1:</strong></p><p>Friday, June 10, 2022&nbsp;</p><p>2:00 pm EDT / 6:00 pm
-  UTC</p><p>To Register: <a
+  href="mailto:info@interledger.org">info@interledger.org</a>.</p><p><em>Thank
+  you,<br />Briana Marbury<br />Executive Director, Interledger Foundation</em>
+  &nbsp;&nbsp;</p><h2>Join one of our upcoming office hours to ask questions
+  about the Call for Proposals</h2><p><strong>Week 1:</strong></p><p>Friday,
+  June 10, 2022&nbsp;</p><p>2:00 pm EDT / 6:00 pm UTC</p><p>To Register: <a
   href="https://www.eventbrite.ca/e/343350208717">https://www.eventbrite.ca/e/343350208717</a>&nbsp;</p><p><strong>Week
   2:</strong></p><p>Thursday, June 16, 2022</p><p>8:00 am EDT / 12:00 pm
   UTC</p><p>To Register: <a
