@@ -4,7 +4,7 @@ name: >-
   Services Providers in the Ecosystem
 layout: news
 date: 2022-06-07 10:00:00
-featured_image: /uploads/ilf-media-logos.png
+featured_image: /uploads/image-from-ios.png
 write_up_html: >-
   <p>On May 17, the <a href="https://interledger.org/">Interledger
   Foundation</a> announced its third Call For Proposal (CFP) since launching
