@@ -22,7 +22,7 @@
 .interledger-summit-banner {
   background-color: $pink;
   z-index: 100;
-  height: 83px;
+  height: $banner-height;
   .nav-item {
     .nav-link {
       color: $white;
