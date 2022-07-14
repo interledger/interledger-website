@@ -1,27 +1,60 @@
 #summitHero {
   background: $white;
-  background: linear-gradient(90deg, $white 52%, $blue-400 52%);
+  padding-bottom: 0;
+  .col-lg-7 {
+    animation-duration: 1s;
+    animation-name: slideinleft;
+  }
+
+  .col-lg-5 {
+    animation-duration: 1s;
+    animation-name: slideinright;
+  }
+
   h1 {
     font-size: 3.5rem;
   }
   .location {
-    font-size: 2.5rem
+    font-size: 2.5rem;
   }
   .date {
-    font-size: 2.33rem
+    font-size: 2.33rem;
   }
   .social {
-    font-size: 1.8rem
+    font-size: 1.8rem;
   }
 }
 
-@media (max-width: 991px) {
-  #summitHero {
-    background: linear-gradient(180deg, $white 60%, $blue-400 60%);
+#about, #scroll, #location {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#scroll {
+  background-color: $pink;
+  height: $banner-height;
+}
+
+@keyframes slideinleft {
+  from {
+    position: relative;
+    right: -100%;
+  }
+
+  to {
+    position: relative;
+    right: 0;
   }
 }
-@media (max-width: 768px) {
-  #summitHero {
-    background: linear-gradient(180deg, $blue-400 15%, $white 15%);
+
+@keyframes slideinright {
+  from {
+    position: relative;
+    left: -100%;
+  }
+
+  to {
+    position: relative;
+    left: 0;
   }
 }
