@@ -1,0 +1,60 @@
+#summitHero {
+  background: $white;
+  padding-bottom: 0;
+  .col-lg-6 {
+    animation-duration: 1s;
+    animation-name: slideinleft;
+  }
+
+  .col-lg-5 {
+    animation-duration: 1s;
+    animation-name: slideinright;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  .location {
+    font-size: 2.5rem;
+  }
+  .date {
+    font-size: 2.33rem;
+  }
+  .social {
+    font-size: 1.8rem;
+  }
+}
+
+#about, #scroll, #location {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#scroll {
+  background-color: $pink;
+  height: 83px;
+}
+
+@keyframes slideinleft {
+  from {
+    position: relative;
+    right: -100%;
+  }
+
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    position: relative;
+    left: -100%;
+  }
+
+  to {
+    position: relative;
+    left: 0;
+  }
+}

@@ -1,6 +1,7 @@
 .secondary-nav {
   z-index: 10;
   height: 83px;
+  margin-top: $banner-height;
   .nav-item {
     .nav-link {
       color: $white;
@@ -71,6 +72,12 @@
 .take-action {
   .secondary-nav {
     background-color: $blue-400;
+  }
+}
+
+.interledger-summit, .interledger-summit-code-of-conduct {
+  .secondary-nav {
+    background-color: $pink;
   }
 }
 .our-work {
