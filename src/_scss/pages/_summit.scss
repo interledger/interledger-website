@@ -1,6 +1,11 @@
+.interledger-summit {
+  section {
+    padding: 40px 0;
+  }
+}
 #summitHero {
   background: $white;
-  padding-bottom: 0;
+  padding-top: 180px;
   .col-lg-6 {
     animation-duration: 1s;
     animation-name: slideinleft;
@@ -25,14 +30,16 @@
   }
 }
 
-#about, #scroll, #location {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
 #scroll {
   background-color: $pink;
   height: 83px;
+  padding-top: 0 !important;
+  padding-bottom: 30px !important;
+}
+
+#location {
+  padding-bottom: 0 !important;
+  padding-top: 60px;
 }
 
 @keyframes slideinleft {
