@@ -284,6 +284,18 @@
 .photo-border-pink {
   border-bottom: 15px solid $pink;
 }
+
+.photo-border-summit-right {
+  box-shadow: 30px -30px $cyan;
+}
+
+.photo-border-summit-left {
+  box-shadow: -30px -30px $cyan;
+}
+
+.photo-border-summit-left, .photo-border-summit-right {
+  transform: scale(0.8);
+}
 // .half-width-photo {
 //   position: absolute;
 //   width: calc(50vw - 15px);

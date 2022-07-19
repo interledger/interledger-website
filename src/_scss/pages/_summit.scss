@@ -1,7 +1,7 @@
 #summitHero {
   background: $white;
   padding-bottom: 0;
-  .col-lg-7 {
+  .col-lg-6 {
     animation-duration: 1s;
     animation-name: slideinleft;
   }
@@ -32,7 +32,7 @@
 
 #scroll {
   background-color: $pink;
-  height: $banner-height;
+  height: 83px;
 }
 
 @keyframes slideinleft {
