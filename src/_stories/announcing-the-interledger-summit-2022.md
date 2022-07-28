@@ -1,5 +1,5 @@
 ---
-title: Announcing the Interledger Summit 2022!
+name: Announcing the Interledger Summit 2022!
 layout: news
 date: 2022-07-28 00:00:00
 featured_image: /uploads/new-orleans-1280x350-mardi-1.png
