@@ -23,7 +23,7 @@ write_up_html: >-
   2022</p><p><strong>Call for Speakers</strong></p><p>We are looking for curious
   minds to join us in New Orleans and share their knowledge and experiments
   around&nbsp; the payments and financial inclusion ecosystems with the broader
-  Interledger community.<a
+  Interledger community.</p><p><a
   href="https://sessionize.com/interledger-summit-2022/">Apply to speak at the
   ILP Summit!</a></p><p><strong>Travel Grants</strong></p><p>Too often, the
   opportunity to travel to conferences like the ILP Summit are only available to
@@ -45,3 +45,4 @@ news_category: blog_post
 link:
 publication:
 ---
+
