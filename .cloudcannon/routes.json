@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "from": "/today",
+      "to": "/",
+      "status": 301
+    }
+  ]
+}
