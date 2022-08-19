@@ -3,4 +3,4 @@
 /api/elements/ /api/elements.json
 /interledger.pdf /uploads/interledger.pdf
 /community.html /developer-tools/community/
-/today /
+/today.html /
