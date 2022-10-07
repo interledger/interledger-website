@@ -2,7 +2,7 @@
 name: Announcing our ILP-Based Financial Services Research and Development Grants
 layout: news
 date: 2022-10-10 00:00:00
-published: true
+publication: true
 featured_image: /uploads/fs-cfp-news.png
 write_up_html: >-
   <p>
