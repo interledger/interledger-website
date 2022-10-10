@@ -26,7 +26,7 @@ write_up_html: >-
   </p>
   <p>
   We were thrilled by the response we had to this award program and are excited
-  to support these projects as they learn, grow and build. It is mission
+  to support these projects as they learn, grow and build in the Interledger ecosystem. It is mission
   critical that we expand the ILP network and activate nodes throughout the
   globe who will open up new opportunities to expand financial inclusion. I am
   proud that these projects demonstrate the diversity in our ecosystem and
