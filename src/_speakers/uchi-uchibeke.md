@@ -4,7 +4,8 @@ layout: speakers
 photo_image: /img/summit/speakers/uchi.jpg
 role: Founder & CEO
 company: Chimoney
-bio_text:
+bio_text: "Uchi is a Developer who loves building things especially at Hackathons. Currently, he is the Director of Developer Relations at Coil where he is leading Coil's strategy for developer engagement globally and building a community around Web Monetization, Interledger, and Coil's products globally.
+Uchi is the Founder and CEO of Chimoney, a platform that aims to unlock the potential of money for everyone in the world. Chimoney enables the exchange of value between multiple value types like crypto to mobile money, airtime to gift cards, banks to mobile money and so much money and powers payout for Google, Microsoft and others."
 linkedin_link: https://www.linkedin.com/in/nickku/
 twitter_link: https://twitter.com/uchiuchibeke
 session_title: "Chimoney: Financial Inclusion, Accessibility, and Monetization"
