@@ -5,10 +5,37 @@
 }
 
 .interledger-summit-code-of-conduct, .interledger-summit-covid-policy {
-  section {
+  #pageContent section {
     padding: 180px 0;
   }
 }
+
+.interledger-summit-schedule {
+  #pageContent section {
+    padding: 145px 0;
+  }
+}
+
+.interledger-summit-speakers {
+  #pageContent #speakers-list {
+    padding: 0;
+  }
+
+  #pageContent #speakers {
+    padding: 180px 0 0 0;
+
+    .col-lg-6 {
+      animation-duration: 1s;
+      animation-name: slideinleft;
+    }
+
+    .col-lg-5 {
+      animation-duration: 1s;
+      animation-name: slideinright;
+    }
+  }
+}
+
 
 #summitHero {
   background: $white;
