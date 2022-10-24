@@ -1,0 +1,13 @@
+---
+name: Erin Brown
+layout: speakers
+photo_image: /img/summit/speakers/Erin_Brown.jpg
+role: Management Performance Lead
+company: USAID
+bio_text: "Erin Brown is the Team Leader for the Management Performance Strengthening Team in the Management Bureau’s Office of Management Policy, Budget and Operational Performance. Before that she launched USAID’s new Diversity, Equity, Inclusion, and Accessibility (DEIA) agenda as the Agency’s Acting Chief DEIA Officer in the Office of the Administrator, including development of its 2021 DEIA Strategic Plan and an Equity Action Plan that highlights the Agency’s key actions to address equity across its programs and partnerships. A strategy and organizational transformation subject matter expert with 23 years of experience in the public and private sectors, Ms. Brown joined the United States Agency for International Development in 2012 as a Franklin Fellow after 13 years in the private sector where she led medium and large-scale strategic planning, business process improvement, and organizational change management initiatives for defense and civilian government agencies. Prior to joining USAID, Ms. Brown was a Senior Principal at the Hay Group, a global management consulting firm, where she led the Building Effective Organizations Practice in the Federal Sector."
+linkedin_link: https://www.linkedin.com/in/erinbrown1913/
+twitter_link: 
+session_title: "The 5Ps of Diversity, Equity, and Inclusion (DEI)"
+session_abstract: "Diversity, Equity, and Inclusion (DEI) is a hot topic across multiple industries and sectors, especially since the untimely death of George Floyd in 2020. While strategies, tools, and techniques to drive development of inclusive financial systems is the focus of the Interledger Summit, is that goal possible without a strong focus on diversity, equity, and inclusion by actors in the financial inclusion space across all aspects of their operations? In this talk, you will hear from Erin Brown, former Acting Chief Diversity Officer at the United States Agency for International Development (USAID) as she discusses the 5 Ps of Diversity, Equity, and Inclusion, and how she used a focus on the 5 Ps of DEI to build USAID's Diversity, Equity, Inclusion, and Accessibility (DEIA) program. Through these 5Ps, you will gain awareness as to how our ability to achieve equity and financial inclusion may not be possible until that same focus and intention is used to increase diversity, equity, and inclusion within our own organizations (i.e., it starts at home). Erin will also cover a few foundational strategies to level up on our DEI efforts so that it both benefits our organizations internally and improved our ability to promote greater financial equity and inclusion outcomes."
+---
+

@@ -27,6 +27,10 @@ collections:
     output: true
     layout: team
     permalink: /about-us/:path/
+  speakers:
+    output: true
+    layout: speakers
+    permalink: /summit/speakers/:path/
   stories:
     output: true
     layout: news
