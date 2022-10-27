@@ -2,7 +2,7 @@
 name: Erin Brown
 layout: speakers
 photo_image: /img/summit/speakers/Erin_Brown.jpg
-role: Management Performance Lead
+role: Performance Lead
 company: USAID
 bio_text: "Erin Brown is the Team Leader for the Management Performance Strengthening Team in the Management Bureau’s Office of Management Policy, Budget and Operational Performance. Before that she launched USAID’s new Diversity, Equity, Inclusion, and Accessibility (DEIA) agenda as the Agency’s Acting Chief DEIA Officer in the Office of the Administrator, including development of its 2021 DEIA Strategic Plan and an Equity Action Plan that highlights the Agency’s key actions to address equity across its programs and partnerships. A strategy and organizational transformation subject matter expert with 23 years of experience in the public and private sectors, Ms. Brown joined the United States Agency for International Development in 2012 as a Franklin Fellow after 13 years in the private sector where she led medium and large-scale strategic planning, business process improvement, and organizational change management initiatives for defense and civilian government agencies. Prior to joining USAID, Ms. Brown was a Senior Principal at the Hay Group, a global management consulting firm, where she led the Building Effective Organizations Practice in the Federal Sector."
 linkedin_link: https://www.linkedin.com/in/erinbrown1913/
