@@ -1,0 +1,44 @@
+---
+layout: page
+title: Interledger Reports
+_subnav:
+  title: Our Work
+  links:
+    - label: Focus Areas
+      url: '/our-work/#focus-areas'
+    - label: Impact
+      url: '/our-work/#impact'
+    - label: Research
+      url: '/our-work/reports'
+---
+
+{% include navigation/subnav.html %}
+
+<section class="bg-light recent-reports">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-uppercase mb-0">Recent Reports</h2>
+      </div>
+    </div>
+    <div class="row mt-3">
+      {% assign recent-reports = site.reports | sort: 'date' | reverse %}
+      {% for report in recent-reports limit: 4 %}
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 d-flex align-items-stretch">
+        <div class="card p-0 border">
+          <div class="card-body">
+            <p class="text-small mb-0 text-gray text-bold text-uppercase">{{ report.date | date: " %B, %Y" }} {% if report.research_partner %}
+              — {{ report.research_partner }}
+              {% endif %}</p>
+            <p class="mb-0"><strong>{{ report.title }}</strong></p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ report.link }}" target="_blank" class="mt-0 button button-outline">Read Report</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
