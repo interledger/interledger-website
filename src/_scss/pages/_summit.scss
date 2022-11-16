@@ -41,12 +41,12 @@
 }
 
 #livestreams {
-  .col-lg-6 {
+  .left {
     animation-duration: 1s;
     animation-name: slideinleft;
   }
 
-  .col-lg-5 {
+  .right {
     animation-duration: 1s;
     animation-name: slideinright;
   }
@@ -54,7 +54,7 @@
 
 #summitHero {
   background: $white;
-  .col-lg-6 {
+  .col-lg-4 {
     animation-duration: 1s;
     animation-name: slideinleft;
   }
