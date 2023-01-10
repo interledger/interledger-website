@@ -484,8 +484,12 @@ membership_level:
           For Membership Inquiries
         </h2>
         <div class="cognito mt-3">
-          <script src="https://www.cognitoforms.com/s/bbN8iw1MJUqjPe6aHn-_rw"></script>
-          <script>Cognito.load("forms", { id: "90", entry: {Topic: "Membership" }});</script>
+          <script defer onload="loadCognitoMembership()" src="https://www.cognitoforms.com/s/bbN8iw1MJUqjPe6aHn-_rw"></script>
+          <script>
+            function loadCognitoMembership(){
+              Cognito.load("forms", { id: "90", entry: {Topic: "Membership" }});
+            }
+          </script>
         </div>
       </div>
     </div>

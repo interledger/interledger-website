@@ -1,7 +1,7 @@
 ---
 name: Chris Lawrence
 layout: team
-photo_image: /uploads/chris-lawrence.jpeg
+photo_image: /uploads/chris.jpg
 role: Head of Programs
 bio_text: >-
   Chris is an experienced nonprofit professional who has spent the last 15 years

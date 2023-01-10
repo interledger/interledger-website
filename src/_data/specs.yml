@@ -60,6 +60,12 @@
     permalink: /rfcs/0036-spsp-pull-payments/index.html
     src: https://raw.githubusercontent.com/interledger/rfcs/master/0036-spsp-pull-payments/0036-spsp-pull-payments.md
 
+-   name: STREAM Receipts
+    nav: true
+    doc_type: Specs
+    permalink: /rfcs/0039-stream-receipts/index.html
+    src: https://raw.githubusercontent.com/interledger/rfcs/master/0039-stream-receipts/0039-stream-receipts.md
+
 # End Nav
 
 -   name: Payment Pointers

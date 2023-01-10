@@ -47,6 +47,15 @@
   }
 }
 
+#our-people {
+  h4,
+  p.mb-2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 768px) {
   #aboutHero {
     background: linear-gradient(180deg, $white 65%, $green-200 65%);

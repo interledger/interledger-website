@@ -7,7 +7,7 @@ company: Interledger Foundation
 bio_text: >-
   As the Technology Lead for the Interledger Foundation, Alex focuses on
   lowering the barrier to entry into the Interledger ecosystem and drives the
-  adoption of the web standards powering the Interledger protocol. An avid
+  adoption of the web standards powering the Interledger Protocol. An avid
   traveller, it's likely you'll bump into him at developer conferences around
   the world.
 linkedin_link: https://www.linkedin.com/in/alexlakatos/

@@ -31,6 +31,10 @@ collections:
     output: true
     layout: speakers
     permalink: /summit/speakers/:path/
+  reports:
+    output: true
+    layout: reports
+    permalink: /our-work/reports/:path/
   stories:
     output: true
     layout: news

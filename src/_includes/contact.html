@@ -6,10 +6,16 @@
       </div>
       <div class="col-12">
         <div class="cognito">
-          <script src="https://www.cognitoforms.com/s/3e45hCUaSUSH2Oi0prtfLQ"></script>
-          <script>Cognito.load("forms", { id: "1" });</script>
-          <!--<script src="https://www.cognitoforms.com/s/bbN8iw1MJUqjPe6aHn-_rw"></script>-->
-          <!--<script>Cognito.load("forms", { id: "90" });</script>-->
+          <script
+            defer
+            onload="loadCognito()"
+            src="https://www.cognitoforms.com/s/bbN8iw1MJUqjPe6aHn-_rw"
+          ></script>
+          <script>
+            function loadCognito() {
+              Cognito.load("forms", { id: "90" });
+            }
+          </script>
         </div>
       </div>
     </div>

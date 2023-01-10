@@ -36,11 +36,25 @@
   }
 }
 
+#livestream {
+  padding-top: 180px;
+}
+
+#livestreams {
+  .left {
+    animation-duration: 1s;
+    animation-name: slideinleft;
+  }
+
+  .right {
+    animation-duration: 1s;
+    animation-name: slideinright;
+  }
+}
 
 #summitHero {
   background: $white;
-  padding-top: 180px;
-  .col-lg-6 {
+  .col-lg-4 {
     animation-duration: 1s;
     animation-name: slideinleft;
   }
