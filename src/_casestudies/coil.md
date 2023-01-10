@@ -48,7 +48,7 @@ write_up_html: >-
   Interledger Protocol enables Web Monetization by facilitating the seamless
   transfer of funds. Funds can be sent instantly to Interledger-enabled wallets
   with near-zero cost, regardless of the currencies used. Without the
-  Interledger protocol providing interoperable and scalable payment rails, Web
+  Interledger Protocol providing interoperable and scalable payment rails, Web
   Monetization would be impossible to implement. Coil would need to integrate
   with every wallet individually, which is impossible on a global
   scale.</p><p><strong>The Monetized Web of the Future</strong></p><p>Looking

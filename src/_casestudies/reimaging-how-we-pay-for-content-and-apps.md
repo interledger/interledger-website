@@ -29,7 +29,7 @@ write_up_html: >-
   different ledgers. Interledger&rsquo;s design caught his eye as a key building
   block to begin changing the way the internet is monetized &ndash; and how
   creators can get paid. The idea became obvious: let&rsquo;s build a browser
-  that has Interledger protocol support built in to allow tiny amounts of
+  that has Interledger Protocol support built in to allow tiny amounts of
   currency to flow from a webpage viewer to the creator of the page. This
   approach enables creators to get paid when someone views their content but
   keeps viewers&rsquo; data private, a significant departure from the
@@ -39,9 +39,9 @@ write_up_html: >-
   monetization of blogs and other creative works by enabling micropayments while
   web browsing. Users can sign up for a $5 monthly subscription that allows them
   to stream micropayments to web monetized sites. Coil is built on the
-  Interledger protocol, which is integral to Web Monetization because it
+  Interledger Protocol, which is integral to Web Monetization because it
   facilitates the seamless transfer of funds. Interledger makes it possible for
-  different ledgers to communicate; without the Interledger protocol providing
+  different ledgers to communicate; without the Interledger Protocol providing
   interoperable and scalable payment rails, Web Monetization would not be
   possible.</p><p>With Interledger and Coil, Puma can automatically send
   micropayments to monetized sites, across financial platforms and geographical

@@ -18,7 +18,7 @@ write_up_html: >-
   rel="noopener" href="https://interledger.org/join/">join us</a>.</p><p>Here is
   why the Foundation was formed and ways to get
   involved:&nbsp;</p><p><strong>Building More Equitable and Creative
-  Opportunities on the Web</strong></p><p>The idea for the Interledger protocol
+  Opportunities on the Web</strong></p><p>The idea for the Interledger Protocol
   was born in 2015 when Stefan Thomas and Evan Schwartz, its co-creators,
   realized how difficult it was to make cross border payments. Stefan tells a
   story about an Airbnb host, who by the time they received their payment, it

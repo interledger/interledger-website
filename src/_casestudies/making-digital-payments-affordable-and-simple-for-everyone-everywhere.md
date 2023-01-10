@@ -33,10 +33,10 @@ write_up_html: >-
   the banks, and mobile money and digital payment providers can develop
   real-time payment systems that meet the digital financial services needs of
   emerging markets and the unbanked.&nbsp;</p><p><strong>Building on the
-  Interledger Protocol&nbsp;</strong></p><p>Built upon the Interledger protocol,
+  Interledger Protocol&nbsp;</strong></p><p>Built upon the Interledger Protocol,
   Mojaloop is an open source platform for digital payments, enabling payments
   between multiple MNOs, commercial banks, or a central bank to be settled, even
-  though they may be on different networks.</p><p>The Interledger protocol
+  though they may be on different networks.</p><p>The Interledger Protocol
   defines a set of rules that enables a network of computers to send 'packets'
   of value across independent payment networks, in a similar way to how the
   internet routes packets of information. Interledger&rsquo;s open architecture
