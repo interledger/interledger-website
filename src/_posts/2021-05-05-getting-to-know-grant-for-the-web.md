@@ -33,7 +33,7 @@ write_up_html: >-
   privacy-centric, open and accessible Web Monetization ecosystem. It
   prioritizes innovative ideas that incorporate or build upon the Web
   Monetization proposed standard and protocols. Grantees must either use the
-  Interledger protocol or the Web Monetization standard, or both, to qualify. In
+  Interledger Protocol or the Web Monetization standard, or both, to qualify. In
   2021, we&rsquo;re focusing on supporting projects that have a Diversity,
   Equity and Inclusion (DEI) component, which can manifest itself in one of two
   ways:</p><ul><li>The lead applicant is a person of color or the team

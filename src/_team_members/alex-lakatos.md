@@ -10,7 +10,7 @@ bio_text: >-
   developer-friendly products while engaging with the developer community at
   large. As the Technology Lead for the Interledger Foundation, he focuses on
   lowering the barrier to entry into the Interledger ecosystem and drive the
-  adoption of the web standards powering the Interledger protocol. An avid
+  adoption of the web standards powering the Interledger Protocol. An avid
   traveller, it's likely you'll bump into him at developer conferences around
   the world.
 linkedin_link: https://www.linkedin.com/in/alexlakatos/

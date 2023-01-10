@@ -30,7 +30,7 @@ write_up_html: >-
   unsightly ads and access-blocking subscriptions.</p><p>With the launch of
   Coil, which enables micropayments to websites, Tarabč&aacute;k saw new and
   exciting use cases for Interledger, an open protocol suite for sending
-  payments across different ledgers. The Interledger protocol functions as a
+  payments across different ledgers. The Interledger Protocol functions as a
   gateway to connect those who send money with those who receive money, and it
   creates a financial route that is both quicker and cheaper than
   alternatives.</p><p>Tarabč&aacute;k understood Coil as providing a
@@ -50,7 +50,7 @@ write_up_html: >-
   it's enabled by integrating with Coil, which is based on Interledger. Other
   micropayments models have been tried before, but with mixed results.</p><p>One
   of the things that makes Coil different is the fact that it&rsquo;s based on
-  the open Interledger protocol. Coil allows micropayments to be sent to
+  the open Interledger Protocol. Coil allows micropayments to be sent to
   creators on Cinnamon for every second of their content being viewed, while
   viewers watch videos on Cinnamon (and consume Web Monetized content elsewhere)
   totally ad-free.</p><p>"Think about having a card you scan when you use public
