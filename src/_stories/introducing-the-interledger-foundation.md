@@ -43,8 +43,7 @@ write_up_html: >-
   they create ways to financially support their artists. Two great examples of
   web monetization at work are&nbsp;<a
   href="https://interledger.org/case-studies/reimaging-how-we-pay-for-content-and-apps/">Puma
-  Browser</a>&nbsp;and the video platform&nbsp;<a
-  href="https://interledger.org/case-studies/cinnamon--spicing-up-video-creation-sharing-and-monetizing/">Cinnamon</a>&nbsp;which
+  Browser</a>&nbsp;and a video platform which
   integrate monetization as a native function of the web. In fact, the Grant for
   the Web&rsquo;s site and community space is web monetized, and the
   micropayments generated on the website and community space are directed to
