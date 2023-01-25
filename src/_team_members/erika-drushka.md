@@ -10,7 +10,7 @@ bio_text: >-
   strategic thinking, process, and collaboration to channel creativity around a
   project into intentional, focused activity. Prior to joining Interledger
   Foundation, Erika was a Program Director at Loup Design and Innovation, and a
-  Program Designer and Manager at the Mozilla Foundation. She holds and MA in
+  Program Designer and Manager at the Mozilla Foundation. She holds an MA in
   Intercultural Communication and is a Rockwood Leadership Institute alumnus.
 linkedin_link:
 twitter_link:
