@@ -74,6 +74,16 @@
   }
 }
 
+.interledger-news, .interledger-brand-guidelines {
+  .secondary-nav {
+    background-color: $blue-500;
+  }
+
+  section .container {
+    padding-top: 80px;
+  }
+}
+
 .interledger-summit, .interledger-summit-code-of-conduct, .interledger-summit-covid-policy, .interledger-summit-speakers, .interledger-summit-schedule  {
   .secondary-nav {
     background-color: $pink;
