@@ -2,7 +2,7 @@
 name: Tiffany Rolle
 layout: team
 photo_image: /uploads/tiffany-rolle-headshot-cropped.jpg
-role: Executive Assistant
+role: Event Manager
 bio_text: >-
   Tiffany has taken on several roles before working with the Interledger
   Foundation. With a degree in Interior Design, 10 years of experience working
