@@ -4,14 +4,23 @@ title: About Us
 our_people:
   team_members:
     - briana-marbury
+    - alex-lakatos
+    - catherine-fukushima
     - chris-lawrence
     - erika-drushka
     - ginny-barahona
-    - alex-lakatos
+    - amber-marie
+    - anna-sheard
     - ayesha-ware
+    - blair-currey
+    - dena-mitchell
+    - erika-keresztes
     - julaire-hall
+    - lawil-karama
     - max-kurapov
+    - mey-pharn
     - mohammed-islam
+    - sabine-schaller
     - vineel-pindi
 board:
   team_members:
@@ -152,7 +161,7 @@ funders:
       </div>
       {% for slug in page.our_people.team_members %}
       {% assign member = site.team_members | where: 'slug', slug | first %}
-      <div class="col-12 col-md-3 text-center mb-4">
+      <div class="col-12 col-md-2 text-center mb-4">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-4 p-md-4" alt="{{ member.name }} headshot" />
         <h4 class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</h4>
         <p class=" text-white   mb-2">{{ member.role }}</p>
