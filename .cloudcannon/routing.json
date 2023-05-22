@@ -4,6 +4,16 @@
       "from": "/today",
       "to": "/",
       "status": 301
+    },
+    {
+      "from": "/case-studies/cinnamon--spicing-up-video-creation-sharing-and-monetizing/",
+      "to": "/",
+      "status": 301
+    },
+    {
+      "from": "/docs/tutorials/getting-started.html",
+      "to": "https://interledger.org/developer-tools/get-started/overview/",
+      "status": 301
     }
   ]
 }

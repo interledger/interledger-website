@@ -1,7 +1,7 @@
 ---
 name: Chris Lawrence
 layout: speakers
-photo_image: /img/summit/speakers/chris-lawrence.jpg
+photo_image: /img/summit/2022/speakers/chris-lawrence.jpg
 role: Head of Programs
 company: Interledger Foundation
 bio_text: >-

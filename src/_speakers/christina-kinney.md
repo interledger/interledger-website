@@ -1,7 +1,7 @@
 ---
 name: Christina Kinney
 layout: speakers
-photo_image: /img/summit/speakers/Christina_Kinney.jpg
+photo_image: /img/summit/2022/speakers/Christina_Kinney.jpg
 role: Co-Founder
 company: SumAssembly
 bio_text: "Spent 10+ years in the payments & fintech industry across the globe; served as COO of cross-border payments platform Reach; Founded the Global Retail Insights Network; Stanford University graduate."

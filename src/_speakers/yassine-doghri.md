@@ -1,7 +1,7 @@
 ---
 name: Yassine Doghri
 layout: speakers
-photo_image: /img/summit/speakers/Yassine_Doghri.jpg
+photo_image: /img/summit/2022/speakers/Yassine_Doghri.jpg
 role: Systems Architect
 company: Ad Aures
 bio_text: "Passionate software engineer with skills ranging from systems architecture and web development to UI / UX design. Open-source contributor and advocate: I've built Castopod and working on making it better!"

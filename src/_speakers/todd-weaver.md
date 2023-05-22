@@ -1,7 +1,7 @@
 ---
 name: Todd Weaver
 layout: speakers
-photo_image: /img/summit/speakers/Todd_Weaver.jpg
+photo_image: /img/summit/2022/speakers/Todd_Weaver.jpg
 role: Founder
 company: Purism
 bio_text: "Todd Weaver is a visionary entrepreneur having already challenged Big Media and Big Tech and is happy to be involved challenging Big Finance."

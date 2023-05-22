@@ -4,15 +4,23 @@ title: About Us
 our_people:
   team_members:
     - briana-marbury
+    - alex-lakatos
+    - catherine-fukushima
     - chris-lawrence
     - erika-drushka
     - ginny-barahona
-    - alex-lakatos
+    - amber-marie
+    - anna-sheard
     - ayesha-ware
+    - blair-currey
+    - dena-mitchell
+    - erika-keresztes
     - julaire-hall
+    - lawil-karama
     - max-kurapov
+    - mey-pharn
     - mohammed-islam
-    - tiffany-rolle
+    - sabine-schaller
     - vineel-pindi
 board:
   team_members:
@@ -22,15 +30,6 @@ board:
     - maha-bahou
     - evan-schwartz
     - briana-marbury
-officers:
-  - role: Chairperson
-    team_member: stefan-thomas
-  - role: President
-    team_member: evan-schwartz
-  - role: Executive Director
-    team_member: briana-marbury
-  - role: Treasurer
-    team_member: gary-morris
 funders:
   - name: Coil
     logo_image: /img/about-us/coil-technologies-vector-logo.svg
@@ -153,7 +152,7 @@ funders:
       </div>
       {% for slug in page.our_people.team_members %}
       {% assign member = site.team_members | where: 'slug', slug | first %}
-      <div class="col-12 col-md-3 text-center mb-4">
+      <div class="col-12 col-md-2 text-center mb-4">
         <img src="{{ member.photo_image }}" class="img-fluid team-photo p-4 p-md-4" alt="{{ member.name }} headshot" />
         <h4 class="text-white text-bold    mt-n4 mt-lg-n3 mb-0">{{ member.name }}</h4>
         <p class=" text-white   mb-2">{{ member.role }}</p>
@@ -216,29 +215,6 @@ funders:
         <h4>{{ board.name }}</h4>
         <p>{{ board.role }}</p>
       </div>
-      {% endfor %}
-
-    </div>
-
-
-
-
-    <div class="row py-5 justify-content-center" id="officers">
-      <div class="col-12 text-white text-center ">
-        <h1 class="h2 text-uppercase editable">
-          Officers
-        </h1>
-      </div>
-
-      {% for officer in page.officers %}
-        {% assign person = site.team_members | where: 'slug', officer.team_member | first %}
-        <div class="col-12 col-md-6 col-lg-3 text-white mt-3">
-          <div class="p-2 m-3">
-            <h3 class="border-bottom pb-2">{{ officer.role }}</h3>
-            <h4>{{ person.name }}</h4>
-            <p>{{ person.role }}</p>
-          </div>
-        </div>
       {% endfor %}
 
     </div>

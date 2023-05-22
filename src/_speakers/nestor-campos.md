@@ -1,7 +1,7 @@
 ---
 name: Néstor Campos
 layout: speakers
-photo_image: /img/summit/speakers/Nestor_Campos.png
+photo_image: /img/summit/2022/speakers/Nestor_Campos.png
 role: Founder
 company: PeerPay
 bio_text: "Néstor has more than 12 years of experience, from software development to efficient artificial intelligence models. Now working in Web3 and financial inclusion in Techgethr (https://techgethr.com/) and PeerPay (https://peerpayapp.com/)."

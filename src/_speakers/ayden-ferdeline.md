@@ -1,7 +1,7 @@
 ---
 name: Ayden Férdeline
 layout: speakers
-photo_image: /img/summit/speakers/Ayden_Ferdeline.jpg
+photo_image: /img/summit/2022/speakers/Ayden_Ferdeline.jpg
 role: Fellow
 company: Internet Law and Policy Foundry
 bio_text: "Ayden Férdeline is a public interest technologist who has worked directly with activists, academics, civil society organizations, lawmakers and industry to support responsible technological innovation with a focus on social impact. He is inspired by the potential of the decentralized web and is passionate about cultivating an empowered community of civic minded stakeholders who share a meaningful and actionable commodority to make Web3 work for more people than Web 2.0 did. He previously represented European civil society organizations on ICANN’s GNSO Council, the body which makes binding policy for generic top-level domain names like .COM and .ORG, and was a technology policy fellow with the Mozilla Foundation. He now hosts the Internet governance history podcast POWER PLAYS – generously supported by Grant for the Web – and independently researches how Internet governance processes can be made more inclusive, for organizations like the National Democratic Institute and the National Endowment for Democracy. Based in Berlin, he is an alumnus of the London School of Economics."

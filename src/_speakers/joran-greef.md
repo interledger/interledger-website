@@ -1,7 +1,7 @@
 ---
 name: Joran Greef
 layout: speakers
-photo_image: /img/summit/speakers/Joran_Greef.jpg
+photo_image: /img/summit/2022/speakers/Joran_Greef.jpg
 role: Founder & CEO
 company: TigerBeetle
 bio_text: "Joran bumped into Coil (and the idea of Interledger) in 2020 on a soccer field in Cape Town. This led to analysis of the Mojaloop payments switch, and the idea for “an accounting database” called TigerBeetle to move the performance needle by three orders of magnitude, as part of providing infrastructure for Interledger and Rafiki. TigerBeetle, Inc. was spun out of Coil as a startup in August 2022."

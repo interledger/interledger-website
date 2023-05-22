@@ -1,0 +1,164 @@
+---
+layout: page
+title: Interledger Summit Speakers
+_subnav:
+  title: ILP Summit
+  links:
+    - label: About
+      url: "/summit#about"
+    - label: Speakers
+      url: "/summit/2022/speakers"
+    - label: Schedule
+      url: "/summit/2022/schedule"
+    - label: Location
+      url: "/summit/2022/#location"
+    - label: Code of Conduct
+      url: "/summit/2022/code-of-conduct"
+    - label: COVID Policy
+      url: "/summit/2022/covid-policy"
+speakers:
+  - briana-marbury
+  - stefan-thomas
+  - arunjay-katakam
+  - erin-brown
+  - paula-hunter
+  - michael-richards
+  - adrian-hope-bailie
+  - amanda-figueroa
+  - karl-carter
+  - sabine-schaller
+  - todd-weaver
+  - andres-arauz
+  - juan-francisco
+  - roberto-valdovinos
+  - sharon-wang
+  - uchi-uchibeke
+  - chris-lawrence
+  - andrew-mangle
+  - julaire-hall
+  - xiaoji-song
+  - ellen-magallanes
+  - ayden-ferdeline
+  - christina-kinney
+  - david-benoit
+  - erica-hargreave
+  - lawil-karama
+  - nestor-campos
+  - matt-mankins
+  - joran-greef
+  - benjamin-bellamy
+  - yassine-doghri
+  - yotam-liel
+  - nic-wistreich
+  - jake-kendall
+---
+
+{% include navigation/subnav.html %}
+
+<section id="speakers">
+  <div>
+    <div class="row || centered">
+      <div class="col-12 col-lg-5 px-5 text-md-start">
+        <div class="editable">
+          <h1>Meet the <br>Interledger Summit <br>Speakers</h1>
+          <p>We looked for curious minds to join us in New Orleans and share their knowledge and experiments around the payments and financial inclusion ecosystems with the broader Interledger community.</p>
+        </div>
+      </div>
+      <div
+        class="col-12 col-lg-6 order-first order-md-last"
+      >
+        <img
+          src="/img/summit/2022/speakers.jpg"
+          class="img-fluid photo-border-summit-right"
+          alt="New Orleans French Quarter"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speakers-list">
+  <div class="container">
+    <div class="row || centered">
+      {% for slug in page.speakers %} {% assign member = site.speakers | where: 'slug', slug | first %}
+      <div class="col-12 col-md-3 text-center mb-4">
+        <img
+          src="{{ member.photo_image }}"
+          class="img-fluid team-photo p-4 p-md-4"
+          alt="{{ member.name }} headshot"
+        />
+        <h4
+          type="button"
+          class="text-bold mb-2 mt-n4 mt-lg-n3"
+          data-bs-toggle="modal"
+          data-bs-target="#{{ member.name | slugify }}Modal"
+        >
+          {{member.name}}
+        </h4>
+        <p class="mb-0">{{ member.role }}</p>
+        <p class="mb-2">{{ member.company }}</p>
+        
+      </div>
+      <div
+        class="modal fade"
+        id="{{ member.name | slugify }}Modal"
+        tabindex="-1"
+        aria-labelledby="{{ member.name | slugify }}ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content bg-gray p-3">
+            <div class="modal-header pt-3 mb-n4">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container px-0 px-lg-5">
+                <div class="row">
+                  <div class="col-12 col-lg-4">
+                    <img
+                      src="{{ member.photo_image }}"
+                      class="img-fluid team-photo"
+                      alt="{{ member.name }} headshot"
+                    />
+                  </div>
+                  <div class="col-12 col-lg-8">
+                    <p class="h2 text-primary text-bold">{{ member.name }}</p>
+                    <p class="h2 text-primary text-thin">{{ member.role }}</p>
+                    <p class="h2 text-primary text-thin">{{ member.company }}</p>
+
+                    <div class="bio-social">
+                      {% if member.linkedin_link %}
+                      <a href="{{ member.linkedin_link }}" target="_blank">
+                        <img
+                          src="/img/about-us/follow-linkedin.svg"
+                          alt="{{ member.name }} on LinkedIn"
+                        />
+                      </a>
+                      {% endif %} {% if member.twitter_link %}
+                      <a href="{{ member.twitter_link }}" target="_blank">
+                        <img
+                          src="/img/about-us/follow-twitter.svg"
+                          alt="{{ member.name }} on Twitter"
+                        />
+                      </a>
+                      {% endif %}
+                    </div>
+                    <p class="mt-4">{{ member.bio_text }}</p>
+                    <p class="h2 text-primary text-bold">{{ member.session_title}}</p>
+                    <p class="mt-4">{{ member.session_abstract }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

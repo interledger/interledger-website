@@ -97,11 +97,9 @@ write_up_html: >-
   href="http://annieberman.net/">Annie Berman</a>, Director of<a
   href="http://www.the-faithful.com"> </a><a
   href="http://www.the-faithful.com">The Faithful</a>,<a
-  href="http://annieberman.net/"> </a>are using the <a
+  href="http://annieberman.net/"> </a>are using a <a
   href="https://interledger.org/case-studies/coil/">Coil</a>-enabled web
-  monetized video platform <a
-  href="https://interledger.org/case-studies/cinnamon--spicing-up-video-creation-sharing-and-monetizing/">Cinnamon</a>
-  to stage films worldwide, enabling ticket holders to get access to special
+  monetized video platform to stage films worldwide, enabling ticket holders to get access to special
   bonus events and monetize viewing revenue in terms of hours watched. The <a
   href="https://interledger.org/case-studies/reimaging-how-we-pay-for-content-and-apps/">Puma
   Browser</a>, the first browser to natively support the Web Monetization

@@ -1,7 +1,7 @@
 ---
 name: Arunjay Katakam
 layout: speakers
-photo_image: /img/summit/speakers/Arunjay_Katakam.jpg
+photo_image: /img/summit/2022/speakers/Arunjay_Katakam.jpg
 role: Digital Finance Advisor
 company: UNCDF
 bio_text: "Arunjay Katakam is a former EY consultant who has co-founded three startups, one of which eventually sold to Twitter. He works with the likes of the United Nations Capital Development Fund, the GSMA and the Bill & Melinda Gates Foundation to increase financial inclusion through mobile money payments and digital public infrastructure.

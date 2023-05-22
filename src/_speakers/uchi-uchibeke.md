@@ -1,7 +1,7 @@
 ---
 name: Uchi Uchibeke
 layout: speakers
-photo_image: /img/summit/speakers/uchi.jpg
+photo_image: /img/summit/2022/speakers/uchi.jpg
 role: Founder & CEO
 company: Chimoney
 bio_text: "Uchi is a Developer who loves building things especially at Hackathons. Currently, he is the Director of Developer Relations at Coil where he is leading Coil's strategy for developer engagement globally and building a community around Web Monetization, Interledger, and Coil's products globally.

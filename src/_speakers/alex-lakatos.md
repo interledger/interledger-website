@@ -1,7 +1,7 @@
 ---
 name: Alex Lakatos
 layout: speakers
-photo_image: /img/summit/speakers/alex-lakatos.jpg
+photo_image: /img/summit/2022/speakers/alex-lakatos.jpg
 role: Technology Lead
 company: Interledger Foundation
 bio_text: >-

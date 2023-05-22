@@ -1,7 +1,7 @@
 ---
 name: Juan Francisco Manzano Garcia 
 layout: speakers
-photo_image: /img/summit/speakers/juan.png
+photo_image: /img/summit/2022/speakers/juan.png
 role: Tech Partner
 company: The People's Clearinghouse
 bio_text: "Software developer for the last 26 years, specialized in BAAS, core banking, digital wallets, and payment systems. With a strong interest in microfinance and socially conscious tech projects."
