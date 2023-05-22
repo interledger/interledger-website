@@ -1,7 +1,7 @@
 ---
 name: Michael Richards
 layout: speakers
-photo_image: /img/summit/speakers/Michael_Richards.jpg
+photo_image: /img/summit/2022/speakers/Michael_Richards.jpg
 role: Financial Services Principal
 company: ModusBox
 bio_text: "Michael Richards is the rapporteur of the Mojaloop Change Control Board, chair of the Mojaloop Design Authority and Mojaloop’s representative on the ISO 20022 standards group. He is deeply involved in the definition of extensions to Mojaloop functionality. These currently focus on improvements to the settlement process, on support for currency conversion and on opening Mojaloop schemes to cross-border payments."

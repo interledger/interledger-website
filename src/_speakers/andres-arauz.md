@@ -1,7 +1,7 @@
 ---
 name: Andrés Arauz
 layout: speakers
-photo_image: /img/summit/speakers/andres.png
+photo_image: /img/summit/2022/speakers/andres.png
 role: CEO
 company: The People's Clearinghouse
 bio_text: "Former central banker and policymaker, PhD in crossborder payment systems."

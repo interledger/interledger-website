@@ -1,7 +1,7 @@
 ---
 name: Briana Marbury
 layout: speakers
-photo_image: /img/summit/speakers/briana.png
+photo_image: /img/summit/2022/speakers/briana.png
 role: President & CEO
 company: Interledger Foundation
 bio_text: "Briana is passionate about promoting open payments and financial interoperability solutions for the world's population that need it most. As President & CEO of the Interledger Foundation, her goal is to expand the public’s awareness of the Interledger Protocol's immense potential to improve lives."

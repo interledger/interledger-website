@@ -1,7 +1,7 @@
 ---
 name: Sabine Schaller
 layout: speakers
-photo_image: /img/summit/speakers/Sabine_Schaller.jpg
+photo_image: /img/summit/2022/speakers/Sabine_Schaller.jpg
 role: Research & Development Lead
 company: Coil
 bio_text: "Sabine has always been interested in Data Ownership and the Internet of Value. She works on the specification and implementation of open standards like the Interledger Protocol, Open Payments, and Web Monetization to allow for a Web where content can be paid for with hard currency instead of data.

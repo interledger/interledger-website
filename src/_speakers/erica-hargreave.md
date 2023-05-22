@@ -1,7 +1,7 @@
 ---
 name: Erica Hargreave
 layout: speakers
-photo_image: /img/summit/speakers/Erica_Hargreave.jpg
+photo_image: /img/summit/2022/speakers/Erica_Hargreave.jpg
 role: Interledger Community Ambassador
 company: Interledger
 bio_text: "Dreaming of an internet full of whimsy, stories of social good & honest journalism, crafted by diverse voices, thanks to the possibilities that Interledger presents for financial inclusion & equity.

@@ -1,7 +1,7 @@
 ---
 name: Ellen Magallanes
 layout: speakers
-photo_image: /img/summit/speakers/Ellen_Magallanes.png
+photo_image: /img/summit/2022/speakers/Ellen_Magallanes.png
 role: Senior Counsel
 company: Wikimedia Foundation
 bio_text: "Ellen Magallanes a dual-qualified US-Australian attorney, Secretary at the Internet Law and Policy Foundry, and Senior Counsel at the Wikimedia Foundation. Privacy law, like all the best rabbit holes, was something she fell into and never looked back. Now she furthers her interest in privacy with tech law advocacy in both of her homes: Australia and the US. She is currently based in the San Francisco Bay Area."

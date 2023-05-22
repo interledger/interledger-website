@@ -1,7 +1,7 @@
 ---
 name:
 layout: speakers
-photo_image: /img/summit/speakers/
+photo_image: /img/summit/2022/speakers/
 role:
 company:
 bio_text:

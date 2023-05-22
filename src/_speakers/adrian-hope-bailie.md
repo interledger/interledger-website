@@ -1,7 +1,7 @@
 ---
 name: Adrian Hope-Bailie 
 layout: speakers
-photo_image: /img/summit/speakers/Adrian_Hope-Bailie.png
+photo_image: /img/summit/2022/speakers/Adrian_Hope-Bailie.png
 role: CEO
 company: Fynbos
 bio_text: "Adrian is a co-inventor of the Interledger Protocol stack and the Open Payments standards and payment pointers. He is a co-founder of Fynbos where he is building the first account that will issue payment pointers and support Open Payments."

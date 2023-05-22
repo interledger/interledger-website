@@ -1,7 +1,7 @@
 ---
 name: Benjamin Bellamy
 layout: speakers
-photo_image: /img/summit/speakers/Benjamin_Bellamy.jpg
+photo_image: /img/summit/2022/speakers/Benjamin_Bellamy.jpg
 role: CEO
 company: Ad Aures
 bio_text: "Benjamin Bellamy is an engineer and entrepreneur.

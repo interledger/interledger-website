@@ -1,7 +1,7 @@
 ---
 name: Paula Hunter
 layout: speakers
-photo_image: /img/summit/speakers/Paula_Hunter.webp
+photo_image: /img/summit/2022/speakers/Paula_Hunter.webp
 role: Executive Director
 company: Mojaloop Foundation
 bio_text: "Paula Hunter is the Executive Director of the Mojaloop Foundation – a charitable nonprofit organization focused on extending the financial inclusion efforts of the Mojaloop open source software project. She leads the organization’s strategic planning and direction; grant, membership and strategic partnership development; and evangelism for the organization and its mission. Ms. Hunter is an open source and technology leader with nearly two decades of executive director-level experience managing industry advocacy groups, open source organizations, and standards associations."

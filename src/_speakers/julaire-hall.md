@@ -1,7 +1,7 @@
 ---
 name: Julaire Hall
 layout: speakers
-photo_image: /img/summit/speakers/julaire.png
+photo_image: /img/summit/2022/speakers/julaire.png
 role: Programs Outreach Manager
 company: Interledger Foundation
 bio_text: >-

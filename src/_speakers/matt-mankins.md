@@ -1,7 +1,7 @@
 ---
 name: Matt Mankins
 layout: speakers
-photo_image: /img/summit/speakers/Matt_Mankins.jpg
+photo_image: /img/summit/2022/speakers/Matt_Mankins.jpg
 role: Founder
 company: Lorem Labs
 bio_text: "Matt Mankins is a recent Mozilla Fellow, researcher, inventor, and entrepreneur with degrees from the MIT Media Laboratory and the University of Miami.

@@ -1,7 +1,7 @@
 ---
 name: Yotam Liel
 layout: speakers
-photo_image: /img/summit/speakers/Yotam_Liel.jpg
+photo_image: /img/summit/2022/speakers/Yotam_Liel.jpg
 role: Research Scientist
 company: Tel Aviv University
 bio_text: "Yotam Liel is a PhD candidate and a lecturer at Tel Aviv University. His research interests focus on studying human behavior in digital environments, ranging from online content consumption to Human-AI interaction and conformity to algorithmic advice. His research has won several awards. Prior to his PhD studies, he worked as a product manager and head of digital in several start-up companies."
