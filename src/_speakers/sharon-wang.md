@@ -1,7 +1,7 @@
 ---
 name: Sharon Wang
 layout: speakers
-photo_image: /img/summit/speakers/Sharon_Wang.jpg
+photo_image: /img/summit/2022/speakers/Sharon_Wang.jpg
 role: Technical Steering Committee
 company: Interledger Foundation
 bio_text: "Hey! I'm a big fan of open source and building community, and try to regularly find opportunities to get involved. When I'm not getting lost in my browser tabs, I enjoy spending time outdoors, bouldering and doing aerial silks."

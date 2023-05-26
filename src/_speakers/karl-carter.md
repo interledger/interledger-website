@@ -1,7 +1,7 @@
 ---
 name: Karl Carter
 layout: speakers
-photo_image: /img/summit/speakers/karl.png
+photo_image: /img/summit/2022/speakers/karl.png
 role: CEO
 company: Snake Nation
 bio_text: "Karl Carter is Founder and CEO of Snake Nation. Karl is a passionate entrepreneur, with 20 + years expertise in social change, entertainment, innovation, creative, marketing/media platforms and strategic growth. He leads a team of dedicated creators, technologists, producers, strategists, influencers and project managers in 7 countries that are galvanized by Snake Nation’s mission to impact the lives of millions of diverse creators and coders globally."

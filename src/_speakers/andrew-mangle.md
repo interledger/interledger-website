@@ -1,7 +1,7 @@
 ---
 name: Andrew Mangle
 layout: speakers
-photo_image: /img/summit/speakers/Andrew_Mangle.jpg
+photo_image: /img/summit/2022/speakers/Andrew_Mangle.jpg
 role: Assistant Professor 
 company: Bowie State University
 bio_text: "Dr. Mangle is an Assistant Professor in Management Information Systems at Maryland's oldest HBCU Bowie State University."

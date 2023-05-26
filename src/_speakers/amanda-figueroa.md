@@ -1,7 +1,7 @@
 ---
 name: Amanda Figueroa
 layout: speakers
-photo_image: /img/summit/speakers/Amanda_Figueroa.jpg
+photo_image: /img/summit/2022/speakers/Amanda_Figueroa.jpg
 role: Community Director
 company: Curationist
 bio_text: "Amanda Figueora is Curationist’s Community Director. She is based in Boston and was raised at the US-Mexico border. Amanda’s finishing her PhD in American Studies at Harvard and has fifteen years of experience in public programs, content management, and web design. At Curationist, Amanda leads in building awareness, engagement, and encouraging connections between large arts-based institutions and underserved and grassroots cultural heritage communities. The goal is to bring together these different types of stakeholders to inform the future of Curationist."

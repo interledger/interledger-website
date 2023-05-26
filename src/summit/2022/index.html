@@ -1,0 +1,241 @@
+---
+layout: page
+title: Interledger Summit
+_subnav:
+  title: ILP Summit
+  links:
+    - label: About
+      url: '#about'
+    - label: Speakers
+      url: '/summit/2022/speakers'
+    - label: Schedule
+      url: '/summit/2022/schedule'
+    - label: Location
+      url: '/2022/#location'
+    - label: Code of Conduct
+      url: '/summit/2022/code-of-conduct'
+    - label: COVID Policy
+      url: '/summit/2022/covid-policy'
+speakers:
+  - briana-marbury
+  - stefan-thomas
+  - arunjay-katakam
+  - erin-brown
+  - paula-hunter
+  - michael-richards
+  - adrian-hope-bailie
+  - sabine-schaller
+---
+
+{% include navigation/subnav.html %}
+
+<section id="livestream">
+  <div>
+    <div class="row || centered">
+      <div class="col-11 text-md-start px-5">
+        <div class="editable">
+          <h2>Streamed Live</h2>
+          <p>The Main Stage was live-streamed on YouTube each day. While we process and release the individual talks, please use the full streamed videos from both days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="livestreams">
+  <div>
+    <div class="row || centered">
+      <div
+        class="col-12 col-lg-5 px-5 right"
+      >
+        <iframe width="533" height="377" src="https://www.youtube.com/embed/Whp4RfW3K_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div
+        class="col-12 col-lg-4 px-5 left"
+      >
+        <iframe width="533" height="377" src="https://www.youtube.com/embed/85OXEcWrATI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="summitHero">
+  <div>
+    <div class="row || centered">
+      <div class="col-12 col-lg-5 px-5 text-md-start">
+        <div class="editable">
+          <h1>The Interledger Summit</h1>
+          <p>
+            <h2 class="location">New Orleans, LA, USA</h2>
+            <h2 class="date">November 12-13, 2022</h2>
+            <h2 class="social">#ILPSummit2022</h2>
+          </p>
+          <p>Hey Friends! Now that outside was open again, we brought back the Interledger Summit this year in Nawlins, y’all! (translation: New Orleans, you all). We're very happy everyone went and “pass a good time” with the Interledger Krewe on November 12-13, 2022, with festivities the evening of the 11th, and experienced the cultural and culinary wonder of the South.</p>
+        </div>
+      </div>
+      <div
+        class="col-12 col-lg-6 order-first order-md-last"
+      >
+        <img
+          src="/img/summit/2022/summit-hero.jpg"
+          class="img-fluid photo-border-summit-right"
+          alt="New Orleans French Quarter"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div>
+    <div class="row || centered">
+      <div
+        class="col-12 col-lg-6 order-first"
+      >
+        <img
+          src="/img/summit/2022/new-orleans.jpg"
+          class="img-fluid photo-border-summit-left"
+          alt="New Orleans French Quarter"
+        />
+      </div>
+      <div class="col-12 col-lg-5 px-5 text-md-start">
+        <div class="editable">
+          <h2>A Gathering</h2>
+          <h3>The Interledger Community</h3>
+          <p>We couldn’t think of a better place to host our vibrant, global Interledger Community to connect, showcase, and celebrate our vital work in the financial inclusion and payments space. We were enthused to see folks IRL, learn from each other, and share a preview of the groundbreaking roadmap that lies ahead for the Interledger Protocol.</p>
+          <p>Over the course of two days you’ve experience keynote speeches by industry leaders, participated in engaging workshops & sessions, and enjoyed all the The Big Easy has to offer!</p>
+          <div class="mt-auto">
+            <a href="/summit/2022/schedule" class="button button-outline"
+              >Explore the Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speakers">
+  <div>
+    <div class="row || centered">
+      <div class="col-12 col-lg-4 px-5 text-md-start">
+        <div class="editable">
+          <h2>Meeet the Speakers</h2>
+          <p>We looked for curious minds to join us in New Orleans and share their knowledge and experiments around the payments and financial inclusion ecosystems.</p>
+          <div class="mt-auto">
+            <a href="/summit/2022/speakers" class="button button-outline"
+              >View All the Speakers</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-12 col-lg-7 order-first order-md-last"
+      >
+      <div class="row || centered">
+        {% for slug in page.speakers %} {% assign member = site.speakers | where: 'slug', slug | first %}
+        <div class="col-12 col-md-3 text-center mb-4">
+          <img
+            src="{{ member.photo_image }}"
+            class="img-fluid team-photo p-4 p-md-4"
+            alt="{{ member.name }} headshot"
+          />
+          <h4
+            type="button"
+            class="text-bold mb-2 mt-n4 mt-lg-n3"
+            data-bs-toggle="modal"
+            data-bs-target="#{{ member.name | slugify }}Modal"
+          >
+            {{member.name}}
+          </h4>
+          <p class="mb-0">{{ member.role }}</p>
+          <p class="mb-2">{{ member.company }}</p>
+          
+        </div>
+        <div
+          class="modal fade"
+          id="{{ member.name | slugify }}Modal"
+          tabindex="-1"
+          aria-labelledby="{{ member.name | slugify }}ModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content bg-gray p-3">
+              <div class="modal-header pt-3 mb-n4">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container px-0 px-lg-5">
+                  <div class="row">
+                    <div class="col-12 col-lg-4">
+                      <img
+                        src="{{ member.photo_image }}"
+                        class="img-fluid team-photo"
+                        alt="{{ member.name }} headshot"
+                      />
+                    </div>
+                    <div class="col-12 col-lg-8">
+                      <p class="h2 text-primary text-bold">{{ member.name }}</p>
+                      <p class="h2 text-primary text-thin">{{ member.role }}</p>
+                      <p class="h2 text-primary text-thin">{{ member.company }}</p>
+  
+                      <div class="bio-social">
+                        {% if member.linkedin_link %}
+                        <a href="{{ member.linkedin_link }}" target="_blank">
+                          <img
+                            src="/img/about-us/follow-linkedin.svg"
+                            alt="{{ member.name }} on LinkedIn"
+                          />
+                        </a>
+                        {% endif %} {% if member.twitter_link %}
+                        <a href="{{ member.twitter_link }}" target="_blank">
+                          <img
+                            src="/img/about-us/follow-twitter.svg"
+                            alt="{{ member.name }} on Twitter"
+                          />
+                        </a>
+                        {% endif %}
+                      </div>
+                      <p class="mt-4">{{ member.bio_text }}</p>
+                      <p class="h2 text-primary text-bold">{{ member.session_title}}</p>
+                      <p class="mt-4">{{ member.session_abstract }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="location">
+  <div>
+    <div class="row || centered">
+      <div class="col-12 col-lg-5 px-5 text-center text-md-start">
+        <div class="editable">
+          <h2>New Orleans, LA, USA</h2>
+          <h3>Marriott Warehouse Arts District</h3>
+          <p>Located in Downtown New Orleans, the Marriott Warehouse Arts District offers a brand new redesign, sophisticated comfort amid the unbridled energy and unique charm of the Big Easy. Housed in a renovated 19th-century warehouse, our unique venue blends historic elegance with modern convenience.</p>
+        </div>
+      </div>
+      <div
+        class="col-12 col-lg-6 order-first order-md-last"
+      >
+        <img
+          src="/img/summit/2022/new-orleans-hotel.jpg"
+          class="img-fluid photo-border-summit-right"
+          alt="New Orleans French Quarter"
+        />
+      </div>
+    </div>
+    <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.257453416329!2d-90.06695868452542!3d29.943272430299164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66e3a76ea19%3A0x6bb659ee1a865f71!2sNew%20Orleans%20Marriott%20Warehouse%20Arts%20District!5e0!3m2!1sen!2suk!4v1657716735734!5m2!1sen!2suk" width="600" height="450" style="border:0; margin-bottom: -5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>

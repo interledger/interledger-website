@@ -1,7 +1,7 @@
 ---
 name: Roberto Valdovinos
 layout: speakers
-photo_image: /img/summit/speakers/Roberto_Valdovinos.png
+photo_image: /img/summit/2022/speakers/Roberto_Valdovinos.png
 role: CFO
 company: The People's Clearinghouse
 bio_text: " B.A. and M.A. in Logic and Philosophy (Pantheon-Sorbonne University), M.Phil. in Comparative Studies (Columbia University). Directed the Institute of Mexicans Abroad in the Mexican Government. Works with migrants and marginalized communities in social justice and financial inclusion projects."

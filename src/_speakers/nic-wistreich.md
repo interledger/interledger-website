@@ -1,7 +1,7 @@
 ---
 name: Nic Wistreich
 layout: speakers
-photo_image: /img/summit/speakers/Nic_Wistreich.jpg
+photo_image: /img/summit/2022/speakers/Nic_Wistreich.jpg
 role: Director
 company: Netribution Ltd
 bio_text: "Co-founded Netribution.co.uk in 1999 to help indie filmmakers get online. Co-author of the Film Finance Handbook (fundyourfilm.com), web designer for non-profits, CiviCRM community member & occasional filmmaker."
