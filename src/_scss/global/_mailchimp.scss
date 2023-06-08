@@ -1,0 +1,40 @@
+.mailchimp-modal {
+  color: $body-color;
+  width: 100%;
+
+  .modal-body {
+    padding: 2rem;
+  }
+
+  .btn-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .form-text {
+    margin-bottom: 1em;
+  }
+
+  .asterisk {
+    color: var(--bs-red);
+  }
+
+  .form-group {
+    margin-bottom: 1em;
+  }
+}
+
+#mc_embed_signup {
+  width: 100%;
+}
+
+#mce-error-response {
+  color: var(--bs-red);
+  font-weight: bold;
+}
+
+#mce-success-response {
+  color: var(--bs-green);
+  font-weight: bold;
+}

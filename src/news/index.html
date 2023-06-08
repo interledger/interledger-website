@@ -200,7 +200,7 @@ banner_story:
 </section>
 
 <div
-  class="modal fade"
+  class="modal fade mailchimp-modal"
   id="signUpModal"
   tabindex="-1"
   aria-labelledby="signUpModal"
@@ -210,7 +210,7 @@ banner_story:
     class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
   >
     <div class="modal-content">
-      <div class="modal-body d-flex justify-content-center">
+      <div class="modal-body d-flex">
         <button
           type="button"
           class="btn-close"
@@ -218,21 +218,6 @@ banner_story:
           aria-label="Close"
         ></button>
         <!-- Begin Mailchimp Signup Form -->
-        <link
-          href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <style type="text/css">
-          #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
-            width: 600px;
-          }
-          /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
         <div id="mc_embed_signup">
           <form
             action="https://interledger.us1.list-manage.com/subscribe/post?u=9ced7a326efbb158ae84d30cc&amp;id=7466ff6b0c&amp;f_id=0066e3e5f0"
@@ -245,32 +230,38 @@ banner_story:
           >
             <div id="mc_embed_signup_scroll">
               <h2>Subscribe</h2>
-              <div class="indicates-required">
+              <div class="form-text text-muted">
                 <span class="asterisk">*</span> indicates required
               </div>
-              <div class="mc-field-group">
+              <div class="form-group mc-field-group">
                 <label for="mce-FNAME">First Name </label>
                 <input
                   type="text"
                   value=""
                   name="FNAME"
-                  class=""
+                  class="form-control"
                   id="mce-FNAME"
                 />
-                <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                <span
+                  id="mce-FNAME-HELPERTEXT"
+                  class="form-text text-muted helper_text"
+                ></span>
               </div>
-              <div class="mc-field-group">
+              <div class="mc-field-group form-group">
                 <label for="mce-LNAME">Last Name </label>
                 <input
                   type="text"
                   value=""
                   name="LNAME"
-                  class=""
+                  class="form-control"
                   id="mce-LNAME"
                 />
-                <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                <span
+                  id="mce-LNAME-HELPERTEXT"
+                  class="form-text text-muted helper_text"
+                ></span>
               </div>
-              <div class="mc-field-group">
+              <div class="mc-field-group form-group">
                 <label for="mce-EMAIL"
                   >Email Address <span class="asterisk">*</span>
                 </label>
@@ -278,20 +269,23 @@ banner_story:
                   type="email"
                   value=""
                   name="EMAIL"
-                  class="required email"
+                  class="required email form-control"
                   id="mce-EMAIL"
                   required
                 />
-                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                <span
+                  id="mce-EMAIL-HELPERTEXT"
+                  class="form-text text-muted helper_text"
+                ></span>
               </div>
               <div id="mce-responses" class="clear">
                 <div
-                  class="response"
+                  class="response form-text"
                   id="mce-error-response"
                   style="display: none"
                 ></div>
                 <div
-                  class="response"
+                  class="response form-text"
                   id="mce-success-response"
                   style="display: none"
                 ></div>
@@ -311,7 +305,7 @@ banner_story:
                   value="Subscribe"
                   name="subscribe"
                   id="mc-embedded-subscribe"
-                  class="button"
+                  class="btn btn-primary"
                 />
               </div>
             </div>
