@@ -175,11 +175,11 @@
   background: linear-gradient(180deg, $blue-100 0%, $white 100%);
 }
 .bg-pink-fade {
-  background-color: $pink;  
+  background-color: $pink;
   background: linear-gradient(180deg, $pink 0%, $white 100%);
 }
 .bg-white-fade {
-  background-color: $white;  
+  background-color: $white;
   background: linear-gradient(180deg, $white 0%, $blue-100 100%);
 }
 .bg-purple-circle {
@@ -211,7 +211,7 @@
   img {
     width: 30px;
     height: 30px;
-    margin: 0 15px;
+    margin: 0 5px;
   }
   &:hover {
     opacity: 0.5;
