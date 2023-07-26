@@ -1,9 +1,10 @@
 source "http://rubygems.org"
-ruby "2.6.7"
-gem "jekyll", "~>3.8.6"
+ruby "3.2.2"
+gem "jekyll", "~>3.9.3"
 gem 'sassc'
 gem 'scss_lint'
 gem 'front_matter_parser'
+gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
