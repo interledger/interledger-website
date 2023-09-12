@@ -10,7 +10,7 @@ write_up_html: >-
   <p>
   <strong>We’re delighted to announce that we’ve started working on a testing platform for Interledger. The ILP Testnet Wallet has launched under the domain <a href="https://rafiki.money/">rafiki.money</a>, providing a safe space for developers to test their Rafiki, Open Payments, and Web Monetization integrations. </strong>
   </p>
-  <img src="/uploads/testnet.png" alt="rafiki.money"/>
+  <img src="/uploads/testnet.png" width="100%" alt="rafiki.money"/>
   <p>
   The Testnet wallet was built to make it easier and simpler to build on Interledger. It provides a live environment for developers to test their solutions, auto-peer with other Rafiki instances, and build on their Interledger-enabled accounts. This is an exciting step forward in bringing the Interledger community together to create, innovate and implement open payment solutions that provide pathways to financial inclusion. 
   </p>
