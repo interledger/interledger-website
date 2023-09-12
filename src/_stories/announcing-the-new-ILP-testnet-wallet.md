@@ -25,7 +25,7 @@ write_up_html: >-
   </p>
   <ul>
 
-  <li>digital wallet built using Rapyd payment APIs, live already at rafiki.money
+  <li>digital wallet built using Rapyd payment APIs, live already at <a href="https://rafiki.money/">rafiki.money</a>
 
   <li>bank built using the <a href="https://www.mozrt.com/">Mozrt</a> APIs that will launch in early 2024;
 
