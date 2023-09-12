@@ -37,6 +37,7 @@ write_up_html: >-
   <p>
   You can stay up to date with all the latest Testnet developments and get involved by joining the monthly <a href="https://community.interledger.org/t/ilpcommunitycall/latest">Interledger Community Calls</a>.
   </p>
-categories:
-  - Blog
+news_category: blog_post
+link:
+publication:
 ---
