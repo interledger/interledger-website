@@ -2,6 +2,7 @@
 name: Announcing the new ILP Testnet Wallet
 date: 2023-09-12 00:00:00
 featured_image: /uploads/testnet.png
+layout: news
 write_up_html: >-
   <p>
   <strong>Build, test, and explore the potential of the Interledger Protocol (ILP).</strong>
