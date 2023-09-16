@@ -12,7 +12,7 @@ write_up_html: >-
   </p>
   <img src="/uploads/testnet.png" width="100%" alt="rafiki.money"/>
   <p>
-  The Testnet wallet was built to make it easier and simpler to build on Interledger. It provides a live environment for developers to test their solutions, auto-peer with other Rafiki instances, and build on their Interledger-enabled accounts. This is an exciting step forward in bringing the Interledger community together to create, innovate and implement open payment solutions that provide pathways to financial inclusion. 
+  The ILP Testnet wallet was built to make it easier and simpler to build on Interledger. It provides a live environment for developers to test their solutions, auto-peer with other Rafiki instances, and build on their Interledger-enabled accounts. This is an exciting step forward in bringing the Interledger community together to create, innovate and implement open payment solutions that provide pathways to financial inclusion. 
   </p>
   <p>
   In combination with <a href="https://rafiki.dev/">Rafiki</a>, the service designed for account providers to build up faster Interledger capabilities without needing to develop the protocol from scratch,  Testnet provides a much-needed test platform simulating the live Interledger network.  It allows all Rafiki deployers to connect through a publicly available auto-peering platform, negating the need to build multiple connected Rafiki instances to test payments, with real currency. 
@@ -33,7 +33,7 @@ write_up_html: >-
   </li>
   </ul>
   <p>
-  The ability to connect, innovate and iterate is fundamental to advancing technological capabilities. Through the ILP Testnet we will enable our users to experience the potential and showcase the possibilities of ILP to new audiences, inspiring them about a future where everyone, everywhere has access too, and equity within financial systems. 
+  The ability to connect, innovate and iterate is fundamental to advancing technological capabilities. Through the ILP Testnet we provide an ILP-enabled software platform for financial trading transactions and enable our users to experience the potential and showcase the possibilities of ILP to new audiences, inspiring them about a future where everyone, everywhere has access too, and equity within financial systems.
   </p>
   <p>
   You can stay up to date with all the latest Testnet developments and get involved by joining the monthly <a href="https://community.interledger.org/t/ilpcommunitycall/latest">Interledger Community Calls</a>.
