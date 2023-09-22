@@ -1,3 +1,5 @@
+This version of the website is now deprecated. The new website lives in https://github.com/interledger/interledger.org-frontend, https://github.com/interledger/interledger.org-backend and https://github.com/interledger/interledger.org-developers.
+
 # Interledger
 
 This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cloudcannon, but it is possible to reconfigure for other hosting solutions.
